@@ -219,7 +219,7 @@ html {
 }
 
 .mainHero_container h1 {
-  font-size: 3.4rem;
+  font-size: 3.8rem;
   color: #fff;
 }
 
@@ -420,6 +420,11 @@ html {
 
 .footer_container .imgContainer2 img {
   width: 15%;
+}
+
+.copyWriteLine {
+  background-color: #2365b1;
+  font-size: 1.9rem;
 }
 
 /* ==== FOOTER END ==== */

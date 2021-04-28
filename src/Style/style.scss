@@ -213,7 +213,7 @@ html {
 		url(../assets/mainImg.svg);
 
 	h1 {
-		font-size: 3.4rem;
+		font-size: 3.8rem;
 		color: #fff;
 	}
 
@@ -284,6 +284,9 @@ html {
 		font-size: 2.8rem;
 	}
 }
+
+// TABS OVERWRITE
+
 /* ==== WHAT WE OFFER END ==== */
 
 /* ==== TECHNOLOGIES WE WORK WITH START ==== */
@@ -434,5 +437,10 @@ html {
 			width: 15%;
 		}
 	}
+}
+
+.copyWriteLine {
+	background-color: $themeColor;
+	font-size: 1.9rem;
 }
 /* ==== FOOTER END ==== */
