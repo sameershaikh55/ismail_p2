@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* GLOBAL CLASSES START */
+html {
+  font-size: 62.5%;
+}
+
+.themeBtn {
+  background-color: #2365b1;
+  padding: 0.6rem 2.6rem;
+  border-radius: 50px;
+  font-size: 1.8rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.themeBtn2 {
+  background-color: #2365b1;
+  padding: 0.8rem 2.4rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.themeText {
+  color: #2365b1;
+}
+
+.grid_sideLine {
+  position: relative;
+}
+
+.grid_sideLine::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 0.7rem;
+  background-color: #2365b1;
+  border-radius: 5px;
+}
+
+/* GLOBAL CLASSES END */
+/* ==== TOP NAVBAR START ==== */
+.NavbarContainer {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2.5rem 8rem;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  z-index: 10000;
+}
+
+.NavbarContainer .logo_container img {
+  width: 170px;
+  height: autos;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.NavbarContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.NavbarContainer ul li {
+  list-style-type: none;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.NavbarContainer ul li a {
+  position: relative;
+  font-size: 1.3rem;
+  margin: 0rem 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  padding: 0rem 0.5rem 0.8rem 0.5rem;
+}
+
+.NavbarContainer ul li .active::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  height: 14%;
+  width: 100%;
+  background-color: #2365b1;
+  border-radius: 5px;
+}
+
+.NavbarContainer .contactBtn a {
+  color: #fff;
+  border: 3px solid #2365b1;
+  padding: 0.7rem 2.7rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.NavbarContainer.sticky {
+  padding: 1.8rem 8rem;
+  -webkit-box-shadow: 0px 0px 15px #000;
+          box-shadow: 0px 0px 15px #000;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.NavbarContainer.sticky h1 {
+  color: #fff;
+}
+
+.NavbarContainer.sticky ul li a {
+  color: #fff;
+}
+
+.NavbarContainer.sticky .contactBtn a {
+  color: #fff;
+}
+
+.HideClass {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .NavbarContainer.sticky {
+    background-color: rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0px 0px 15px #000;
+            box-shadow: 0px 0px 15px #000;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .NavbarContainer,
+  .NavbarContainer.sticky {
+    padding: 2.5rem 5rem;
+  }
+  .NavbarContainer h1,
+  .NavbarContainer.sticky h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .HideClass {
+    display: block;
+  }
+  .NavbarContainer.sticky .HideClass i {
+    color: #fff;
+  }
+  .NavbarContainer.sticky h1 {
+    color: #fff;
+  }
+  .NavbarContainer ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .NavbarContainer,
+  .NavbarContainer.sticky {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* ==== TOP NAVBAR END ==== */
+/* ==== MAIN HERO SECTION START ==== */
+.mainHero_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(-30deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../assets/mainImg.svg);
+}
+
+.mainHero_container h1 {
+  font-size: 3.4rem;
+  color: #fff;
+}
+
+.mainHero_container p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* ==== MAIN HERO SECTION END ==== */
+.states_container,
+.whoWeAre_container,
+.whoWeOffer_container,
+.technologies_container,
+.build_container,
+.getConnected_container,
+.twoCards_container,
+.history_container {
+  max-width: 1100px;
+  margin: auto;
+  margin: 6rem auto;
+}
+
+/* ==== STATES START ==== */
+.states_container .states_card {
+  margin: 0rem 2rem;
+  margin-bottom: 3rem;
+  border: 3px solid #2365b1;
+  border-radius: 50%;
+  text-align: center;
+  width: 190px;
+  height: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.states_container .states_card div:nth-child(1) {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.states_container .states_card div:nth-child(2) {
+  font-size: 1.6rem;
+}
+
+/* ==== STATES END ==== */
+/* ==== WHO WE ARE START ==== */
+.whoWeAre_container h1 {
+  font-size: 2.8rem;
+}
+
+.whoWeAre_container h6 {
+  font-size: 1.3rem;
+}
+
+/* ==== WHO WE ARE END ==== */
+/* ==== WHAT WE OFFER START ==== */
+.whoWeOffer_container h1 {
+  font-size: 2.8rem;
+}
+
+/* ==== WHAT WE OFFER END ==== */
+/* ==== TECHNOLOGIES WE WORK WITH START ==== */
+.technologies_container h1 {
+  font-size: 2.8rem;
+}
+
+/* ==== TECHNOLOGIES WE WORK WITH END ==== */
+/* ==== WE LOVE TO BUILD START ==== */
+.build_container h1 {
+  font-size: 2.8rem;
+}
+
+.build_container h6 {
+  font-size: 1.3rem;
+}
+
+.build_container .build_body {
+  margin: 8rem auto;
+}
+
+.build_container .build_body .imgContainer1 img {
+  width: 60%;
+  height: auto;
+}
+
+.build_container .build_body .imgContainer2 img {
+  width: 90%;
+  height: auto;
+}
+
+/* ==== WE LOVE TO BUILD END ==== */
+/* ==== GET CONNECTED START ==== */
+.getConnected_container h1 {
+  position: relative;
+}
+
+.getConnected_container h1::after {
+  content: "";
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  height: 100%;
+  width: 0.5rem;
+  background-color: #2365b1;
+  border-radius: 5px;
+}
+
+.getConnected_container .imgContainer img {
+  width: 14%;
+  height: auto;
+}
+
+/* ==== GET CONNECTED END ==== */
+/* ==== TWO CARDS START==== */
+.twoCards_container .each_card {
+  background-color: #e2ebf5;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 5px 12px #b7b7b7;
+          box-shadow: 0px 5px 12px #b7b7b7;
+}
+
+.twoCards_container .each_card .imgContainer img {
+  width: 100%;
+  height: auto;
+}
+
+/* ==== TWO CARDS END ==== */
+/*# sourceMappingURL=style.css.map */
