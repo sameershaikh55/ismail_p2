@@ -9,12 +9,13 @@ import TwoCards from "../components/TwoCards";
 import WhatWeOffer from "../components/WhatWeOffer";
 import WhoWeAre from "../components/WhoWeAre";
 import History from "../components/History";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 const Main = () => {
 	return (
 		<>
 			<MainHeader />
-			<br />
 			<MainHero />
 			<br />
 			<States />
@@ -32,6 +33,9 @@ const Main = () => {
 			<TwoCards />
 			<br />
 			<History />
+			<br />
+			<ContactUs />
+			<Footer />
 		</>
 	);
 };

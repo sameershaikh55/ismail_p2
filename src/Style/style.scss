@@ -232,7 +232,9 @@ html {
 .build_container,
 .getConnected_container,
 .twoCards_container,
-.history_container {
+.history_container,
+.contactUs_innerContainer,
+.footer_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
@@ -364,3 +366,73 @@ html {
 	}
 }
 /* ==== TWO CARDS END ==== */
+
+/* ==== CONTACT US START ==== */
+.contactUs_container {
+	background-color: #f0f4fa;
+	padding: 6rem 0rem;
+
+	.contactInp {
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid rgb(82, 82, 82);
+		background-color: transparent;
+		height: 25px;
+		padding: 0rem 0.8rem;
+
+		&:focus {
+			border: none;
+			outline: none;
+			border-bottom: 1px solid rgb(82, 82, 82);
+		}
+	}
+
+	textarea {
+		border: none;
+		overflow: none;
+		padding: 0.7rem;
+	}
+
+	.imgContainer1 {
+		img {
+			width: 9%;
+		}
+	}
+	.imgContainer2 {
+		img {
+			width: 15%;
+		}
+	}
+
+	.rightSide {
+		background-color: $themeColor;
+		height: 90%;
+		border-radius: 25px;
+	}
+}
+/* ==== CONTACT US END ==== */
+
+/* ==== FOOTER START ==== */
+.footer_container {
+	.imgContainer {
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			right: 0%;
+			top: 0%;
+			height: 100%;
+			width: 0.5rem;
+			background-color: #000;
+			border-radius: 10px;
+		}
+	}
+
+	.imgContainer2 {
+		img {
+			width: 15%;
+		}
+	}
+}
+/* ==== FOOTER END ==== */
