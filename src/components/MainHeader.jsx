@@ -26,7 +26,7 @@ const MainHeader = ({ ClickEvent }) => {
 				{/* <!-- HAMBURGER END --> */}
 				<ul>
 					<li>
-						<NavLink activeClassName="activeNav" exact to="/">
+						<NavLink activeClassName="activeNav" exact to="/aboutUs">
 							About
 						</NavLink>
 					</li>
