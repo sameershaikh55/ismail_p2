@@ -1,8 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.png";
+import hamburger from "../assets/hamburger.svg";
 
-const MainHeader = () => {
+const MainHeader = ({ ClickEvent }) => {
 	// FOR NAVBAR SCROLLING EFFECT START
 	window.addEventListener("scroll", function () {
 		var header = document.querySelector(".NavbarContainer");
@@ -17,33 +18,33 @@ const MainHeader = () => {
 					<img src={Logo} alt="logo" />
 				</div>
 				{/* <!-- HAMBURGER START --> */}
-				<div class="HideClass">
-					<i class="fa fa-bars fa-2x"></i>
+				<div onClick={ClickEvent} className="hamburgerContainer HideClass">
+					<img src={hamburger} alt="hamburger" />
 				</div>
 				{/* <!-- HAMBURGER END --> */}
 				<ul>
 					<li>
-						<NavLink activeClassName="active" exact to="/">
+						<NavLink activeClassName="activeNav" exact to="/">
 							About
 						</NavLink>
 					</li>
 					<li>
-						<NavLink activeClassName="active" exact to="/em">
+						<NavLink activeClassName="activeNav" exact to="/em">
 							Case Studies
 						</NavLink>
 					</li>
 					<li>
-						<NavLink activeClassName="active" exact to="/ol">
+						<NavLink activeClassName="activeNav" exact to="/ol">
 							Services
 						</NavLink>
 					</li>
 					<li>
-						<NavLink activeClassName="active" exact to="/lo">
+						<NavLink activeClassName="activeNav" exact to="/lo">
 							Industries
 						</NavLink>
 					</li>
 					<li>
-						<NavLink activeClassName="active" exact to="/li">
+						<NavLink activeClassName="activeNav" exact to="/li">
 							Blog
 						</NavLink>
 					</li>

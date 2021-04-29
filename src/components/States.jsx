@@ -4,7 +4,7 @@ const States = () => {
 	return (
 		<div className="states_container">
 			<div className="container-fluid">
-				<div className="d-flex justify-content-between flex-wrap">
+				<div className="d-flex justify-content-center justify-content-lg-between flex-wrap">
 					<div className="states_card">
 						<div>2008+</div>
 						<div>found in</div>

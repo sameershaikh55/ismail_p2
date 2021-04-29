@@ -37,7 +37,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="copyWriteLine text-center py-5 text-white">
+			<div className="copyWriteLine text-center py-5 px-1 text-white">
 				© 2020Lozpdata . All Rights Reserved. Terms Of Use. Privacy Policy.
 			</div>
 		</>

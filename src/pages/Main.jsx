@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Build from "../components/Build";
 import GetConnected from "../components/GetConnected";
 import MainHeader from "../components/MainHeader";
@@ -11,17 +11,25 @@ import WhoWeAre from "../components/WhoWeAre";
 import History from "../components/History";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
+import Sidebar from "../components/Sidebar";
 
 const Main = () => {
+	const [isOpen, setIsOpen] = useState(false);
+
+	const OnClick = () => {
+		setIsOpen(!isOpen);
+	};
+
 	return (
 		<>
-			<MainHeader />
+			<MainHeader ClickEvent={OnClick} />
+			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			<MainHero />
 			<br />
 			<States />
 			<WhoWeAre />
 			<br />
-			{/* <WhatWeOffer /> */}
+			<WhatWeOffer />
 			<br />
 			<Technologies />
 			<br />
