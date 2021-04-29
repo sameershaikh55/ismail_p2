@@ -9,6 +9,7 @@
 
 /* GLOBAL CLASSES START */
 html {
+  width: 100%;
   font-size: 62.5%;
 }
 
@@ -671,4 +672,45 @@ html {
 }
 
 /* ==== FOOTER END ==== */
+/* ==== START A PROJECT START ==== */
+.startAProject_heroSection {
+  background-image: linear-gradient(-30deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../assets/mainImg.svg);
+  height: 95px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.startAProjectBody_container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.startAProjectBody_container .contactInp {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  height: 25px;
+  padding: 0rem 0.8rem;
+}
+
+.startAProjectBody_container .contactInp:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.startAProjectBody_container textarea {
+  border: 1px solid #ccc;
+  overflow: none;
+  padding: 0.7rem;
+}
+
+.startAProjectBody_container .imageContainer img {
+  width: 100%;
+  height: 640px;
+}
+
+/* ==== START A PROJECT END ==== */
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,8 @@
 import React from "react";
+import Footer from "../components/Footer";
 import MainHeader from "../components/MainHeader";
 import Sidebar from "../components/Sidebar";
+import StartProjectBody from "../components/StartProjectBody";
 import { useHooks } from "../Hooks/useHooks";
 
 const StartAProject = () => {
@@ -9,7 +11,11 @@ const StartAProject = () => {
 		<>
 			<MainHeader ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
-			<div>start</div>
+			{/* HEADER IMAGE START */}
+			<div className="startAProject_heroSection"></div>
+			{/* HEADER IMAGE END */}
+			<StartProjectBody />
+			<Footer />
 		</>
 	);
 };
