@@ -1,30 +1,39 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { connect } from "react-redux";
+import { statesFunc } from "../redux/actions";
 
-const States = () => {
+const States = ({ states, statesFunc }) => {
+	useEffect(() => {
+		statesFunc();
+	}, []);
 	return (
 		<div className="states_container">
 			<div className="container-fluid">
 				<div className="d-flex justify-content-center justify-content-lg-between flex-wrap">
-					<div className="states_card">
-						<div>2008+</div>
-						<div>found in</div>
-					</div>
-					<div className="states_card">
-						<div>500+</div>
-						<div>Client</div>
-					</div>
-					<div className="states_card">
-						<div>600+</div>
-						<div>completed Projects</div>
-					</div>
-					<div className="states_card">
-						<div>200+</div>
-						<div>talented lozpdata</div>
-					</div>
+					{states.map((prev, i) => {
+						return (
+							<div key={i} className="states_card">
+								<div> {prev.numbers} </div>
+								<div> {prev.title} </div>
+							</div>
+						);
+					})}
 				</div>
 			</div>
 		</div>
 	);
 };
 
-export default States;
+const mapStatetoProps = (state) => {
+	return {
+		states: state.Reducer.states,
+	};
+};
+const mapDispatchtoProps = (dispatch) => {
+	return {
+		statesFunc: function () {
+			dispatch(statesFunc());
+		},
+	};
+};
+export default connect(mapStatetoProps, mapDispatchtoProps)(States);

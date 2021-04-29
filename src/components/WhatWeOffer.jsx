@@ -1,66 +1,51 @@
-import React from "react";
-import PropTypes from "prop-types";
-import SwipeableViews from "react-swipeable-views";
-import { makeStyles, useTheme } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
-import Typography from "@material-ui/core/Typography";
-import Box from "@material-ui/core/Box";
+import React, { useEffect } from "react";
+import { whatWeOfferFunc } from "../redux/actions";
+import CoolTabs from "react-cool-tabs";
+import { connect } from "react-redux";
 
-function TabPanel(props) {
-	const { children, value, index, ...other } = props;
-
+function Content1({ whatWeOfferIS }) {
 	return (
-		<div
-			role="tabpanel"
-			hidden={value !== index}
-			id={`full-width-tabpanel-${index}`}
-			aria-labelledby={`full-width-tab-${index}`}
-			{...other}
-		>
-			{value === index && (
-				<Box p={3}>
-					<Typography>{children}</Typography>
-				</Box>
-			)}
+		<div className="row justify-content-center">
+			{whatWeOfferIS[0] &&
+				whatWeOfferIS[0].first.map((prev, i) => {
+					return (
+						<div className="col-4 mt-5 text-center" key={i}>
+							<img
+								style={{ width: "26%", height: "70px" }}
+								src={prev.image}
+								alt="offers"
+							/>
+							<h6 className="mt-3 h5 w-75 m-auto"> {prev.name} </h6>
+						</div>
+					);
+				})}
+		</div>
+	);
+}
+function Content2({ whatWeOfferIS }) {
+	return (
+		<div className="row justify-content-center">
+			{whatWeOfferIS[0] &&
+				whatWeOfferIS[0].second.map((prev, i) => {
+					return (
+						<div className="col-4 mt-5 text-center" key={i}>
+							<img
+								style={{ width: "26%", height: "70px" }}
+								src={prev.image}
+								alt="offers"
+							/>
+							<h6 className="mt-3 h5 w-75 m-auto"> {prev.name} </h6>
+						</div>
+					);
+				})}
 		</div>
 	);
 }
 
-TabPanel.propTypes = {
-	children: PropTypes.node,
-	index: PropTypes.any.isRequired,
-	value: PropTypes.any.isRequired,
-};
-
-function a11yProps(index) {
-	return {
-		id: `full-width-tab-${index}`,
-		"aria-controls": `full-width-tabpanel-${index}`,
-	};
-}
-
-const useStyles = makeStyles((theme) => ({
-	root: {
-		width: 500,
-		margin: "auto",
-		marginTop: "4rem",
-	},
-}));
-
-const WhatWeOffer = () => {
-	const classes = useStyles();
-	const theme = useTheme();
-	const [value, setValue] = React.useState(0);
-
-	const handleChange = (event, newValue) => {
-		setValue(newValue);
-	};
-
-	const handleChangeIndex = (index) => {
-		setValue(index);
-	};
+const WhatWeOffer = ({ whatWeOfferIS, whatWeOfferFunc }) => {
+	useEffect(() => {
+		whatWeOfferFunc();
+	}, []);
 
 	return (
 		<div className="whoWeOffer_container">
@@ -68,36 +53,52 @@ const WhatWeOffer = () => {
 				<h1 className="text-center mb-4">
 					<span className="themeText">WHAT WE</span> OFFER
 				</h1>
-				<div className={classes.root}>
-					<AppBar position="static" color="default">
-						<Tabs
-							value={value}
-							onChange={handleChange}
-							indicatorColor="primary"
-							textColor="primary"
-							variant="fullWidth"
-							aria-label="full width tabs example"
-						>
-							<Tab label="Services" {...a11yProps(0)} />
-							<Tab label="Industries" {...a11yProps(1)} />
-						</Tabs>
-					</AppBar>
-					<SwipeableViews
-						axis={theme.direction === "rtl" ? "x-reverse" : "x"}
-						index={value}
-						onChangeIndex={handleChangeIndex}
-					>
-						<TabPanel value={value} index={0} dir={theme.direction}>
-							Item One
-						</TabPanel>
-						<TabPanel value={value} index={1} dir={theme.direction}>
-							Item Two
-						</TabPanel>
-					</SwipeableViews>
-				</div>
+			</div>
+			<div className="d-flex justify-content-center">
+				<CoolTabs
+					tabKey={"1"}
+					style={{ width: 600, height: 270, background: "transparent" }}
+					activeTabStyle={{ background: "transparent", color: "#2365b1" }}
+					unActiveTabStyle={{ background: "transparent", color: "black" }}
+					activeLeftTabBorderBottomStyle={{
+						background: "#2365b1",
+						height: 4,
+					}}
+					activeRightTabBorderBottomStyle={{
+						background: "#2365b1",
+						height: 4,
+					}}
+					tabsBorderBottomStyle={{ background: "#ccc", height: 4 }}
+					tabsHeaderStyle={{
+						width: "240px",
+						margin: "auto",
+						fontSize: "1.7rem",
+						paddingBottom: "0rem",
+					}}
+					leftContentStyle={{ background: "transparent" }}
+					rightContentStyle={{ background: "transparent" }}
+					leftTabTitle={"Services"}
+					rightTabTitle={"Industries"}
+					leftContent={<Content1 whatWeOfferIS={whatWeOfferIS} />}
+					rightContent={<Content2 whatWeOfferIS={whatWeOfferIS} />}
+					contentTransitionStyle={"transform 0.6s ease-in"}
+					borderTransitionStyle={"all 0.6s ease-in"}
+				/>
 			</div>
 		</div>
 	);
 };
 
-export default WhatWeOffer;
+const mapStatetoProps = (state) => {
+	return {
+		whatWeOfferIS: state.Reducer.whatWeOfferIS,
+	};
+};
+const mapDispatchtoProps = (dispatch) => {
+	return {
+		whatWeOfferFunc: function () {
+			dispatch(whatWeOfferFunc());
+		},
+	};
+};
+export default connect(mapStatetoProps, mapDispatchtoProps)(WhatWeOffer);
