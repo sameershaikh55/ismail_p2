@@ -1,4 +1,5 @@
 import React from "react";
+import AboutStates from "../components/AboutStates";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import MainHeader from "../components/MainHeader";
@@ -39,7 +40,7 @@ const AboutUs = () => {
 				</h4>
 			</div>
 			{/* IDEAS PORTION END */}
-
+			<AboutStates />
 			{/* <ContactUs />
 			<Footer /> */}
 		</>

@@ -14,6 +14,7 @@ $themeColor: #2365b1;
 /* GLOBAL CLASSES START */
 html {
 	width: 100%;
+	overflow-x: hidden;
 	font-size: 62.5%;
 }
 @media screen and (max-width: 992px) {
@@ -737,3 +738,23 @@ html {
 	}
 }
 /* ==== ABOUT US END ==== */
+
+/* ==== ABOUT US STATES START ==== */
+.aboutStates_container {
+	max-width: 900px;
+	margin: 6rem auto;
+	background-image: linear-gradient(
+			-30deg,
+			rgba(35, 101, 177, 0.7) 0%,
+			rgba(35, 101, 177, 0.7) 100%
+		),
+		url(../assets/aboutStatesBg.svg);
+
+	// .aboutEachState:first-child {
+	// 	padding-left: 5rem;
+	// }
+	// .aboutEachState:last-child {
+	// 	padding-right: 5rem;
+	// }
+}
+/* ==== ABOUT US STATES END ==== */
