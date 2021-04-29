@@ -9,11 +9,13 @@ const Build = () => {
 				<h1 className="text-center mb-4">
 					<span className="themeText">WE LOVE TO</span> BUILD
 				</h1>
-				<h6 className="text-center m-auto w-50 text-secondary">
+				<h6 className="row text-secondary">
+				<div className="col-11 col-sm-10 col-md-8 m-auto">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam
 					explicabo dolor fugit quaerat voluptates optio ipsum suscipit!
 					Accusantium, debitis. Lorem ipsum dolor sit amet consectetur
 					adipisicing elit. Ea aliquam explicabo dolor fugit quaerat voluptates
+				</div>
 				</h6>
 				<div className="build_body row">
 					<div className="imgContainer1 col-12 col-sm-10 col-md-6 mx-auto mb-5 mb-md-0">

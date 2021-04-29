@@ -71,6 +71,11 @@ html {
   outline: none;
   color: #fff;
   text-transform: uppercase;
+  transition: 0.5s all;
+
+  &:hover {
+    background-color: #2a4d79;
+  }
 }
 
 .themeText {
