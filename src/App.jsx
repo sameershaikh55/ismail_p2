@@ -7,10 +7,12 @@ import { Provider } from "react-redux";
 // IMPORTING PAGES
 import Main from "./pages/Main";
 import StartAProject from "./pages/StartAProject";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 	return (
 		<Provider store={store}>
+			<ScrollToTop />
 			<Switch>
 				<Route exact path="/" component={Main} />
 				<Route exact path="/start_A_Project" component={StartAProject} />

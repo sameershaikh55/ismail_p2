@@ -2,8 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.png";
 import hamburger from "../assets/hamburger.svg";
+import { useHistory } from "react-router-dom";
 
 const MainHeader = ({ ClickEvent }) => {
+	let history = useHistory();
 	// FOR NAVBAR SCROLLING EFFECT START
 	window.addEventListener("scroll", function () {
 		var header = document.querySelector(".NavbarContainer");
@@ -14,7 +16,7 @@ const MainHeader = ({ ClickEvent }) => {
 		<>
 			{/* <!-- ======== NAVBAR START =========== --> */}
 			<div className="NavbarContainer">
-				<div className="logo_container">
+				<div onClick={() => history.push("/")} className="logo_container">
 					<img src={Logo} alt="logo" />
 				</div>
 				{/* <!-- HAMBURGER START --> */}

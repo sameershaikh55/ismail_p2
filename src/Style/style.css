@@ -124,6 +124,10 @@ html {
   z-index: 10000;
 }
 
+.NavbarContainer .logo_container {
+  cursor: pointer;
+}
+
 .NavbarContainer .logo_container img {
   width: 170px;
   height: autos;
