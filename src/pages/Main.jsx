@@ -12,14 +12,10 @@ import History from "../components/History";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
+import { useHooks } from "../Hooks/useHooks";
 
 const Main = () => {
-	const [isOpen, setIsOpen] = useState(false);
-
-	const OnClick = () => {
-		setIsOpen(!isOpen);
-	};
-
+	const { isOpen, OnClick } = useHooks();
 	return (
 		<>
 			<MainHeader ClickEvent={OnClick} />

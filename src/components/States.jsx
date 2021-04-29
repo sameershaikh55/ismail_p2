@@ -5,7 +5,7 @@ import { statesFunc } from "../redux/actions";
 const States = ({ states, statesFunc }) => {
 	useEffect(() => {
 		statesFunc();
-	}, []);
+	}, [statesFunc]);
 	return (
 		<div className="states_container">
 			<div className="container-fluid">

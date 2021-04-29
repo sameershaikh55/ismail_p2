@@ -13,7 +13,7 @@ const MainHeader = ({ ClickEvent }) => {
 	return (
 		<>
 			{/* <!-- ======== NAVBAR START =========== --> */}
-			<div class="NavbarContainer">
+			<div className="NavbarContainer">
 				<div className="logo_container">
 					<img src={Logo} alt="logo" />
 				</div>

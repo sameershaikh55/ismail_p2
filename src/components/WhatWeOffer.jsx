@@ -45,7 +45,7 @@ function Content2({ whatWeOfferIS }) {
 const WhatWeOffer = ({ whatWeOfferIS, whatWeOfferFunc }) => {
 	useEffect(() => {
 		whatWeOfferFunc();
-	}, []);
+	}, [whatWeOfferFunc]);
 
 	return (
 		<div className="whoWeOffer_container">
