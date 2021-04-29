@@ -12,7 +12,7 @@ const Footer = () => {
 		<>
 			<div className="footer_container">
 				<div className="d-flex justify-content-center align-items-center">
-					<div className="imgContainer pr-5 py-2">
+					<div className="imgContainer ml-5 ml-sm-0 pr-5 py-2">
 						<img src={logoDark} alt="logo" />
 					</div>
 					<div className="ml-5 mt-n1 py-2 imgContainer2">

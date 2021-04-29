@@ -13,7 +13,7 @@ const ContactUs = () => {
 			<div className="contactUs_innerContainer">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-7">
+						<div className="pl-auto pl-sm-5 col-12 col-md-7 mb-5 mb-md-0">
 							<h1 className="text-center mb-3">
 								<span className="themeText">CONTACT</span> US
 							</h1>
@@ -92,8 +92,8 @@ const ContactUs = () => {
 								</button>
 							</div>
 						</div>
-						<div className="col-5">
-							<div className="rightSide d-flex flex-column justify-content-center align-items-center text-center w-75 m-auto">
+						<div className="col-12 col-md-5 mt-5 mt-md-0">
+							<div className="rightSide d-flex flex-column justify-content-center align-items-center text-center m-auto">
 								<img src={qoutes} alt="qoutes" />
 								<h5 className="text-white w-75 my-5">
 									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed

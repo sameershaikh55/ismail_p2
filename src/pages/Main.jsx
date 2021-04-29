@@ -19,10 +19,9 @@ const Main = () => {
 			<MainHero />
 			<br />
 			<States />
-			<br />
 			<WhoWeAre />
 			<br />
-			<WhatWeOffer />
+			{/* <WhatWeOffer /> */}
 			<br />
 			<Technologies />
 			<br />
