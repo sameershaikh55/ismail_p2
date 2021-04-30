@@ -57,7 +57,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 				<li>
 					<NavLink
 						exact
-						to="contact"
+						to="blog"
 						activeClassName="activeNav"
 						onClick={ClickEvent}
 					>
