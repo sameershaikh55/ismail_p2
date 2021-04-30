@@ -8,6 +8,7 @@ import industries2 from "../assets/industries2.svg";
 import industries3 from "../assets/industries3.svg";
 import industries4 from "../assets/industries4.svg";
 import industries5 from "../assets/industries5.svg";
+import portfolio from "../assets/portfolio.svg";
 
 export const WhatWeOfferData = [
 	{
@@ -34,3 +35,5 @@ export const statesData = [
 	{ numbers: "600+", title: "completed Projects" },
 	{ numbers: "200+", title: "talented lozpdata" },
 ];
+
+export const portfolioData = [portfolio, portfolio, portfolio];
