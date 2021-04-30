@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import Main from "./pages/Main";
 import StartAProject from "./pages/StartAProject";
 import ScrollToTop from "./components/ScrollToTop";
-// import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
 	return (
@@ -17,7 +17,7 @@ function App() {
 			<Switch>
 				<Route exact path="/" component={Main} />
 				<Route exact path="/start_A_Project" component={StartAProject} />
-				{/* <Route exact path="/aboutUs" component={AboutUs} /> */}
+				<Route exact path="/aboutUs" component={AboutUs} />
 			</Switch>
 		</Provider>
 	);

@@ -1,9 +1,16 @@
 import React from "react";
 import AboutStates from "../components/AboutStates";
-// import ContactUs from "../components/ContactUs";
-// import Footer from "../components/Footer";
+import CeoSection from "../components/CeoSection";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 import MainHeader from "../components/MainHeader";
+import OurCreative from "../components/OurCreative";
+import OurPortfolio from "../components/OurPortfolio";
+import OurStory from "../components/OurStory";
+import OurTeam from "../components/OurTeam";
 import Sidebar from "../components/Sidebar";
+import Technologies from "../components/Technologies";
+import GetConnected from "../components/GetConnected";
 import { useHooks } from "../Hooks/useHooks";
 
 const AboutUs = () => {
@@ -41,8 +48,22 @@ const AboutUs = () => {
 			</div>
 			{/* IDEAS PORTION END */}
 			<AboutStates />
-			{/* <ContactUs />
-			<Footer /> */}
+			<br />
+			<OurStory />
+			<br />
+			<OurCreative />
+			<br />
+			<Technologies />
+			<br />
+			<CeoSection />
+			<br />
+			<OurTeam />
+			<br />
+			<OurPortfolio />
+			<br />
+			<GetConnected />
+			<ContactUs />
+			<Footer />
 		</>
 	);
 };

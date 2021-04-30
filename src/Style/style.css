@@ -409,7 +409,13 @@ html {
 .twoCards_container,
 .history_container,
 .contactUs_innerContainer,
-.footer_container {
+.footer_container,
+.aboutStates_container,
+.ourStory_container,
+.ourCreative_container,
+.ceoSection_container,
+.ourTeam_container,
+.ourPortfolio_container {
   max-width: 1100px;
   margin: auto;
   margin: 6rem auto;
@@ -754,10 +760,83 @@ html {
 /* ==== ABOUT US END ==== */
 /* ==== ABOUT US STATES START ==== */
 .aboutStates_container {
-  max-width: 900px;
-  margin: 6rem auto;
   background-image: linear-gradient(-30deg, rgba(35, 101, 177, 0.7) 0%, rgba(35, 101, 177, 0.7) 100%), url(../assets/aboutStatesBg.svg);
+  padding: 0.6rem 0rem;
+}
+
+.aboutStates_container .aboutEachState {
+  border-left: 2px solid #fff;
+  width: 100%;
+}
+
+.aboutStates_container .aboutEachState:first-child {
+  border-left: none;
+}
+
+.aboutStates_container .aboutEachState:last-child {
+  border-right: none;
+}
+
+@media screen and (max-width: 575px) {
+  .aboutStates_container .aboutEachState {
+    border-bottom: 2px solid #fff;
+    border-left: none;
+    width: 100%;
+    padding: 5rem 0rem !important;
+  }
+  .aboutStates_container .aboutEachState div:nth-child(1) {
+    font-size: 5rem;
+  }
+  .aboutStates_container .aboutEachState div:nth-child(2) {
+    font-size: 2rem;
+  }
+  .aboutStates_container .aboutEachState:last-child {
+    border-bottom: none;
+  }
 }
 
 /* ==== ABOUT US STATES END ==== */
+/* ==== OUR STORY (ABOUT US) START ==== */
+.ourStory_container h1 {
+  font-size: 3rem;
+}
+
+/* ==== OUR STORY (ABOUT US) END ==== */
+/* ==== OUR CREATIVE (ABOUT US) END ==== */
+.ourCreative_container h1 {
+  font-size: 2.8rem;
+}
+
+/* ==== OUR CREATIVE (ABOUT US) END ==== */
+/* ==== OUR TEAM (ABOUT US) START ==== */
+.ourTeam_container .ourTeamBtn button {
+  font-size: 2rem;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.ourTeam_container .ourTeamBtn .underLine {
+  height: 4px;
+  width: 60%;
+  background-color: #2365b1;
+}
+
+.ourTeam_container img {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .ourTeam_container img {
+    width: 50%;
+  }
+}
+
+/* ==== OUR TEAM (ABOUT US) END ==== */
+/* ==== OUR PORTFOLIO (ABOUT US) START ==== */
+.ourPortfolio_container h1 {
+  font-size: 3rem;
+}
+
+/* ==== OUR PORTFOLIO (ABOUT US) END ==== */
 /*# sourceMappingURL=style.css.map */

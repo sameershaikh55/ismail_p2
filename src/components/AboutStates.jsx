@@ -10,26 +10,17 @@ const AboutStates = ({ states, statesFunc }) => {
 	return (
 		<div className="aboutStates_container">
 			<div className="container-fluid">
-				<div className="row">
+				<div className="d-flex flex-column flex-sm-row">
 					{states.map((prev, i) => {
 						return (
 							<>
 								<div
 									key={i}
-									className="aboutEachState col-3 py-5 text-white text-center"
+									className="aboutEachState m-auto py-5 text-white text-center"
 								>
 									<div className="h1 font-weight-bold"> {prev.numbers} </div>
 									<div className="h4">{prev.title}</div>
 								</div>
-								{prev.title !== "talented lozpdata" && (
-									<div
-										style={{
-											width: "1px",
-											height: "118px",
-											background: "white",
-										}}
-									></div>
-								)}
 							</>
 						);
 					})}
