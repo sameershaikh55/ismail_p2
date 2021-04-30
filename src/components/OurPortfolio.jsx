@@ -6,7 +6,7 @@ import { portfolioFunc } from "../redux/actions";
 const OurPortfolio = ({ portfolioFunc, portfolio }) => {
 	useEffect(() => {
 		portfolioFunc();
-	}, []);
+	}, [portfolioFunc]);
 
 	var settings = {
 		dots: true,
