@@ -5,6 +5,8 @@ import phone from "../assets/phone.svg";
 import message from "../assets/message.svg";
 import location from "../assets/location.svg";
 import startProject from "../assets/startAProject.svg";
+import qoutes from "../assets/qoutes.svg";
+import placeholder from "../assets/placeHolderImg.svg";
 
 const StartProjectBody = () => {
 	return (
@@ -54,7 +56,7 @@ const StartProjectBody = () => {
 									placeholder="Message"
 								></textarea>
 							</div>
-							<div className="d-flex justify-content-between w-75 mt-3">
+							<div className="d-flex justify-content-around mt-3">
 								<div className="d-flex align-items-center">
 									<img src={message} alt="message" />
 									<a className="ml-2" href="info@gmail.com">
@@ -74,27 +76,49 @@ const StartProjectBody = () => {
 									</a>
 								</div>
 							</div>
-							<div className="d-flex justify-content-start align-items-center mt-5 imgContainer1">
+							<div className="d-flex justify-content-center justify-content-md-start align-items-center mt-5 imgContainer1">
 								<img src={attachment} alt="attachment" />
 								<div className="h2 ml-3">Add an Attachment</div>
 							</div>
-							<div className="d-flex justify-content-start align-items-center mt-5">
+							<div className="d-flex justify-content-center justify-content-md-start align-items-center mt-5">
 								<input type="checkbox" id="news" className="mt-n2" />
 								<label className="ml-3 h5" htmlFor="news">
 									I want to receive news and updates once in a while
 								</label>
 							</div>
-							<div className="d-flex justify-content-start mt-4 imgContainer2">
+							<div className="d-flex justify-content-center justify-content-md-start mt-4 imgContainer2">
 								<button className="themeBtn d-flex justify-content-center align-items-center">
 									SUBMIT <img className="ml-3" src={submit} alt="submit" />
 								</button>
 							</div>
 						</div>
-						<div className="col-12 col-md-5 pr-2 pr-md-0 pl-2 pl-md-5">
+						<div className="col-12 col-md-5 pr-2 pr-md-0 pl-2 pl-md-5 d-none d-md-block">
 							<div className="imageContainer">
 								<img src={startProject} alt="start a project" />
 							</div>
 						</div>
+						{/* FOR MOBILE VIEW UNDER FORM START */}
+						<div className="col-12 col-sm-8 col-md-5 my-5 my-md-0 mx-auto d-block d-md-none">
+							<div className="rightSide d-flex flex-column justify-content-center align-items-center text-center m-auto">
+								<img src={qoutes} alt="qoutes" />
+								<h5 className="text-white w-75 my-5">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+									neque natus libero rerum, corrupti aperiam quam. Omnis quasi
+									tempore ratione. Fugit reprehenderit modi soluta ducimus
+									corporis quos aperiam quaerat voluptatum.
+								</h5>
+								<div>
+									<img
+										style={{ width: "75%" }}
+										src={placeholder}
+										alt="placholder"
+									/>
+									<h3 className="text-white">Rashid</h3>
+									<h5 className="text-white mt-n2">CEO</h5>
+								</div>
+							</div>
+						</div>
+						{/* FOR MOBILE VIEW UNDER FORM END */}
 					</div>
 				</div>
 			</div>

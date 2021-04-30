@@ -717,6 +717,26 @@ html {
   height: 640px;
 }
 
+.startAProjectBody_container .rightSide {
+  background-color: #2365b1;
+  height: 90%;
+  width: 75%;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .startAProjectBody_container .rightSide {
+    height: 400px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .startAProjectBody_container {
+    background-color: #f0f4fa;
+  }
+}
+
 /* ==== START A PROJECT END ==== */
 /* ==== ABOUT US START ==== */
 .aboutUsHeader_container {

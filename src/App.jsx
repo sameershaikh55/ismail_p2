@@ -8,7 +8,7 @@ import { Provider } from "react-redux";
 import Main from "./pages/Main";
 import StartAProject from "./pages/StartAProject";
 import ScrollToTop from "./components/ScrollToTop";
-import AboutUs from "./pages/AboutUs";
+// import AboutUs from "./pages/AboutUs";
 
 function App() {
 	return (

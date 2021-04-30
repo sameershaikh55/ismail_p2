@@ -1,7 +1,7 @@
 import React from "react";
 import AboutStates from "../components/AboutStates";
-import ContactUs from "../components/ContactUs";
-import Footer from "../components/Footer";
+// import ContactUs from "../components/ContactUs";
+// import Footer from "../components/Footer";
 import MainHeader from "../components/MainHeader";
 import Sidebar from "../components/Sidebar";
 import { useHooks } from "../Hooks/useHooks";

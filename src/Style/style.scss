@@ -717,6 +717,25 @@ html {
 			height: 640px;
 		}
 	}
+
+	.rightSide {
+		background-color: $themeColor;
+		height: 90%;
+		width: 75%;
+		border-radius: 25px;
+	}
+
+	@media screen and (max-width: 768px) {
+		.rightSide {
+			height: 400px;
+			width: 90%;
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.startAProjectBody_container {
+		background-color: #f0f4fa;
+	}
 }
 /* ==== START A PROJECT END ==== */
 

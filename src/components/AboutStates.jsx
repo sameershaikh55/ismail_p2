@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { statesFunc } from "../redux/actions";
-import img from "../assets/verticalDivider.svg";
 
 const AboutStates = ({ states, statesFunc }) => {
 	useEffect(() => {
