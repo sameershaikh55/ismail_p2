@@ -5,6 +5,7 @@ import WebDevelopmentSection from "../components/WebDevelopmentSection";
 import development from "../assets/uiux.svg";
 import { useHooks } from "../Hooks/useHooks";
 import UIUXSection from "../components/UIUXSection";
+import Branding from "../components/Branding";
 
 const UIUX = () => {
 	const { isOpen, OnClick } = useHooks();
@@ -40,7 +41,10 @@ const UIUX = () => {
 				heading="DESIGN AND BRANDING"
 				image={development}
 			/>
+			<br />
 			<UIUXSection />
+			<br />
+			<Branding />
 		</>
 	);
 };

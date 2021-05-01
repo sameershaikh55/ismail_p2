@@ -389,7 +389,8 @@ html {
 .ourPortfolio_container,
 .webDevelopmentS_container,
 .ourProcess_container,
-.UIUXSection_container {
+.UIUXSection_container,
+.branding_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
