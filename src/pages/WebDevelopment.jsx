@@ -7,6 +7,7 @@ import OurProcess from "../components/OurProcess";
 import Sidebar from "../components/Sidebar";
 import Technologies from "../components/Technologies";
 import WebDevelopmentSection from "../components/WebDevelopmentSection";
+import development from "../assets/webDevelopment2.svg";
 import { useHooks } from "../Hooks/useHooks";
 
 const WebDevelopment = () => {
@@ -20,6 +21,7 @@ const WebDevelopment = () => {
 				<h1 className="mt-5 pt-5">Web Development</h1>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
+			<br />
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
@@ -38,8 +40,7 @@ const WebDevelopment = () => {
 			</div>
 			{/* IDEAS PORTION END */}
 			<br />
-			<WebDevelopmentSection />
-			<br />
+			<WebDevelopmentSection heading="WEB" image={development} />
 			<OurProcess />
 			<Technologies />
 			<br />

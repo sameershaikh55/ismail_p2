@@ -910,6 +910,26 @@ html {
 }
 /* ==== WEB DEVELOPMENT END ==== */
 
+/* ==== APP DEVELOPMENT END ==== */
+.appDevelopmentHeader_container {
+	background-image: linear-gradient(
+			-30deg,
+			rgba(0, 0, 0, 0.7) 100%,
+			rgba(0, 0, 0, 0.7) 0%
+		),
+		url(../assets/appDevelopmentHeader.svg);
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h1 {
+		font-size: 3rem;
+	}
+}
+
+/* ==== APP DEVELOPMENT END ==== */
+
 /* ==== OUR PROCESS START ==== */
 .ourProcess_container {
 	max-width: 1000px;

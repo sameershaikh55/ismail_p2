@@ -35,7 +35,12 @@ const Build = () => {
 							impedit illo, in ratione cumque veritatis, magni nobis deserunt ab
 							explicabo dolorum! Aut?
 						</h6>
-						<button className="themeBtn2 mt-3">VIEW CASE STUDY</button>
+						<button
+							onClick={() => history.push("/appDevelopment")}
+							className="themeBtn2 mt-3"
+						>
+							VIEW CASE STUDY
+						</button>
 					</div>
 					<div className="grid_sideLine col-12 col-sm-8 col-md-6 order-2 order-md-1 mb-5 mb-md-0 mt-5 mt-md-0 mx-auto align-self-center text-left py-3 pl-5 my-5">
 						<h1>

@@ -13,6 +13,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import AboutUs from "./pages/AboutUs";
 import Blog from "./pages/Blog";
 import WebDevelopment from "./pages/WebDevelopment";
+import AppDevelopment from "./pages/AppDevelopment";
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 				<Route exact path="/aboutUs" component={AboutUs} />
 				<Route exact path="/blog" component={Blog} />
 				<Route exact path="/webDevelopment" component={WebDevelopment} />
+				<Route exact path="/appDevelopment" component={AppDevelopment} />
 			</Switch>
 		</Provider>
 	);
