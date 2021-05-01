@@ -7,7 +7,7 @@ import OurProcess from "../components/OurProcess";
 import Sidebar from "../components/Sidebar";
 import Technologies from "../components/Technologies";
 import WebDevelopmentSection from "../components/WebDevelopmentSection";
-import development from "../assets/webDevelopment2.svg";
+import development from "../assets/webDevelopment2.png";
 import { useHooks } from "../Hooks/useHooks";
 
 const WebDevelopment = () => {
