@@ -7,9 +7,17 @@ const WebDevelopmentSection = ({ heading, image }) => {
 				<div className="row">
 					<div className="col-12 col-sm-9 col-md-8 order-2 order-md-1 mb-5 mb-md-0 mt-5 mt-md-0 mx-auto align-self-center text-left py-3 pl-5 my-5">
 						<h1 className="font-weight-bold">
-							<span className="themeText"> {heading} </span> DEVELOPMENT
+							{(heading === "DESIGN AND BRANDING" && "DESIGN AND BRANDING") || (
+								<>
+									<span className="themeText"> {heading} </span> DEVELOPMENT
+								</>
+							)}
 						</h1>
-						<h4 className="text-secondary">
+						<h4
+							className={`text-secondary ${
+								heading === "DESIGN AND BRANDING" && "grid_sideLine pl-4"
+							}`}
+						>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
 							sapiente iure quam nostrum reprehenderit corporis dolores eum
 							impedit illo, in ratione cumque veritatis, magni nobis deserunt ab

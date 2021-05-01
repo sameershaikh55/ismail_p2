@@ -14,6 +14,7 @@ import AboutUs from "./pages/AboutUs";
 import Blog from "./pages/Blog";
 import WebDevelopment from "./pages/WebDevelopment";
 import AppDevelopment from "./pages/AppDevelopment";
+import UIUX from "./pages/UIUX";
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 				<Route exact path="/blog" component={Blog} />
 				<Route exact path="/webDevelopment" component={WebDevelopment} />
 				<Route exact path="/appDevelopment" component={AppDevelopment} />
+				<Route exact path="/UIUX" component={UIUX} />
 			</Switch>
 		</Provider>
 	);

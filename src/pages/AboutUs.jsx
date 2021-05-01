@@ -37,7 +37,7 @@ const AboutUs = () => {
 				<div className="text-center mt-5 px-2">
 					<h1 className="themeText font-weight-bold">Lozpdata brings ideas</h1>
 					<h1 className="font-weight-bold">
-						to life,leveragingmodern technologies.
+						to life, leveragingmodern technologies.
 					</h1>
 					<h4 className="row text-secondary">
 						<div className="col-12 col-sm-10 col-md-8 col-lg-7 m-auto">

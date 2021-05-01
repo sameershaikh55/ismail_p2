@@ -388,7 +388,8 @@ html {
 .ourTeam_container,
 .ourPortfolio_container,
 .webDevelopmentS_container,
-.ourProcess_container {
+.ourProcess_container,
+.UIUXSection_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
@@ -543,6 +544,7 @@ html {
 /* ==== GET CONNECTED START ==== */
 .getConnected_container {
 	margin: 12rem auto;
+
 	h1 {
 		position: relative;
 		font-size: 2rem;
@@ -1163,3 +1165,22 @@ html {
 	}
 }
 /* ==== OUR PROCESS END ==== */
+
+/* ==== UI UX DESIGNING START ==== */
+.uiUxDesigningHeader_container {
+	background-image: linear-gradient(
+			-30deg,
+			rgba(0, 0, 0, 0.7) 100%,
+			rgba(0, 0, 0, 0.7) 0%
+		),
+		url(../assets/uiuxdesign.svg);
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	h1 {
+		font-size: 3rem;
+	}
+}
+/* ==== UI UX DESIGNING END ==== */

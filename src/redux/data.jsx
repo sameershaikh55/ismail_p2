@@ -37,3 +37,30 @@ export const statesData = [
 ];
 
 export const portfolioData = [portfolio, portfolio, portfolio];
+
+export const UIUXSectionData = [
+	{
+		title: "User-centric approach",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Aesthetic design",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "User interface with easy navigation",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Collaborative design process",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Flawlessness guaranteed",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Experience-focused apps",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+];
