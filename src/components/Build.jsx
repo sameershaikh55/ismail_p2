@@ -1,8 +1,11 @@
 import React from "react";
 import build1 from "../assets/build1.svg";
 import build2 from "../assets/build2.svg";
+import { useHistory } from "react-router-dom";
 
 const Build = () => {
+	let history = useHistory();
+
 	return (
 		<div className="build_container">
 			<div className="container-fluid text-center">
@@ -10,12 +13,13 @@ const Build = () => {
 					<span className="themeText">WE LOVE TO</span> BUILD
 				</h1>
 				<h6 className="row text-secondary">
-				<div className="col-11 col-sm-10 col-md-8 m-auto">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam
-					explicabo dolor fugit quaerat voluptates optio ipsum suscipit!
-					Accusantium, debitis. Lorem ipsum dolor sit amet consectetur
-					adipisicing elit. Ea aliquam explicabo dolor fugit quaerat voluptates
-				</div>
+					<div className="col-11 col-sm-10 col-md-8 m-auto">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam
+						explicabo dolor fugit quaerat voluptates optio ipsum suscipit!
+						Accusantium, debitis. Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Ea aliquam explicabo dolor fugit quaerat
+						voluptates
+					</div>
 				</h6>
 				<div className="build_body row">
 					<div className="imgContainer1 col-12 col-sm-10 col-md-6 mx-auto mb-5 mb-md-0">
@@ -43,7 +47,12 @@ const Build = () => {
 							impedit illo, in ratione cumque veritatis, magni nobis deserunt ab
 							explicabo dolorum! Aut?
 						</h6>
-						<button className="themeBtn2 mt-3">VIEW CASE STUDY</button>
+						<button
+							onClick={() => history.push("/webDevelopment")}
+							className="themeBtn2 mt-3"
+						>
+							VIEW CASE STUDY
+						</button>
 					</div>
 					<div className="imgContainer2 col-12 col-sm-10 col-md-6 mx-auto order-1 order-md-2">
 						<img src={build2} alt="build" />

@@ -62,8 +62,8 @@ const AboutUs = () => {
 			<OurTeam />
 			<br />
 			<OurPortfolio />
-			<br />
 			<GetConnected />
+			<br />
 			<ContactUs />
 			<Footer />
 		</>

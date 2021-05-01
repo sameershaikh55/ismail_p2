@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.67" height="56.069" viewBox="0 0 37.67 56.069">
+  <g id="right-arrow" transform="translate(37.67 -67.54) rotate(90)">
+    <g id="Group_489" data-name="Group 489" transform="translate(101.478)">
+      <path id="Path_737" data-name="Path 737" d="M123.008,17.365,106.244.6a2.065,2.065,0,0,0-2.914,0L102.1,1.836a2.063,2.063,0,0,0,0,2.914l14.077,14.077L102.08,32.92a2.065,2.065,0,0,0,0,2.915l1.235,1.234a2.065,2.065,0,0,0,2.914,0L123.008,20.29a2.08,2.08,0,0,0,0-2.924Z" transform="translate(-101.478)" fill="#2365b1"/>
+    </g>
+  </g>
+  <g id="right-arrow-2" data-name="right-arrow" transform="translate(31.078 -85.799) rotate(90)">
+    <g id="Group_489-2" data-name="Group 489" transform="translate(101.478)">
+      <path id="Path_737-2" data-name="Path 737" d="M115.473,11.288l-10.9-10.9a1.342,1.342,0,0,0-1.894,0l-.8.8a1.341,1.341,0,0,0,0,1.894l9.15,9.15-9.16,9.16a1.343,1.343,0,0,0,0,1.895l.8.8a1.342,1.342,0,0,0,1.894,0l10.907-10.906a1.352,1.352,0,0,0,0-1.9Z" transform="translate(-101.478)" fill="#2365b1"/>
+    </g>
+  </g>
+  <g id="right-arrow-3" data-name="right-arrow" transform="translate(26.689 -101.478) rotate(90)">
+    <g id="Group_489-3" data-name="Group 489" transform="translate(101.478)">
+      <path id="Path_737-3" data-name="Path 737" d="M110.455,7.241l-6.99-6.99a.861.861,0,0,0-1.215,0l-.515.515a.86.86,0,0,0,0,1.215l5.87,5.87-5.876,5.876a.861.861,0,0,0,0,1.215l.515.515a.861.861,0,0,0,1.215,0l7-7a.867.867,0,0,0,0-1.219Z" transform="translate(-101.478)" fill="#2365b1"/>
+    </g>
+  </g>
+</svg>
