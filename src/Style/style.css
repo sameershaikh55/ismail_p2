@@ -1183,31 +1183,40 @@ html {
 /* ==== UI UX DESIGNING END ==== */
 /* ==== ERROR PAGE START ==== */
 .ErrorPage_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #052c58;
   height: 100vh;
+  width: 100%;
+}
+
+.ErrorPage_container .errorInner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 740px;
+  width: 100%;
 }
 
 .ErrorPage_container .main {
-  width: 380px;
+  width: 100%;
   height: 500px;
 }
 
-.ErrorPage_container .main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -250px;
-  margin-left: -400px;
-}
-
 .ErrorPage_container .message_box {
-  height: 200px;
-  max-width: 380px;
-  position: absolute;
-  top: 50%;
-  left: 56.5%;
-  margin-top: -100px;
-  margin-left: 50px;
   color: #fff;
   font-family: Roboto;
   font-weight: 300;
@@ -1221,6 +1230,14 @@ html {
 
 .ErrorPage_container .buttons_con .action_link_wrap {
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ErrorPage_container .buttons_con .action_link_wrap button {
@@ -1245,7 +1262,7 @@ html {
 
 .ErrorPage_container .buttons_con .action_link_wrap a:hover,
 .ErrorPage_container .buttons_con .action_link_wrap button:hover {
-  background: #5a5c6c;
+  background: #4d9c39;
   color: #fff;
 }
 
@@ -1293,50 +1310,15 @@ html {
   }
 }
 
-@media (max-width: 991px) {
-  .ErrorPage_container .main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -250px;
-    margin-left: -190px;
-  }
-  .ErrorPage_container .message_box {
-    top: 50%;
-    margin-top: -150px;
-    margin-left: -160px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 385px) {
-  .ErrorPage_container .buttons_con .action_link_wrap a {
-    display: block;
-    margin-bottom: 10px;
-  }
-  .ErrorPage_container .message_box h1 {
-    position: relative;
-    left: -7px;
-  }
-  .ErrorPage_container .message_box p {
-    position: relative;
-    left: -6px;
-  }
-  .ErrorPage_container .message_box {
-    top: 50%;
-    margin-top: -150px;
-    margin-left: -97px;
-    text-align: center;
-  }
-  .ErrorPage_container .main {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    margin-top: -250px;
-    margin-left: 0px;
-  }
-  .ErrorPage_container .main {
-    width: 100%;
+@media (max-width: 695px) {
+  .ErrorPage_container .errorInner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
