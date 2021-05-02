@@ -15,6 +15,8 @@ import Blog from "./pages/Blog";
 import WebDevelopment from "./pages/WebDevelopment";
 import AppDevelopment from "./pages/AppDevelopment";
 import UIUX from "./pages/UIUX";
+import MVPDevelopment from "./pages/MVPDevelopment";
+import Error from "./pages/Error";
 
 function App() {
 	return (
@@ -28,6 +30,8 @@ function App() {
 				<Route exact path="/webDevelopment" component={WebDevelopment} />
 				<Route exact path="/appDevelopment" component={AppDevelopment} />
 				<Route exact path="/UIUX" component={UIUX} />
+				<Route exact path="/mvpDevelopment" component={MVPDevelopment} />
+				<Route component={Error} />
 			</Switch>
 		</Provider>
 	);

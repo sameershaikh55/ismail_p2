@@ -1201,3 +1201,134 @@ html {
 	}
 }
 /* ==== UI UX DESIGNING END ==== */
+
+/* ==== ERROR PAGE START ==== */
+.ErrorPage_container {
+	background-color: #052c58;
+	height: 100vh;
+	.main {
+		width: 380px;
+		height: 500px;
+	}
+	.main {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -250px;
+		margin-left: -400px;
+	}
+	.message_box {
+		height: 200px;
+		max-width: 380px;
+		position: absolute;
+		top: 50%;
+		left: 56.5%;
+		margin-top: -100px;
+		margin-left: 50px;
+		color: #fff;
+		font-family: Roboto;
+		font-weight: 300;
+	}
+	.message_box h1 {
+		font-size: 60px;
+		line-height: 46px;
+		margin-bottom: 40px;
+	}
+	.buttons_con .action_link_wrap {
+		margin-top: 40px;
+	}
+	.buttons_con .action_link_wrap button {
+		border: none;
+		outline: none;
+	}
+	.buttons_con .action_link_wrap a,
+	.buttons_con .action_link_wrap button {
+		background: #68c950;
+		padding: 8px 25px;
+		border-radius: 4px;
+		color: #fff;
+		font-weight: bold;
+		font-size: 14px;
+		transition: all 0.3s linear;
+		cursor: pointer;
+		text-decoration: none;
+		margin-right: 10px;
+	}
+	.buttons_con .action_link_wrap a:hover,
+	.buttons_con .action_link_wrap button:hover {
+		background: #5a5c6c;
+		color: #fff;
+	}
+	#Polygon_1,
+	#Polygon_2,
+	#Polygon_3,
+	#Polygon_4,
+	#Polygon_4,
+	#Polygon_5 {
+		animation: float 1s infinite ease-in-out alternate;
+	}
+	#Polygon_2 {
+		animation-delay: 0.2s;
+	}
+	#Polygon_3 {
+		animation-delay: 0.4s;
+	}
+	#Polygon_4 {
+		animation-delay: 0.6s;
+	}
+	#Polygon_5 {
+		animation-delay: 0.8s;
+	}
+
+	@keyframes float {
+		100% {
+			transform: translateY(20px);
+		}
+	}
+	@media (max-width: 991px) {
+		.main {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -250px;
+			margin-left: -190px;
+		}
+		.message_box {
+			top: 50%;
+			margin-top: -150px;
+			margin-left: -160px;
+			text-align: center;
+		}
+	}
+	@media (max-width: 385px) {
+		.buttons_con .action_link_wrap a {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.message_box h1 {
+			position: relative;
+			left: -7px;
+		}
+		.message_box p {
+			position: relative;
+			left: -6px;
+		}
+		.message_box {
+			top: 50%;
+			margin-top: -150px;
+			margin-left: -97px;
+			text-align: center;
+		}
+		.main {
+			position: absolute;
+			top: 50%;
+			left: 0%;
+			margin-top: -250px;
+			margin-left: 0px;
+		}
+		.main {
+			width: 100%;
+		}
+	}
+}
+/* ==== ERROR PAGE END ==== */
