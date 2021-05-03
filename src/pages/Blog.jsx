@@ -1,4 +1,5 @@
 import React from "react";
+import BlogBody from "../components/BlogBody";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import MainHeader from "../components/MainHeader";
@@ -37,6 +38,8 @@ const Blog = () => {
 				</div>
 			</div>
 			{/* IDEAS PORTION END */}
+			<br />
+			<BlogBody />
 			<br />
 			<ContactUs />
 			<Footer />

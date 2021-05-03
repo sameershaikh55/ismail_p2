@@ -9,6 +9,8 @@ import industries3 from "../assets/industries3.svg";
 import industries4 from "../assets/industries4.svg";
 import industries5 from "../assets/industries5.svg";
 import portfolio from "../assets/portfolio.svg";
+import blogImage from "../assets/blogWeb.svg";
+import blogImage1 from "../assets/blogApp.svg";
 
 export const WhatWeOfferData = [
 	{
@@ -62,5 +64,44 @@ export const UIUXSectionData = [
 	{
 		title: "Experience-focused apps",
 		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+];
+
+export const blogBodyData = [
+	{
+		title: "Web Development",
+		desc:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaeligendi numquam.",
+		img: blogImage,
+	},
+	{
+		title: "App Development",
+		desc:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaeligendi numquam.",
+		img: blogImage1,
+	},
+	{
+		title: "App Development",
+		desc:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaeligendi numquam.",
+		img: blogImage1,
+	},
+	{
+		title: "Web Development",
+		desc:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaeligendi numquam.",
+		img: blogImage,
+	},
+	{
+		title: "App Development",
+		desc:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaeligendi numquam.",
+		img: blogImage1,
+	},
+	{
+		title: "App Development",
+		desc:
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaeligendi numquam.",
+		img: blogImage1,
 	},
 ];

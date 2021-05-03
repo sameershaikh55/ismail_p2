@@ -1,9 +1,10 @@
-import { WHAT_WE_OFFER, STATES, PORTFOLIO, UIUX } from "./types";
+import { WHAT_WE_OFFER, STATES, PORTFOLIO, UIUX, BLOG_CARD } from "./types";
 import {
 	WhatWeOfferData,
 	statesData,
 	portfolioData,
 	UIUXSectionData,
+	blogBodyData,
 } from "./data";
 
 export const whatWeOfferFunc = () => {
@@ -31,5 +32,12 @@ export const uiUxFunc = () => {
 	return {
 		type: UIUX,
 		payload: UIUXSectionData,
+	};
+};
+
+export const blogFunc = () => {
+	return {
+		type: BLOG_CARD,
+		payload: blogBodyData,
 	};
 };

@@ -4,7 +4,6 @@ import telegram from "../assets/telegram.svg";
 import search from "../assets/search.svg";
 import submit from "../assets/submit.svg";
 
-
 const TwoCards = () => {
 	return (
 		<div className="twoCards_container">
@@ -42,7 +41,13 @@ const TwoCards = () => {
 								</div>
 							</div>
 							<button className="themeBtn2 mt-4 bg-danger">
-								lets talk <img style={{ width: "15%" }} className="ml-3" src={submit} alt="submit" />
+								lets talk{" "}
+								<img
+									style={{ width: "15%" }}
+									className="ml-3"
+									src={submit}
+									alt="submit"
+								/>
 							</button>
 						</div>
 					</div>

@@ -1,10 +1,11 @@
-import { WHAT_WE_OFFER, STATES, PORTFOLIO, UIUX } from "./types";
+import { WHAT_WE_OFFER, STATES, PORTFOLIO, UIUX, BLOG_CARD } from "./types";
 
 const initialState = {
 	whatWeOfferIS: [],
 	states: [],
 	portfolio: [],
 	uiux: [],
+	bodyCard: [],
 };
 
 const Reducer = (state = initialState, action) => {
@@ -28,6 +29,11 @@ const Reducer = (state = initialState, action) => {
 			return {
 				...state,
 				uiux: action.payload,
+			};
+		case BLOG_CARD:
+			return {
+				...state,
+				bodyCard: action.payload,
 			};
 		default:
 			return state;

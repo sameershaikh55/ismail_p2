@@ -406,7 +406,8 @@ html {
 .ourProcess_container,
 .UIUXSection_container,
 .branding_container,
-.uiUxProcess_container {
+.uiUxProcess_container,
+.blogBody_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
@@ -1294,3 +1295,25 @@ html {
 	}
 }
 /* ==== ERROR PAGE END ==== */
+
+/* ==== BLOG BODY START ==== */
+.blogBody_container {
+	.blogBody_card {
+		width: 100%;
+		background-color: #e2ebf5;
+		border-radius: 20px;
+		border: 2px solid #d9eaff;
+		box-shadow: 0px 10px 25px rgb(196, 196, 196);
+
+		img {
+			width: 100%;
+		}
+	}
+	.extraMargin1 {
+		margin-top: 8rem;
+	}
+	.extraMargin2 {
+		margin-top: 2rem;
+	}
+}
+/* ==== BLOG BODY END ==== */
