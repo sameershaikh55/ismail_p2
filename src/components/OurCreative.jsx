@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/ourCreative.svg";
+import image from "../assets/ourCreative.png";
 
 const OurCreative = () => {
 	return (

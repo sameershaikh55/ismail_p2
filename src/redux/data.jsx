@@ -9,8 +9,8 @@ import industries3 from "../assets/industries3.svg";
 import industries4 from "../assets/industries4.svg";
 import industries5 from "../assets/industries5.svg";
 import portfolio from "../assets/portfolio.svg";
-import blogImage from "../assets/blogWeb.svg";
-import blogImage1 from "../assets/blogApp.svg";
+import blogImage from "../assets/blogWeb.png";
+import blogImage1 from "../assets/blogApp.png";
 
 export const WhatWeOfferData = [
 	{
