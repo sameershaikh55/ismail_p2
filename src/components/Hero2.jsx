@@ -1,41 +1,70 @@
 import React from "react";
-import heroImg from "../assets/hero2.svg";
 import android from "../assets/android.svg";
 import apple from "../assets/apple.svg";
-import icb from "../assets/construction.svg";
+import icb from "../assets/construction.png";
 
 const Hero2 = () => {
 	return (
-		<div className="hero2_container">
-			<div className="container-fluid">
-				<div className="row">
-					<div className="col-9 mx-auto">
-						<div className="row">
-							<div className="col-11 col-sm-10 col-md-6 mx-auto align-self-center">
-								<h1 className="font-weight-bolder"> ICB Retaining App </h1>
-								<h4>
-									Innovating the world inside your pocket with mobile apps that
-									entice and engage.
-								</h4>
-								<div className="mt-3 d-flex justify-content-start align-items-center">
-									<img
-										style={{ width: "9%" }}
-										src={android}
-										alt="android"
-										className="mr-3"
-									/>
-									<img style={{ width: "9%" }} src={apple} alt="apple" />
+		<>
+			{/* HEADER START */}
+			<div className="hero2_container">
+				<div className="container-fluid">
+					<div className="row">
+						<div className="col-12 col-sm-9 mx-auto">
+							<div style={{ marginTop: "12rem" }} className="row">
+								<div className="col-11 col-sm-10 col-md-6 mx-auto align-self-center">
+									<h1 className="font-weight-bolder"> ICB Retaining App </h1>
+									<h4>
+										Innovating the world inside your pocket with mobile apps
+										that entice and engage.
+									</h4>
+									<div className="mt-3 d-flex justify-content-start align-items-center">
+										<img
+											style={{ width: "9%" }}
+											src={android}
+											alt="android"
+											className="mr-3"
+										/>
+										<img style={{ width: "9%" }} src={apple} alt="apple" />
+									</div>
+									<br />
 								</div>
-								<br />
-							</div>
-							<div className="col-10 col-sm-8 mx-auto col-md-6">
-								<img style={{ width: "100%" }} src={icb} alt="icbImage" />
+								<div className="col-10 col-sm-8 mx-auto col-md-6">
+									<img style={{ width: "100%" }} src={icb} alt="icbImage" />
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+			{/* HEADER END */}
+
+			{/* UNDER HEADER START */}
+			<div className="icb_container container-fluid">
+				<div className="row">
+					<div className="col-12 col-sm-9 mx-auto">
+						<div className="row">
+							<div className="col-4 col-md-4">
+								<h3 className="themeText">Services</h3>
+								<h5 className="grid_sideLine pl-4">UI /UX Design</h5>
+								<h5 className="grid_sideLine pl-4">Laravel development</h5>
+								<h5 className="grid_sideLine pl-4">React Js</h5>
+							</div>
+							<div className="col-2 col-md-4">
+								<h3 className="themeText">Type</h3>
+								<h5 className="grid_sideLine pl-4">APP</h5>
+							</div>
+							<div className="col-auto col-md-4">
+								<h3 className="themeText">Technologies</h3>
+								<h5 className="grid_sideLine pl-4">Phython</h5>
+								<h5 className="grid_sideLine pl-4">AWS</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* UNDER HEADER END */}
+		</>
 	);
 };
 

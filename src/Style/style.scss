@@ -408,7 +408,12 @@ html {
 .branding_container,
 .uiUxProcess_container,
 .blogBody_container,
-.caseStudyBodyInner_container {
+.caseStudyBodyInner_container,
+.icbRetaining_container,
+.clientRequirement_container,
+.planning_container,
+.delivered_container,
+.persuitExe_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
@@ -1357,3 +1362,77 @@ html {
 	background-size: cover;
 }
 /* ==== HER0 2 HEADER END ==== */
+
+/* ==== ICB UNDER HEADER START ==== */
+.icb_container {
+	margin-top: 18rem;
+}
+@media screen and (max-width: 1100px) {
+	.icb_container {
+		margin-top: 8rem;
+	}
+}
+@media screen and (max-width: 900px) {
+	.icb_container {
+		margin-top: 6rem;
+	}
+}
+@media screen and (max-width: 766px) {
+	.icb_container {
+		margin-top: 24rem;
+	}
+}
+@media screen and (max-width: 620px) {
+	.icb_container {
+		margin-top: 14rem;
+	}
+}
+@media screen and (max-width: 575px) {
+	.icb_container {
+		margin-top: 36rem;
+	}
+}
+@media screen and (max-width: 530px) {
+	.icb_container {
+		margin-top: 30rem;
+	}
+}
+@media screen and (max-width: 460px) {
+	.icb_container {
+		margin-top: 26rem;
+	}
+}
+@media screen and (max-width: 430px) {
+	.icb_container {
+		margin-top: 22rem;
+	}
+}
+@media screen and (max-width: 400px) {
+	.icb_container {
+		margin-top: 18rem;
+	}
+}
+@media screen and (max-width: 350px) {
+	.icb_container {
+		margin-top: 12rem;
+	}
+}
+@media screen and (max-width: 290px) {
+	.icb_container {
+		margin-top: 8rem;
+	}
+}
+@media screen and (max-width: 250px) {
+	.icb_container {
+		margin-top: 4rem;
+	}
+}
+/* ==== ICB UNDER HEADER END ==== */
+
+/* ==== ABOUT CLIENT START ==== */
+.aboutClient_container {
+	background: #2365b1;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+/* ==== ABOUT CLIENT END ==== */

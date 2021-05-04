@@ -12,7 +12,7 @@ import portfolio from "../assets/portfolio.svg";
 import blogImage from "../assets/blogWeb.png";
 import blogImage1 from "../assets/blogApp.png";
 import caseStudy1 from "../assets/travelAgency.svg";
-import caseStudy2 from "../assets/construction.svg";
+import caseStudy2 from "../assets/construction.png";
 import caseStudy3 from "../assets/foodDelivery.svg";
 import caseStudy4 from "../assets/medicoApp.svg";
 import caseStudy5 from "../assets/eStore.svg";
