@@ -5,6 +5,7 @@ import {
 	UIUX,
 	BLOG_CARD,
 	CASE_STUDY_BODY,
+	BUILD_2,
 } from "./types";
 import {
 	WhatWeOfferData,
@@ -13,6 +14,7 @@ import {
 	UIUXSectionData,
 	blogBodyData,
 	caseStudyBodyData,
+	build2Data,
 } from "./data";
 
 export const whatWeOfferFunc = () => {
@@ -54,5 +56,12 @@ export const caseStudyFunc = () => {
 	return {
 		type: CASE_STUDY_BODY,
 		payload: caseStudyBodyData,
+	};
+};
+
+export const build2Func = () => {
+	return {
+		type: BUILD_2,
+		payload: build2Data,
 	};
 };

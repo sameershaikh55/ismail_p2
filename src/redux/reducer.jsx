@@ -5,6 +5,7 @@ import {
 	UIUX,
 	BLOG_CARD,
 	CASE_STUDY_BODY,
+	BUILD_2,
 } from "./types";
 
 const initialState = {
@@ -14,6 +15,7 @@ const initialState = {
 	uiux: [],
 	bodyCard: [],
 	caseStudy: [],
+	build2: [],
 };
 
 const Reducer = (state = initialState, action) => {
@@ -47,6 +49,11 @@ const Reducer = (state = initialState, action) => {
 			return {
 				...state,
 				caseStudy: action.payload,
+			};
+		case BUILD_2:
+			return {
+				...state,
+				build2: action.payload,
 			};
 		default:
 			return state;

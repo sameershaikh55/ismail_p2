@@ -16,6 +16,8 @@ import caseStudy2 from "../assets/construction.png";
 import caseStudy3 from "../assets/foodDelivery.svg";
 import caseStudy4 from "../assets/medicoApp.svg";
 import caseStudy5 from "../assets/eStore.svg";
+import build1 from "../assets/build1.svg";
+import build2 from "../assets/construction.png";
 
 export const WhatWeOfferData = [
 	{
@@ -147,5 +149,36 @@ export const caseStudyBodyData = [
 			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 		img: caseStudy5,
 		bgColor: "#FFFFFF",
+	},
+];
+
+export const build2Data = [
+	{
+		title: "Construction PO Management",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ",
+		img: build1,
+		bgColor: "bg1",
+	},
+	{
+		title: "ICB Retaining",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ",
+		img: build2,
+		bgColor: "bg2",
+	},
+	{
+		title: "Construction PO Management",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ",
+		img: build1,
+		bgColor: "bg1",
+	},
+	{
+		title: "ICB Retaining",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ",
+		img: build2,
+		bgColor: "bg2",
 	},
 ];

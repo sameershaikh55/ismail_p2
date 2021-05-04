@@ -413,7 +413,8 @@ html {
 .clientRequirement_container,
 .planning_container,
 .delivered_container,
-.persuitExe_container {
+.persuitExe_container,
+.build2_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
@@ -1436,3 +1437,22 @@ html {
 	padding-bottom: 7rem;
 }
 /* ==== ABOUT CLIENT END ==== */
+
+/* ==== BUILD 2 START ==== */
+.build2_container {
+	.build2_body {
+		width: 100%;
+		height: 330px;
+		padding: 3.8rem;
+		border-radius: 6px;
+	}
+
+	.bg1 {
+		background-color: #e2ebf5;
+	}
+	.bg2 {
+		background-color: #a5a3a3;
+	}
+}
+
+/* ==== BUILD 2 END ==== */
