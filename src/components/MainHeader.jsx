@@ -31,7 +31,7 @@ const MainHeader = ({ ClickEvent }) => {
 						</NavLink>
 					</li>
 					<li>
-						<NavLink activeClassName="activeNav" exact to="/em">
+						<NavLink activeClassName="activeNav" exact to="/caseStudies">
 							Case Studies
 						</NavLink>
 					</li>

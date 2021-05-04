@@ -11,6 +11,11 @@ import industries5 from "../assets/industries5.svg";
 import portfolio from "../assets/portfolio.svg";
 import blogImage from "../assets/blogWeb.png";
 import blogImage1 from "../assets/blogApp.png";
+import caseStudy1 from "../assets/travelAgency.svg";
+import caseStudy2 from "../assets/construction.svg";
+import caseStudy3 from "../assets/foodDelivery.svg";
+import caseStudy4 from "../assets/medicoApp.svg";
+import caseStudy5 from "../assets/eStore.svg";
 
 export const WhatWeOfferData = [
 	{
@@ -103,5 +108,43 @@ export const blogBodyData = [
 		desc:
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae	Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaeligendi numquam.",
 		img: blogImage1,
+	},
+];
+
+export const caseStudyBodyData = [
+	{
+		title: "Travel Agency web",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+		img: caseStudy1,
+		bgColor: "#E2EBF5",
+	},
+	{
+		title: "Construction PO app",
+		desc:
+			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+		img: caseStudy2,
+		bgColor: "#2095F2",
+	},
+	{
+		title: "Food Delivery app",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+		img: caseStudy3,
+		bgColor: "#2AB762",
+	},
+	{
+		title: "Medico app",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+		img: caseStudy4,
+		bgColor: "#F3F2F2",
+	},
+	{
+		title: "E-store web",
+		desc:
+			"	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+		img: caseStudy5,
+		bgColor: "#FFFFFF",
 	},
 ];

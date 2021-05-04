@@ -17,6 +17,7 @@ import AppDevelopment from "./pages/AppDevelopment";
 import UIUX from "./pages/UIUX";
 import MVPDevelopment from "./pages/MVPDevelopment";
 import Error from "./pages/Error";
+import CaseStudies from "./pages/CaseStudies";
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 				<Route exact path="/appDevelopment" component={AppDevelopment} />
 				<Route exact path="/UIUX" component={UIUX} />
 				<Route exact path="/mvpDevelopment" component={MVPDevelopment} />
+				<Route exact path="/caseStudies" component={CaseStudies} />
 				<Route component={Error} />
 			</Switch>
 		</Provider>

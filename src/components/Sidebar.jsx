@@ -27,7 +27,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 				<li>
 					<NavLink
 						exact
-						to="material"
+						to="/caseStudies"
 						activeClassName="activeNav"
 						onClick={ClickEvent}
 					>

@@ -1,4 +1,11 @@
-import { WHAT_WE_OFFER, STATES, PORTFOLIO, UIUX, BLOG_CARD } from "./types";
+import {
+	WHAT_WE_OFFER,
+	STATES,
+	PORTFOLIO,
+	UIUX,
+	BLOG_CARD,
+	CASE_STUDY_BODY,
+} from "./types";
 
 const initialState = {
 	whatWeOfferIS: [],
@@ -6,6 +13,7 @@ const initialState = {
 	portfolio: [],
 	uiux: [],
 	bodyCard: [],
+	caseStudy: [],
 };
 
 const Reducer = (state = initialState, action) => {
@@ -34,6 +42,11 @@ const Reducer = (state = initialState, action) => {
 			return {
 				...state,
 				bodyCard: action.payload,
+			};
+		case CASE_STUDY_BODY:
+			return {
+				...state,
+				caseStudy: action.payload,
 			};
 		default:
 			return state;

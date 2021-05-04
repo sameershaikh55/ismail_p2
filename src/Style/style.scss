@@ -407,7 +407,8 @@ html {
 .UIUXSection_container,
 .branding_container,
 .uiUxProcess_container,
-.blogBody_container {
+.blogBody_container,
+.caseStudyBodyInner_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
@@ -1317,3 +1318,32 @@ html {
 	}
 }
 /* ==== BLOG BODY END ==== */
+
+/* ==== CASE STUDIES START ==== */
+.caseStudyHeader_container {
+	background-image: linear-gradient(
+			-30deg,
+			rgba(0, 0, 0, 0.7) 0%,
+			rgba(0, 0, 0, 0.7) 100%
+		),
+		url(../assets/mainImg.png);
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.caseStudyImg {
+		position: absolute;
+		left: 0%;
+		bottom: 0%;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	h1 {
+		font-size: 2.8rem;
+	}
+}
+/* ==== CASE STUDIES END ==== */
