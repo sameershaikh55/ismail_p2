@@ -1,16 +1,18 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { caseStudyFunc } from "../redux/actions";
+import { useHistory } from "react-router-dom";
 
 const CaseStudyBody = ({ caseStudyFunc, caseStudy }) => {
 	useEffect(() => {
 		caseStudyFunc();
 	}, [caseStudyFunc]);
+	let history = useHistory();
 
 	return (
 		<>
 			{caseStudy.map((prev, i) => {
-				const { img, bgColor, desc, title } = prev;
+				const { img, bgColor, desc, title, link } = prev;
 				return (
 					<div key={i} style={{ background: bgColor }}>
 						<div className="caseStudyBodyInner_container px-5 my-0">
@@ -20,7 +22,12 @@ const CaseStudyBody = ({ caseStudyFunc, caseStudy }) => {
 										<h1 className="font-weight-bolder"> {title} </h1>
 										<h4>{desc}</h4>
 										<br />
-										<button className="themeBtn2">VIEW CASE STUDY</button>
+										<button
+											onClick={() => history.push(link)}
+											className="themeBtn2"
+										>
+											VIEW CASE STUDY
+										</button>
 									</div>
 									<div className="col-10 col-sm-8 mx-auto col-md-6 order-1 order-lg-2">
 										<img style={{ width: "100%" }} src={img} alt={title} />
