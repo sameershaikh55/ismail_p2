@@ -1,14 +1,6 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import apple from "../assets/appleDark.svg";
-import android from "../assets/androidDark.svg";
-import reactNative from "../assets/reactNative.svg";
-import flutter from "../assets/flutter.svg";
-import ionic from "../assets/ionic.svg";
-import swift from "../assets/swift.svg";
-import kotlin from "../assets/kotlin.svg";
-import objectiveC from "../assets/objectiveC.svg";
 import TechnologyBody from "./TechnologyBody";
 
 const Technologies = () => {
