@@ -1,9 +1,6 @@
 import React from "react";
-import laptop1 from "../assets/laptop1.svg";
-import laptop2 from "../assets/laptop2.svg";
-import laptop3 from "../assets/laptop3.svg";
 
-const Delivered2 = () => {
+const Delivered2 = ({ laptop1, laptop2, laptop3 }) => {
 	return (
 		<div className="delivered2_container">
 			<div className="container-fluid">

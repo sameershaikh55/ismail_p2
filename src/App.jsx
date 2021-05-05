@@ -20,6 +20,7 @@ import Error from "./pages/Error";
 import CaseStudies from "./pages/CaseStudies";
 import ICB from "./pages/ICB";
 import Travel from "./pages/Travel";
+import ECommerceWeb from "./pages/ECommerceWeb";
 
 function App() {
 	return (
@@ -37,6 +38,7 @@ function App() {
 				<Route exact path="/caseStudies" component={CaseStudies} />
 				<Route exact path="/icb" component={ICB} />
 				<Route exact path="/travel" component={Travel} />
+				<Route exact path="/eCommerce" component={ECommerceWeb} />
 				<Route component={Error} />
 			</Switch>
 		</Provider>

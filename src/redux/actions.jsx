@@ -6,6 +6,7 @@ import {
 	BLOG_CARD,
 	CASE_STUDY_BODY,
 	BUILD_2,
+	BUILD_3,
 } from "./types";
 import {
 	WhatWeOfferData,
@@ -15,6 +16,7 @@ import {
 	blogBodyData,
 	caseStudyBodyData,
 	build2Data,
+	build3Data,
 } from "./data";
 
 export const whatWeOfferFunc = () => {
@@ -63,5 +65,12 @@ export const build2Func = () => {
 	return {
 		type: BUILD_2,
 		payload: build2Data,
+	};
+};
+
+export const build3Func = () => {
+	return {
+		type: BUILD_3,
+		payload: build3Data,
 	};
 };

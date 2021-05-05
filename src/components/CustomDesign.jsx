@@ -1,7 +1,6 @@
 import React from "react";
-import travelAgency from "../assets/travelAgency.svg";
 
-const CustomDesign = () => {
+const CustomDesign = ({ img }) => {
 	return (
 		<div className="customDesign_container">
 			<div className="container-fluid">
@@ -18,11 +17,7 @@ const CustomDesign = () => {
 						</h5>
 					</div>
 					<div className="col-10 col-sm-6 mx-auto order-1 order-sm-2">
-						<img
-							style={{ width: "100%" }}
-							src={travelAgency}
-							alt="travelAgency"
-						/>
+						<img style={{ width: "100%" }} src={img} alt="travelAgency" />
 					</div>
 				</div>
 			</div>
