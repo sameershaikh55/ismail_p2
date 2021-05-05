@@ -12,7 +12,7 @@ import StartAProject from "./pages/StartAProject";
 import ScrollToTop from "./components/ScrollToTop";
 import AboutUs from "./pages/AboutUs";
 import Blog from "./pages/Blog";
-// import WebDevelopment from "./pages/WebDevelopment";
+import WebDevelopment from "./pages/WebDevelopment";
 // import AppDevelopment from "./pages/AppDevelopment";
 // import UIUX from "./pages/UIUX";
 // import MVPDevelopment from "./pages/MVPDevelopment";
@@ -31,7 +31,7 @@ function App() {
 				<Route exact path="/start_A_Project" component={StartAProject} />
 				<Route exact path="/aboutUs" component={AboutUs} />
 				<Route exact path="/blog" component={Blog} />
-				{/* <Route exact path="/webDevelopment" component={WebDevelopment} /> */}
+				<Route exact path="/webDevelopment" component={WebDevelopment} />
 				{/* <Route exact path="/appDevelopment" component={AppDevelopment} /> */}
 				{/* <Route exact path="/UIUX" component={UIUX} /> */}
 				{/* <Route exact path="/mvpDevelopment" component={MVPDevelopment} /> */}
