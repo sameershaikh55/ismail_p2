@@ -41,7 +41,7 @@ const Travel = () => {
 			<br />
 			<br />
 			<br />
-			<TravelCrousel laptop1={laptop1} laptop2={laptop2} laptop3={laptop3} />
+			<TravelCrousel />
 			<br />
 			<br />
 			<br />
@@ -52,7 +52,7 @@ const Travel = () => {
 			<br />
 			<ChallengeAndSol />
 			<br />
-			<Delivered2 />
+			<Delivered2 laptop1={laptop1} laptop2={laptop2} laptop3={laptop3} />
 			<br />
 			{/* TRAVEL CHALLENGE & SOLUTION START */}
 			<div className="challengeAndSolution_container">

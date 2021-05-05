@@ -1475,3 +1475,23 @@ html {
 }
 
 /* ==== TRAVEL CROUSEL END ==== */
+
+/* ==== MORE TABS START ==== */
+.react-tabs__tab {
+	font-size: 1.4rem !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.react-tabs__tab-list {
+	border-bottom: 2px solid rgb(204, 204, 208) !important;
+	display: flex;
+	justify-content: center;
+}
+
+.react-tabs__tab--selected {
+	border: none !important;
+	border-bottom: 3px solid $themeColor !important;
+}
+/* ==== MORE TABS END ==== */

@@ -36,12 +36,12 @@ const MainHeader = ({ ClickEvent }) => {
 						</NavLink>
 					</li>
 					<li>
-						<NavLink activeClassName="activeNav" exact to="/ol">
+						<NavLink activeClassName="activeNav" exact to="/notActive">
 							Services
 						</NavLink>
 					</li>
 					<li>
-						<NavLink activeClassName="activeNav" exact to="/lo">
+						<NavLink activeClassName="activeNav" exact to="/notActive">
 							Industries
 						</NavLink>
 					</li>
