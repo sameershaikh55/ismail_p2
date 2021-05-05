@@ -1,9 +1,8 @@
 import React from "react";
 import android from "../assets/android.svg";
 import apple from "../assets/apple.svg";
-import icb from "../assets/construction.png";
 
-const Hero2 = () => {
+const Hero2 = ({ heading, description, img }) => {
 	return (
 		<>
 			{/* HEADER START */}
@@ -13,24 +12,25 @@ const Hero2 = () => {
 						<div className="col-12 col-sm-9 mx-auto">
 							<div style={{ marginTop: "12rem" }} className="row">
 								<div className="col-11 col-sm-10 col-md-6 mx-auto align-self-center">
-									<h1 className="font-weight-bolder"> ICB Retaining App </h1>
-									<h4>
-										Innovating the world inside your pocket with mobile apps
-										that entice and engage.
-									</h4>
-									<div className="mt-3 d-flex justify-content-start align-items-center">
-										<img
-											style={{ width: "9%" }}
-											src={android}
-											alt="android"
-											className="mr-3"
-										/>
-										<img style={{ width: "9%" }} src={apple} alt="apple" />
-									</div>
+									<h1 className="font-weight-bolder"> {heading} </h1>
+									<h4>{description}</h4>
+
+									{heading === "ICB Retaining App" && (
+										<div className="mt-3 d-flex justify-content-start align-items-center">
+											<img
+												style={{ width: "9%" }}
+												src={android}
+												alt="android"
+												className="mr-3"
+											/>
+											<img style={{ width: "9%" }} src={apple} alt="apple" />
+										</div>
+									)}
+
 									<br />
 								</div>
 								<div className="col-10 col-sm-8 mx-auto col-md-6">
-									<img style={{ width: "100%" }} src={icb} alt="icbImage" />
+									<img style={{ width: "100%" }} src={img} alt="icbImage" />
 								</div>
 							</div>
 						</div>

@@ -1454,5 +1454,18 @@ html {
 		background-color: #a5a3a3;
 	}
 }
-
 /* ==== BUILD 2 END ==== */
+
+/* ==== TRAVEL CROUSEL START ==== */
+.travelCrousel {
+	@include sectionDiv;
+
+	.travelCBody {
+		width: 100%;
+		max-height: 500px;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+}
+
+/* ==== TRAVEL CROUSEL END ==== */
