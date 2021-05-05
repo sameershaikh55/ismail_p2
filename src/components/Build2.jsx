@@ -46,7 +46,7 @@ const Build2 = ({ build2Func, build2 }) => {
 											<h4>{desc}</h4>
 										</div>
 										<div>
-											<img style={{ width: "100%" }} src={img} alt="image" />
+											<img style={{ width: "100%" }} src={img} alt={title} />
 										</div>
 									</div>
 								);
