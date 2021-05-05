@@ -19,6 +19,7 @@ import ChallengeAndSol from "../components/ChallengeAndSol";
 import laptop1 from "../assets/laptop1.svg";
 import laptop2 from "../assets/laptop2.svg";
 import laptop3 from "../assets/laptop3.svg";
+import Breadcrumb from "../components/Breadcrumb";
 
 const Travel = () => {
 	const { isOpen, OnClick } = useHooks();
@@ -33,6 +34,12 @@ const Travel = () => {
 			/>
 			<br />
 			<IcbRetaining travel />
+			<br />
+			<Breadcrumb active="Travel agency" activeLink="/travel" />
+			<br />
+			<br />
+			<br />
+			<br />
 			<br />
 			<TravelCrousel laptop1={laptop1} laptop2={laptop2} laptop3={laptop3} />
 			<br />

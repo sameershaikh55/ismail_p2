@@ -18,6 +18,7 @@ import laptop1 from "../assets/elaptop1.svg";
 import laptop2 from "../assets/elaptop2.svg";
 import laptop3 from "../assets/elaptop3.svg";
 import Build3 from "../components/Build3";
+import Breadcrumb from "../components/Breadcrumb";
 
 const ECommerceWeb = () => {
 	const { isOpen, OnClick } = useHooks();
@@ -31,6 +32,14 @@ const ECommerceWeb = () => {
 				img={ecommerce1Header}
 			/>
 			<IcbRetaining ecommerce />
+			<br />
+			<br />
+			<Breadcrumb active="E-commerce web" activeLink="/ecommerce" />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 			<br />
 			<TravelCrousel />
 			<br />
