@@ -31,10 +31,10 @@ function App() {
 				<Route exact path="/start_A_Project" component={StartAProject} />
 				<Route exact path="/aboutUs" component={AboutUs} />
 				<Route exact path="/blog" component={Blog} />
-				<Route exact path="/webDevelopment" component={WebDevelopment} />
-				<Route exact path="/appDevelopment" component={AppDevelopment} />
-				<Route exact path="/UIUX" component={UIUX} />
-				<Route exact path="/mvpDevelopment" component={MVPDevelopment} />
+				{/* <Route exact path="/webDevelopment" component={WebDevelopment} /> */}
+				{/* <Route exact path="/appDevelopment" component={AppDevelopment} /> */}
+				{/* <Route exact path="/UIUX" component={UIUX} /> */}
+				{/* <Route exact path="/mvpDevelopment" component={MVPDevelopment} /> */}
 				<Route exact path="/caseStudies" component={CaseStudies} />
 				<Route exact path="/icb" component={ICB} />
 				<Route exact path="/travel" component={Travel} />
