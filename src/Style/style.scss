@@ -414,7 +414,10 @@ html {
 .planning_container,
 .delivered_container,
 .persuitExe_container,
-.build2_container {
+.build2_container,
+.customDesign_container,
+.challengeAndSolution_container,
+.delivered2_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }

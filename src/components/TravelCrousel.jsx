@@ -20,9 +20,12 @@ const TravelCrousel = () => {
 				<div className="row">
 					<div className="col-12">
 						<Slider {...settings}>
-							{data.map((prev) => {
+							{data.map((prev, i) => {
 								return (
-									<div className="travelCBody d-flex justify-content-between align-items-center">
+									<div
+										key={i}
+										className="travelCBody d-flex justify-content-between align-items-center"
+									>
 										<div>
 											<img style={{ width: "100%" }} src={prev} alt="travel" />
 										</div>
