@@ -3,7 +3,7 @@ import clock from "../assets/clock.svg";
 import mobile from "../assets/mobile.svg";
 import team from "../assets/team.svg";
 import travelImg from "../assets/travel.svg";
-import icbImg from "../assets/icbSolo.svg";
+import icbImg from "../assets/icbSolo.png";
 import travelAgency from "../assets/travelAgnecy.png";
 import ecommerce2 from "../assets/ecommerce2.png";
 

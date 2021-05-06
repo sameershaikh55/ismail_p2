@@ -8,17 +8,17 @@ import industries2 from "../assets/industries2.svg";
 import industries3 from "../assets/industries3.svg";
 import industries4 from "../assets/industries4.svg";
 import industries5 from "../assets/industries5.svg";
-import portfolio from "../assets/portfolio.svg";
+import portfolio from "../assets/portfolio.png";
 import blogImage from "../assets/blogWeb.png";
 import blogImage1 from "../assets/blogApp.png";
 import caseStudy1 from "../assets/travelAgency.png";
 import caseStudy2 from "../assets/construction.png";
 import caseStudy3 from "../assets/foodDelivery.svg";
 import caseStudy4 from "../assets/medicoApp.svg";
-import caseStudy5 from "../assets/eStore.svg";
-import build1 from "../assets/build1.svg";
+import caseStudy5 from "../assets/eStore.png";
+import build1 from "../assets/build1.png";
 import build2 from "../assets/construction.png";
-import build3Img from "../assets/ecommerce1Header.svg";
+import build3Img from "../assets/ecommerce1Header.png";
 
 export const WhatWeOfferData = [
 	{

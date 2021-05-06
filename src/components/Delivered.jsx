@@ -1,5 +1,5 @@
 import React from "react";
-import build1 from "../assets/build1.svg";
+import build1 from "../assets/build1.png";
 import singleMob from "../assets/singleMobile.svg";
 
 const Delivered = () => {

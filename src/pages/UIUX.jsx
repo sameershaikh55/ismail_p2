@@ -2,7 +2,7 @@ import React from "react";
 import MainHeader from "../components/MainHeader";
 import Sidebar from "../components/Sidebar";
 import WebDevelopmentSection from "../components/WebDevelopmentSection";
-import development from "../assets/uiux.svg";
+import development from "../assets/uiux.png";
 import { useHooks } from "../Hooks/useHooks";
 import UIUXSection from "../components/UIUXSection";
 import Branding from "../components/Branding";

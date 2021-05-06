@@ -2,7 +2,7 @@ import React from "react";
 import MainHeader from "../components/MainHeader";
 import Sidebar from "../components/Sidebar";
 import { useHooks } from "../Hooks/useHooks";
-import headerImage from "../assets/caseStudyHeader.svg";
+import headerImage from "../assets/caseStudyHeader.png";
 import CaseStudyBody from "../components/CaseStudyBody";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";

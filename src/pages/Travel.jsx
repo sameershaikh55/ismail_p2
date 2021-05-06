@@ -8,7 +8,7 @@ import travel from "../assets/travelAgency.png";
 import TravelCrousel from "../components/TravelCrousel";
 import CustomDesign from "../components/CustomDesign";
 import AboutClient from "../components/AboutClient";
-import Delivered2 from "../assets/Delivered2";
+import Delivered2 from "../components/Delivered2";
 import placeholder from "../assets/placeholder2.svg";
 import PersuitExcellence from "../components/PersuitExcellence";
 import Build2 from "../components/Build2";

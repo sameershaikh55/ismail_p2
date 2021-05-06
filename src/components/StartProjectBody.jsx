@@ -4,7 +4,7 @@ import submit from "../assets/submit.svg";
 import phone from "../assets/phone.svg";
 import message from "../assets/message.svg";
 import location from "../assets/location.svg";
-import startProject from "../assets/startAProject.svg";
+import startProject from "../assets/startAProject.png";
 import qoutes from "../assets/qoutes.svg";
 import placeholder from "../assets/placeHolderImg.svg";
 

@@ -1,6 +1,6 @@
 import React from "react";
-import build1 from "../assets/build1.svg";
-import build2 from "../assets/build2.svg";
+import build1 from "../assets/build1.png";
+import build2 from "../assets/build2.png";
 import { useHistory } from "react-router-dom";
 
 const Build = () => {
