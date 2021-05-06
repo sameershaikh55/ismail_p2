@@ -418,7 +418,8 @@ html {
 .customDesign_container,
 .challengeAndSolution_container,
 .delivered2_container,
-.travelPortal_container {
+.travelPortal_container,
+.caterStartup_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }

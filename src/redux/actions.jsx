@@ -8,6 +8,8 @@ import {
 	BUILD_2,
 	BUILD_3,
 	RESTAURANT_MANAGEMENT,
+	WE_OFFER,
+	BUILD_4,
 } from "./types";
 import {
 	WhatWeOfferData,
@@ -19,6 +21,8 @@ import {
 	build2Data,
 	build3Data,
 	restaurantManagementData,
+	weOfferingData,
+	build4Data,
 } from "./data";
 
 export const whatWeOfferFunc = () => {
@@ -81,5 +85,19 @@ export const restaurantManagementFunc = () => {
 	return {
 		type: RESTAURANT_MANAGEMENT,
 		payload: restaurantManagementData,
+	};
+};
+
+export const weOfferingFunc = () => {
+	return {
+		type: WE_OFFER,
+		payload: weOfferingData,
+	};
+};
+
+export const build4Func = () => {
+	return {
+		type: BUILD_4,
+		payload: build4Data,
 	};
 };

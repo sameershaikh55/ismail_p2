@@ -447,7 +447,8 @@ html {
 .customDesign_container,
 .challengeAndSolution_container,
 .delivered2_container,
-.travelPortal_container {
+.travelPortal_container,
+.caterStartup_container {
   max-width: 1100px;
   margin: auto;
   margin: 6rem auto;

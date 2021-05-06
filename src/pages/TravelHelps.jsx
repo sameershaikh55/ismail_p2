@@ -10,6 +10,7 @@ import Build3 from "../components/Build3";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import Technologies from "../components/Technologies";
+import GetConnected from "../components/GetConnected";
 
 const TravelHelps = () => {
 	const { isOpen, OnClick } = useHooks();
@@ -53,6 +54,7 @@ const TravelHelps = () => {
 			<br />
 			<Technologies />
 			<br />
+			<GetConnected />
 			<br />
 			<ContactUs />
 			<Footer />
