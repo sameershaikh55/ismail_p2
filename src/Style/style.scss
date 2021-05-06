@@ -1577,3 +1577,19 @@ html {
 }
 
 /* ==== CONSTRUCTION HEADER  END ==== */
+
+/* ==== EDUCATION SECTION START ==== */
+.education_section {
+	background-image: linear-gradient(
+			-30deg,
+			rgba(0, 0, 0, 0.7) 100%,
+			rgba(0, 0, 0, 0.7) 0%
+		),
+		url(../assets/educationSec.svg);
+	padding-top: 12rem;
+	padding-bottom: 10rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* ==== EDUCATION SECTION END ==== */

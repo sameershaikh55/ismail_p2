@@ -6,7 +6,8 @@ const Breadcrumb = ({ active, activeLink }) => {
 	if (
 		active !== "Travel" &&
 		active !== "Healthcare" &&
-		active !== "Construction"
+		active !== "Construction" &&
+		active !== "education"
 	) {
 		var sectionVar = (
 			<>

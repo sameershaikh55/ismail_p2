@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { weOfferingFunc } from "../redux/actions";
+import education1 from "../assets/education1.svg";
 
-const WeOffering = ({ weOfferingFunc, weOffer }) => {
+const WeOffering = ({ weOfferingFunc, weOffer, education }) => {
 	useEffect(() => {
 		weOfferingFunc();
 	}, [weOfferingFunc]);
@@ -21,25 +22,65 @@ const WeOffering = ({ weOfferingFunc, weOffer }) => {
 					</h5>
 				</div>
 				<br />
-				<div className="row mt-5">
-					{weOffer.map((prev, i) => {
-						return (
-							<div
-								key={i}
-								className="col-11 col-sm-9 col-md-6 col-lg-4 mx-auto my-4"
-							>
-								<h4 className="grid_sideLine pl-4 themeText">{prev.title}</h4>
-								<h5 className="pl-4">{prev.desc}</h5>
-							</div>
-						);
-					})}
-				</div>
-				<br />
-				<br />
-				<br />
-				<div className="text-center">
-					<button className="themeBtn">START PROJECT</button>
-				</div>
+				{education ? (
+					<div className="row mt-5">
+						<div className="col-8 align-self-center">
+							<h4 className="grid_sideLine themeText pl-4">
+								Learning management systems for educational institutions of
+								various sizes
+							</h4>
+							<br />
+							<h4 className="grid_sideLine themeText pl-4">
+								Interactive games for students falling into younger age-groups
+							</h4>
+							<br />
+							<h4 className="grid_sideLine themeText pl-4">
+								Informative yet interesting applications for older students
+							</h4>
+							<br />
+							<h4 className="grid_sideLine themeText pl-4">
+								Special systems for digitising traditional academic resources
+							</h4>
+							<br />
+							<h4 className="grid_sideLine themeText pl-4">
+								Customised systems designed for distribution of educational
+								content deployed on mobile platforms (smartphones and tablets)
+							</h4>
+							<br />
+							<h4 className="grid_sideLine themeText pl-4">
+								Customised systems designed for distribution of educational
+								content deployed on mobile platforms (smartphones and tablets)
+							</h4>
+						</div>
+						<div className="col-4 text-center">
+							<img style={{ width: "80%" }} src={education1} alt="education1" />
+						</div>
+					</div>
+				) : (
+					<>
+						<div className="row mt-5">
+							{weOffer.map((prev, i) => {
+								return (
+									<div
+										key={i}
+										className="col-11 col-sm-9 col-md-6 col-lg-4 mx-auto my-4"
+									>
+										<h4 className="grid_sideLine pl-4 themeText">
+											{prev.title}
+										</h4>
+										<h5 className="pl-4">{prev.desc}</h5>
+									</div>
+								);
+							})}
+						</div>
+						<br />
+						<br />
+						<br />
+						<div className="text-center">
+							<button className="themeBtn">START PROJECT</button>
+						</div>
+					</>
+				)}
 			</div>
 		</div>
 	);
