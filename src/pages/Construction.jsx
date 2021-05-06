@@ -1,21 +1,139 @@
-import React from 'react'
-import MainHeader from '../components/MainHeader';
-import Sidebar from '../components/Sidebar';
-import { useHooks } from '../Hooks/useHooks';
+import React from "react";
+import Breadcrumb from "../components/Breadcrumb";
+import MainHeader from "../components/MainHeader";
+import Sidebar from "../components/Sidebar";
+import { useHooks } from "../Hooks/useHooks";
+import constructionIcon from "../assets/constructionIcon.svg";
+import ConstructionDetails from "../components/ConstructionDetails";
+import agricultureWork from "../assets/agricultureWork.svg";
+import dot from "../assets/dot.svg";
+import Build4 from "../components/Build4";
+import Technologies from "../components/Technologies";
+import GetConnected from "../components/GetConnected";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 const Construction = () => {
-    const { isOpen, OnClick } = useHooks();
+	const { isOpen, OnClick } = useHooks();
 	return (
 		<>
 			<MainHeader ClickEvent={OnClick} />
-			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />  
-            {/* WEB DEVELOPMENT HEADER IMAGE START */}
+			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
+			{/* WEB DEVELOPMENT HEADER IMAGE START */}
 			<div className="constructionHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
 				<h1 className="mt-5 pt-5">Development for Constuction</h1>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
-        </>
-    )
-}
+			<br />
+			<br />
+			<br />
+			<br />
+			{/* IDEAS PORTION START */}
+			<div className="container-fluid">
+				<div className="text-center mt-5 px-2">
+					<h1 className="font-weight-bold">
+						<span className="themeText">Software Development </span>
+						for construction Helps you
+					</h1>
+				</div>
+			</div>
+			{/* IDEAS PORTION END */}
+			<br />
+			<br />
+			<br />
+			<br />
+			<Breadcrumb active="Construction" activeLink="/construction" />
+			<br />
+			{/* CATER STARTUP START */}
+			<div className="caterStartup_container">
+				<div className="container-fluid">
+					<div className="row">
+						<div className="col-8">
+							<h1 className="themeText">CONSTRUCTION</h1>
+							<br />
+							<h4>
+								Digital learning has quickly become a norm in this age of
+								technological advancement, and GoodCore has been playing its
+								part in this development since 2005. Students all over the world
+								benefit from our educational applications - an educator's dream!
+							</h4>
+							<br />
+							<h4>
+								From toddler-friendly mobile apps to efficient learning
+								management systems, we have done it all. Our developers
+								understand the needs of both teachers and students, and create
+								applications that will benefit both stakeholders in the
+								education sector.
+							</h4>
+							<br />
+							<h4>
+								Work with us so you can contribute to the digitisation of the
+								old-school education system and achieve all learning outcomes in
+								the best way possible.
+							</h4>
+							<br />
+							<button className="themeBtn">LETS TALK</button>
+						</div>
+						<div className="col-4 text-center align-self-center">
+							<img
+								style={{ width: "50%" }}
+								src={constructionIcon}
+								alt="cater"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* CATER STARTUP END */}
+			<br />
+			<ConstructionDetails />
+			<br />
+			{/* CATER STARTUP START */}
+			<div className="caterStartup_container">
+				<div className="container-fluid">
+					<div className="row">
+						<div className="col-10 mx-auto">
+							<div className="row">
+								<div className="col-7">
+									<h1>How Software Development for Agriculture Works</h1>
+									<br />
+									<br />
+									<h4>
+										<img src={dot} alt="dot" className="mr-4" />
+										Integration and automation solutions
+									</h4>
+									<h4>
+										<img src={dot} alt="dot" className="mr-3" /> Big Data and
+										advanced analytics
+									</h4>
+									<h4>
+										<img src={dot} alt="dot" className="mr-3" /> Custom software
+										solutions
+									</h4>
+								</div>
+								<div className="col-4 text-center align-self-center">
+									<img
+										style={{ width: "70%" }}
+										src={agricultureWork}
+										alt="cater"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* CATER STARTUP END */}
+			<br />
+			<Technologies />
+			<Build4 />
+			<br />
+			<GetConnected />
+			<br />
+			<ContactUs />
+			<Footer />
+		</>
+	);
+};
 
-export default Construction
+export default Construction;

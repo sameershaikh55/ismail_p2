@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import lessthen from "../assets/lessthen.svg";
 
 const Breadcrumb = ({ active, activeLink }) => {
-	if (active !== "Travel" && active !== "Healthcare") {
+	if (
+		active !== "Travel" &&
+		active !== "Healthcare" &&
+		active !== "Construction"
+	) {
 		var sectionVar = (
 			<>
 				<Link
