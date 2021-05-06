@@ -4,7 +4,7 @@ import IcbRetaining from "../components/IcbRetaining";
 import MainHeader from "../components/MainHeader";
 import Sidebar from "../components/Sidebar";
 import { useHooks } from "../Hooks/useHooks";
-import travel from "../assets/travelAgency.svg";
+import travel from "../assets/travelAgency.png";
 import TravelCrousel from "../components/TravelCrousel";
 import CustomDesign from "../components/CustomDesign";
 import AboutClient from "../components/AboutClient";
@@ -14,11 +14,11 @@ import PersuitExcellence from "../components/PersuitExcellence";
 import Build2 from "../components/Build2";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
-import travelAgency from "../assets/travelAgency.svg";
+import travelAgency from "../assets/travelAgency.png";
 import ChallengeAndSol from "../components/ChallengeAndSol";
-import laptop1 from "../assets/laptop1.svg";
-import laptop2 from "../assets/laptop2.svg";
-import laptop3 from "../assets/laptop3.svg";
+import laptop1 from "../assets/laptop1.png";
+import laptop2 from "../assets/laptop2.png";
+import laptop3 from "../assets/laptop3.png";
 import Breadcrumb from "../components/Breadcrumb";
 
 const Travel = () => {

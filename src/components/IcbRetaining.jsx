@@ -4,8 +4,8 @@ import mobile from "../assets/mobile.svg";
 import team from "../assets/team.svg";
 import travelImg from "../assets/travel.svg";
 import icbImg from "../assets/icbSolo.svg";
-import travelAgency from "../assets/travelAgnecy.svg";
-import ecommerce2 from "../assets/ecommerce2.svg";
+import travelAgency from "../assets/travelAgnecy.png";
+import ecommerce2 from "../assets/ecommerce2.png";
 
 const IcbRetaining = ({ icb, ecommerce, travel }) => {
 	return (

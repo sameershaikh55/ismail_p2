@@ -1,6 +1,6 @@
 import React from "react";
-import travelAgencyC from "../assets/travelAgencyC.svg";
-import travelAgencyC1 from "../assets/travelAgencyC1.svg";
+import travelAgencyC from "../assets/travelAgencyC.png";
+import travelAgencyC1 from "../assets/travelAgencyC1.png";
 import Slider from "react-slick";
 
 const TravelCrousel = () => {

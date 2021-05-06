@@ -14,9 +14,9 @@ import Delivered2 from "../assets/Delivered2";
 import PersuitExcellence from "../components/PersuitExcellence";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
-import laptop1 from "../assets/elaptop1.svg";
-import laptop2 from "../assets/elaptop2.svg";
-import laptop3 from "../assets/elaptop3.svg";
+import laptop1 from "../assets/elaptop1.png";
+import laptop2 from "../assets/elaptop2.png";
+import laptop3 from "../assets/elaptop3.png";
 import Build3 from "../components/Build3";
 import Breadcrumb from "../components/Breadcrumb";
 

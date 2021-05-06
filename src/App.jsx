@@ -13,9 +13,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import AboutUs from "./pages/AboutUs";
 import Blog from "./pages/Blog";
 import WebDevelopment from "./pages/WebDevelopment";
-// import AppDevelopment from "./pages/AppDevelopment";
-// import UIUX from "./pages/UIUX";
-// import MVPDevelopment from "./pages/MVPDevelopment";
+import AppDevelopment from "./pages/AppDevelopment";
+import UIUX from "./pages/UIUX";
+import MVPDevelopment from "./pages/MVPDevelopment";
 import Error from "./pages/Error";
 import CaseStudies from "./pages/CaseStudies";
 import ICB from "./pages/ICB";
@@ -30,8 +30,7 @@ function App() {
 	return (
 		<Provider store={store}>
 			<ScrollToTop />
-			<Education />
-			{/* <Switch>
+			<Switch>
 				<Route exact path="/" component={Main} />
 				<Route exact path="/start_A_Project" component={StartAProject} />
 				<Route exact path="/aboutUs" component={AboutUs} />
@@ -44,8 +43,12 @@ function App() {
 				<Route exact path="/icb" component={ICB} />
 				<Route exact path="/travel" component={Travel} />
 				<Route exact path="/eCommerce" component={ECommerceWeb} />
+				<Route exact path="/travelHelp" component={TravelHelps} />
+				<Route exact path="/healthcare" component={Healthcare} />
+				<Route exact path="/construction" component={Construction} />
+				<Route exact path="/education" component={Education} />
 				<Route component={Error} />
-			</Switch> */}
+			</Switch>
 		</Provider>
 	);
 }

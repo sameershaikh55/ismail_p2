@@ -65,7 +65,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 					</NavLink>
 				</li>
 				<li className="contactBtnSide">
-					<NavLink exact to="contact" onClick={ClickEvent}>
+					<NavLink exact to="/start_A_Project" onClick={ClickEvent}>
 						Contact
 					</NavLink>
 				</li>

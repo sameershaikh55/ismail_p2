@@ -11,7 +11,7 @@ import industries5 from "../assets/industries5.svg";
 import portfolio from "../assets/portfolio.svg";
 import blogImage from "../assets/blogWeb.png";
 import blogImage1 from "../assets/blogApp.png";
-import caseStudy1 from "../assets/travelAgency.svg";
+import caseStudy1 from "../assets/travelAgency.png";
 import caseStudy2 from "../assets/construction.png";
 import caseStudy3 from "../assets/foodDelivery.svg";
 import caseStudy4 from "../assets/medicoApp.svg";
