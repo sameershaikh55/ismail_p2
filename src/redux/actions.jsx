@@ -7,6 +7,7 @@ import {
 	CASE_STUDY_BODY,
 	BUILD_2,
 	BUILD_3,
+	RESTAURANT_MANAGEMENT,
 } from "./types";
 import {
 	WhatWeOfferData,
@@ -17,6 +18,7 @@ import {
 	caseStudyBodyData,
 	build2Data,
 	build3Data,
+	restaurantManagementData,
 } from "./data";
 
 export const whatWeOfferFunc = () => {
@@ -72,5 +74,12 @@ export const build3Func = () => {
 	return {
 		type: BUILD_3,
 		payload: build3Data,
+	};
+};
+
+export const restaurantManagementFunc = () => {
+	return {
+		type: RESTAURANT_MANAGEMENT,
+		payload: restaurantManagementData,
 	};
 };

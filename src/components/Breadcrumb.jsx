@@ -16,18 +16,23 @@ const Breadcrumb = ({ active, activeLink }) => {
 						src={lessthen}
 						alt="lessthen.svg"
 					/>
-					<Link
-						className="h4 mt-2 text-decoration-none text-dark"
-						to="/caseStudies"
-					>
-						Case Studies
-					</Link>
-					<img
-						style={{ width: "3%" }}
-						className="mx-4"
-						src={lessthen}
-						alt="lessthen.svg"
-					/>
+					{active !== "Travel" && (
+						<>
+							<Link
+								className="h4 mt-2 text-decoration-none text-dark"
+								to="/caseStudies"
+							>
+								Case Studies
+							</Link>
+
+							<img
+								style={{ width: "3%" }}
+								className="mx-4"
+								src={lessthen}
+								alt="lessthen.svg"
+							/>
+						</>
+					)}
 					<Link className="h4 mt-2 text-decoration-none" to={activeLink}>
 						{active}
 					</Link>

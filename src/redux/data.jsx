@@ -75,6 +75,33 @@ export const UIUXSectionData = [
 	},
 ];
 
+export const restaurantManagementData = [
+	{
+		title: "Customizable menu",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Table based menu",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Delivery orders",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Payment Options like cash cards, cheque",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Customer info & account management",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+	{
+		title: "Inventory Management",
+		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, enim!",
+	},
+];
+
 export const blogBodyData = [
 	{
 		title: "Web Development",

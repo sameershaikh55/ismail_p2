@@ -417,7 +417,8 @@ html {
 .build2_container,
 .customDesign_container,
 .challengeAndSolution_container,
-.delivered2_container {
+.delivered2_container,
+.travelPortal_container {
 	@include sectionDiv;
 	margin: 6rem auto;
 }
