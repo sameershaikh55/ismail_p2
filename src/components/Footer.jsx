@@ -6,11 +6,18 @@ import skype from "../assets/skype.svg";
 import logoDark from "../assets/logoDark.png";
 import phone from "../assets/phone.svg";
 import message from "../assets/message.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
 		<>
 			<div className="footer_container">
+				<div className="d-flex justify-content-around h4 mb-5">
+					<Link to="/travelHelp">Travel Help</Link>
+					<Link to="/healthcare">Healthcare</Link>
+					<Link to="/construction">Construction</Link>
+					<Link to="/education">Education</Link>
+				</div>
 				<div className="d-flex justify-content-center align-items-center">
 					<div className="imgContainer ml-5 ml-sm-0 pr-5 py-2">
 						<img src={logoDark} alt="logo" />
