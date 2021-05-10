@@ -11,7 +11,7 @@ const MainHeader = ({ ClickEvent }) => {
 		var header = document.querySelector(".NavbarContainer");
 		header.classList.toggle("sticky", window.scrollY > 1);
 	});
-	// FOR NAVBAR SCROLLING EFFECT END
+	// FOR NAVBAR SCROLLING EFFECT END .
 	return (
 		<>
 			{/* <!-- ======== NAVBAR START =========== --> */}
