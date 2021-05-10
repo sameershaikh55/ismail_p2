@@ -22,7 +22,7 @@ const MainHeader = (/*{ ClickEvent }*/) => {
 				{/* <!-- HAMBURGER START --> */}
 				<div className="hamburgerContainer HideClass">
 					{/* <span onClick={ClickEvent}> */}
-					<img src={hamburger} alt="hamburger" />
+					{/* <img src={hamburger} alt="hamburger" /> */}
 					{/* </span> */}
 				</div>
 				{/* <!-- HAMBURGER END --> */}
