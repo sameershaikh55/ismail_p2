@@ -19,7 +19,7 @@ const Education = () => {
 			<MainHeader ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
-			<div className="educationHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
+			<div className="educationHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-center text-white">
 				<h1 className="mt-5 pt-5">Educations & Elearning Solutions</h1>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
@@ -47,7 +47,7 @@ const Education = () => {
 			<div className="caterStartup_container">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-8">
+						<div className="col-11 col-sm-10 col-md-8 mx-auto order-2 order-md-1 mt-5 mt-md-0">
 							<h1 className="themeText">EDUCATION</h1>
 							<br />
 							<h4>
@@ -73,7 +73,7 @@ const Education = () => {
 							<br />
 							<button className="themeBtn">LETS TALK</button>
 						</div>
-						<div className="col-4 text-center align-self-center">
+						<div className="col-8 col-sm-6 col-md-4 mx-auto order-1 order-md-2 text-center align-self-center">
 							<img style={{ width: "50%" }} src={educationIcon} alt="cater" />
 						</div>
 					</div>

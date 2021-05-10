@@ -20,11 +20,14 @@ const WeOffering = ({ weOfferingFunc, weOffer, education }) => {
 						ever since the 1500s, when an unknown printer took a galley of type
 						and scrambled it to make a type specimen book.
 					</h5>
+					<div className="col-12 d-block d-md-none text-center my-5 my-md-0">
+						<img style={{ width: "80%" }} src={education1} alt="education1" />
+					</div>
 				</div>
 				<br />
 				{education ? (
 					<div className="row mt-5">
-						<div className="col-8 align-self-center">
+						<div className="col-11 col-sm-10 col-md-8 mx-auto align-self-center">
 							<h4 className="grid_sideLine themeText pl-4">
 								Learning management systems for educational institutions of
 								various sizes
@@ -52,7 +55,7 @@ const WeOffering = ({ weOfferingFunc, weOffer, education }) => {
 								content deployed on mobile platforms (smartphones and tablets)
 							</h4>
 						</div>
-						<div className="col-4 text-center">
+						<div className="col-4 d-none d-md-block text-center">
 							<img style={{ width: "80%" }} src={education1} alt="education1" />
 						</div>
 					</div>

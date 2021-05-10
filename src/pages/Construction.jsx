@@ -20,7 +20,7 @@ const Construction = () => {
 			<MainHeader ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
-			<div className="constructionHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
+			<div className="constructionHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-center text-white">
 				<h1 className="mt-5 pt-5">Development for Constuction</h1>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
@@ -48,7 +48,7 @@ const Construction = () => {
 			<div className="caterStartup_container">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-8">
+						<div className="col-11 col-sm-10 col-md-8 mx-auto order-2 order-md-1 mt-5 mt-md-0">
 							<h1 className="themeText">CONSTRUCTION</h1>
 							<br />
 							<h4>
@@ -74,7 +74,7 @@ const Construction = () => {
 							<br />
 							<button className="themeBtn">LETS TALK</button>
 						</div>
-						<div className="col-4 text-center align-self-center">
+						<div className="col-8 col-sm-6 col-md-4 mx-auto order-1 order-md-2 text-center align-self-center">
 							<img
 								style={{ width: "50%" }}
 								src={constructionIcon}
@@ -92,9 +92,9 @@ const Construction = () => {
 			<div className="caterStartup_container">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-10 mx-auto">
+						<div className="col-12 col-md-10 mx-auto">
 							<div className="row">
-								<div className="col-7">
+								<div className="col-11 col-sm-10 col-md-8 mx-auto">
 									<h1>How Software Development for Agriculture Works</h1>
 									<br />
 									<br />
@@ -111,7 +111,7 @@ const Construction = () => {
 										solutions
 									</h4>
 								</div>
-								<div className="col-4 text-center align-self-center">
+								<div className="col-10 col-sm-6 col-md-4 mx-auto mt-5 mt-md-0 text-center align-self-center">
 									<img
 										style={{ width: "70%" }}
 										src={agricultureWork}
