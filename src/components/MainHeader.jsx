@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png";
 import hamburger from "../assets/hamburger.svg";
 import { useHistory } from "react-router-dom";
 
-const MainHeader = ({ ClickEvent }) => {
+const MainHeader = (/*{ ClickEvent }*/) => {
 	let history = useHistory();
 	// FOR NAVBAR SCROLLING EFFECT START
 	window.addEventListener("scroll", function () {
@@ -21,9 +21,9 @@ const MainHeader = ({ ClickEvent }) => {
 				</div>
 				{/* <!-- HAMBURGER START --> */}
 				<div className="hamburgerContainer HideClass">
-					<span onClick={ClickEvent}>
-						<img src={hamburger} alt="hamburger" />
-					</span>
+					{/* <span onClick={ClickEvent}> */}
+					<img src={hamburger} alt="hamburger" />
+					{/* </span> */}
 				</div>
 				{/* <!-- HAMBURGER END --> */}
 				<ul>
