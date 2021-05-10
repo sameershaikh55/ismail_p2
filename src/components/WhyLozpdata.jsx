@@ -16,7 +16,7 @@ const WhyLozpdata = () => {
 				<br />
 				<br />
 				<div className="row">
-					<div className="col-8 align-self-center">
+					<div className="col-11 col-sm-10 col-md-8 mx-auto order-2 order-md-1 mt-5 mt-md-0 align-self-center">
 						<h1 className="grid_sideLine pl-4">
 							Perfect combination of technical skill and academic domain
 							knowledge
@@ -29,14 +29,14 @@ const WhyLozpdata = () => {
 							into the perfect education software that fits your needs.
 						</h4>
 					</div>
-					<div className="col-4 text-center">
+					<div className="col-8 col-sm-6 col-md-4 mx-auto order-1 order-md-2 text-center">
 						<img style={{ width: "50%" }} src={lozpdata1} alt="portal" />
 					</div>
 
-					<div className="col-4 text-center mt-5">
+					<div className="col-8 col-sm-6 col-md-4 mx-auto order-3 text-center mt-5">
 						<img style={{ width: "50%" }} src={lozpdata2} alt="portal" />
 					</div>
-					<div className="col-8 align-self-center mt-5">
+					<div className="col-11 col-sm-10 col-md-8 mx-auto order-4 mt-5 mt-md-0 align-self-center mt-5">
 						<h1 className="grid_sideLine pl-4">
 							Expertise in user-friendly design
 						</h1>
@@ -49,7 +49,7 @@ const WhyLozpdata = () => {
 						</h4>
 					</div>
 
-					<div className="col-8 align-self-center mt-5">
+					<div className="col-11 col-sm-10 col-md-8 mx-auto order-6 order-md-5 mt-5 mt-md-0 align-self-center mt-5">
 						<h1 className="grid_sideLine pl-4">
 							Safe and secure information storage and sharing
 						</h1>
@@ -60,7 +60,7 @@ const WhyLozpdata = () => {
 							access control for all users.
 						</h4>
 					</div>
-					<div className="col-4 text-center mt-5">
+					<div className="col-8 col-sm-6 col-md-4 mx-auto order-5 order-md-6 text-center mt-5">
 						<img style={{ width: "50%" }} src={lozpdata3} alt="portal" />
 					</div>
 				</div>

@@ -20,7 +20,7 @@ const Healthcare = () => {
 			<MainHeader ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
-			<div className="healthcareHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
+			<div className="healthcareHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-center text-white">
 				<h1 className="mt-5 pt-5">EHS & Healthcare software development</h1>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
@@ -50,12 +50,15 @@ const Healthcare = () => {
 			<div className="caterStartup_container">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-8 align-self-center">
+						<div className="col-11 col-sm-10 col-md-8 mx-auto align-self-center">
 							<h1 className="themeText">
 								We also cater to startups and independent organisations looking
 								to launch innovative software products for the healthcare
 								industry.
 							</h1>
+							<div className="col-8 col-sm-6 col-md-4 mx-auto d-block d-md-none my-5 my-md-0 text-center align-self-center">
+								<img style={{ width: "50%" }} src={cater} alt="cater" />
+							</div>
 							<br />
 							<h4>
 								Have a ground-breaking mobile or web app idea to improve the
@@ -72,7 +75,7 @@ const Healthcare = () => {
 							<br />
 							<button className="themeBtn">LETS TALK</button>
 						</div>
-						<div className="col-4 text-center align-self-center">
+						<div className="col-4 d-none d-md-block text-center align-self-center">
 							<img style={{ width: "50%" }} src={cater} alt="cater" />
 						</div>
 					</div>
