@@ -16,12 +16,12 @@ const MainHeader = ({ ClickEvent }) => {
 		<>
 			{/* <!-- ======== NAVBAR START =========== --> */}
 			<div className="NavbarContainer">
-				<div onClick={() => history.push("/")} className="logo_container">
-					<img src={Logo} alt="logo" />
+				<div className="logo_container">
+					<img onClick={() => history.push("/")} src={Logo} alt="logo" />
 				</div>
 				{/* <!-- HAMBURGER START --> */}
-				<div onClick={ClickEvent} className="hamburgerContainer HideClass">
-					<img src={hamburger} alt="hamburger" />
+				<div className="hamburgerContainer HideClass">
+					<img onClick={ClickEvent} src={hamburger} alt="hamburger" />
 				</div>
 				{/* <!-- HAMBURGER END --> */}
 				<ul>
