@@ -1,5 +1,5 @@
 import React from "react";
-import AboutStates from "../components/AboutStates";
+// import AboutStates from "../components/AboutStates";
 import CeoSection from "../components/CeoSection";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
@@ -10,7 +10,7 @@ import OurStory from "../components/OurStory";
 import OurTeam from "../components/OurTeam";
 import Sidebar from "../components/Sidebar";
 import Technologies from "../components/Technologies";
-import GetConnected from "../components/GetConnected";
+// import GetConnected from "../components/GetConnected";
 import { useHooks } from "../Hooks/useHooks";
 
 const AboutUs = () => {

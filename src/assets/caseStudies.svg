@@ -1,0 +1,3 @@
+{`d-flex ${
+									(uiux && "justify-content-start") || "justify-content-center"
+								} align-items-center mt-5 imgContainer1`}
