@@ -21,7 +21,7 @@ const Construction = () => {
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
 			<div className="constructionHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-center text-white">
-				<h1 className="mt-5 pt-5">Development for Constuction</h1>
+				<div className="mt-5 pt-5 display-4">Development for Constuction</div>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
 			<br />
@@ -31,13 +31,14 @@ const Construction = () => {
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold">
+					<h1 className="font-weight-bold display-4">
 						<span className="themeText">Software Development </span>
 						for construction Helps you
 					</h1>
 				</div>
 			</div>
 			{/* IDEAS PORTION END */}
+			<br />
 			<br />
 			<br />
 			<br />
@@ -49,7 +50,7 @@ const Construction = () => {
 				<div className="container-fluid">
 					<div className="row">
 						<div className="col-11 col-sm-10 col-md-8 mx-auto order-2 order-md-1 mt-5 mt-md-0">
-							<h1 className="themeText">CONSTRUCTION</h1>
+							<h1 className="themeText display-4">CONSTRUCTION</h1>
 							<br />
 							<h4>
 								Digital learning has quickly become a norm in this age of
@@ -72,7 +73,7 @@ const Construction = () => {
 								the best way possible.
 							</h4>
 							<br />
-							<button className="themeBtn">LETS TALK</button>
+							<button className="themeBtn mt-4">LETS TALK</button>
 						</div>
 						<div className="col-8 col-sm-6 col-md-4 mx-auto order-1 order-md-2 text-center align-self-center">
 							<img
@@ -86,6 +87,11 @@ const Construction = () => {
 			</div>
 			{/* CATER STARTUP END */}
 			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 			<ConstructionDetails />
 			<br />
 			{/* CATER STARTUP START */}
@@ -95,18 +101,20 @@ const Construction = () => {
 						<div className="col-12 col-md-10 mx-auto">
 							<div className="row">
 								<div className="col-11 col-sm-10 col-md-8 mx-auto">
-									<h1>How Software Development for Agriculture Works</h1>
+									<h1 className="display-4">
+										How Software Development for Agriculture Works
+									</h1>
 									<br />
 									<br />
-									<h4>
+									<h4 className="mb-4 font-weight-bold">
 										<img src={dot} alt="dot" className="mr-4" />
 										Integration and automation solutions
 									</h4>
-									<h4>
+									<h4 className="mb-4 font-weight-bold">
 										<img src={dot} alt="dot" className="mr-3" /> Big Data and
 										advanced analytics
 									</h4>
-									<h4>
+									<h4 className="mb-4 font-weight-bold">
 										<img src={dot} alt="dot" className="mr-3" /> Custom software
 										solutions
 									</h4>

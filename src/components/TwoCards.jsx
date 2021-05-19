@@ -12,11 +12,18 @@ const TwoCards = () => {
 					<div className="col-12 col-sm-8 col-md-5 mb-3 mb-md-0 text-center">
 						<div className="each_card p-5">
 							<div className="d-flex justify-content-between align-items-center w-100">
-								<div className="imgContainer w-25">
+								<div className="imgContainer">
 									<img src={telegram} alt="telegram" />
 								</div>
-								<div className="w-75 text-left ml-4">
-									<h2 className="h2">Ready to get started?</h2>
+								<div className="w-75 text-left ml-1">
+									<h2
+										style={{
+											fontFamily: "'Playfair Display', serif",
+										}}
+										className="h3 font-weight-bold"
+									>
+										Ready to get started?
+									</h2>
 									<h6 className="text-secondary h5">
 										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 										Nulla ducimus exercitationem impedit esse quia distinctio!
@@ -29,11 +36,18 @@ const TwoCards = () => {
 					<div className="col-12 col-sm-8 col-md-5 mt-4 mt-md-0 text-center">
 						<div className="each_card p-5">
 							<div className="d-flex justify-content-between align-items-center w-100">
-								<div className="imgContainer w-25">
+								<div className="imgContainer">
 									<img src={search} alt="search" />
 								</div>
-								<div className="w-75 text-left ml-4">
-									<h2 className="h2">DIARIES</h2>
+								<div className="w-75 text-left ml-1">
+									<h2
+										style={{
+											fontFamily: "'Playfair Display', serif",
+										}}
+										className="h3 font-weight-bold"
+									>
+										DIARIES
+									</h2>
 									<h6 className="text-secondary h5">
 										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 										Nulla ducimus exercitationem impedit esse quia distinctio!

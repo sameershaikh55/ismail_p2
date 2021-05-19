@@ -6,7 +6,7 @@ const OurProcess = () => {
 	return (
 		<div className="ourProcess_container">
 			<div className="container-fluid">
-				<h1 className="themeText">
+				<h1 className="themeText display-4 font-weight-bold">
 					<img style={{ width: "18px" }} src={process} alt="process" /> OUR
 					PROCESS
 				</h1>

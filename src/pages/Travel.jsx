@@ -46,9 +46,14 @@ const Travel = () => {
 			<br />
 			<br />
 			<br />
+			<br />
+			<br />
 			<CustomDesign img={travelAgency} />
 			<br />
 			<AboutClient />
+			<br />
+			<br />
+			<br />
 			<br />
 			<ChallengeAndSol />
 			<br />
@@ -58,7 +63,7 @@ const Travel = () => {
 			<div className="challengeAndSolution_container">
 				<div className="container-fluid">
 					<div className="text-center mt-5 px-2">
-						<h1 className="font-weight-bold">TEAM</h1>
+						<h1 className="display-4">TEAM</h1>
 						<h4 className="row text-secondary">
 							<div className="col-11 col-sm-10 col-md-8 mx-auto">
 								The team consisted of the technical lead, quality assurance

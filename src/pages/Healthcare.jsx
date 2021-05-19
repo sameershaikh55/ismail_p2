@@ -21,7 +21,9 @@ const Healthcare = () => {
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
 			<div className="healthcareHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-center text-white">
-				<h1 className="mt-5 pt-5">EHS & Healthcare software development</h1>
+				<div className="mt-5 pt-5 display-4">
+					EHS & Healthcare software development
+				</div>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
 			<br />
@@ -31,7 +33,7 @@ const Healthcare = () => {
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold">
+					<h1 className="font-weight-bold display-4">
 						<span className="themeText">Software Development </span>
 						for Healthcare Helps you
 					</h1>
@@ -42,7 +44,11 @@ const Healthcare = () => {
 			<br />
 			<br />
 			<br />
+			<br />
+			<br />
 			<Breadcrumb active="Healthcare" activeLink="/healthcare" />
+			<br />
+			<br />
 			<br />
 			<HealthcareOrg />
 			<br />
@@ -60,12 +66,12 @@ const Healthcare = () => {
 								<img style={{ width: "50%" }} src={cater} alt="cater" />
 							</div>
 							<br />
-							<h4>
+							<h4 className="lightColor">
 								Have a ground-breaking mobile or web app idea to improve the
 								quality of patient and personal healthcare? Or perhaps an idea
 								for an innovative medical device that can save lives?
 							</h4>
-							<h4>
+							<h4 className="lightColor mt-5">
 								You can leverage our decades-long experience of healthcare IT
 								consulting and development to bring your ideas to life. Reach
 								out to us with your project requirements and learn more about
@@ -73,7 +79,7 @@ const Healthcare = () => {
 								you.
 							</h4>
 							<br />
-							<button className="themeBtn">LETS TALK</button>
+							<button className="themeBtn px-5">LETS TALK</button>
 						</div>
 						<div className="col-4 d-none d-md-block text-center align-self-center">
 							<img style={{ width: "50%" }} src={cater} alt="cater" />
@@ -83,10 +89,17 @@ const Healthcare = () => {
 			</div>
 			{/* CATER STARTUP END */}
 			<br />
+			<br />
 			<WeOffering />
 			<br />
+			<br />
+			<br />
 			<WhyChoose />
+			<br />
+			<br />
 			<Build4 />
+			<br />
+			<br />
 			<br />
 			<Technologies />
 			<br />

@@ -8,11 +8,11 @@ const ConstructionDetails = () => {
 		<div className="travelPortal_container">
 			<div className="container-fluid">
 				<div className="row">
-					<div className="col-8 col-sm-6 col-md-4 mx-auto text-center">
+					<div className="ESpace col-8 col-sm-6 col-md-4 mx-auto text-center">
 						<img style={{ width: "38%" }} src={cDetails1} alt="portal" />
 					</div>
-					<div className="col-11 col-sm-10 col-md-8 mt-5 mt-md-0 mx-auto align-self-center">
-						<h1 className="grid_sideLine pl-4">
+					<div className="ESpace col-11 col-sm-10 col-md-8 mt-5 mt-md-0 mx-auto align-self-center">
+						<h1 className="grid_sideLine pl-4 display-4 themeText">
 							Optimise production, boost revenue
 						</h1>
 						<h4 className="pl-4 mt-4">
@@ -22,9 +22,8 @@ const ConstructionDetails = () => {
 							type and scrambled it to make a type specimen book.
 						</h4>
 					</div>
-
-					<div className="col-11 col-sm-10 col-md-8 mt-5 mt-md-0 order-4 order-md-3 mx-auto align-self-center mt-5">
-						<h1 className="grid_sideLine pl-4">
+					<div className="ESpace col-11 col-sm-10 col-md-8 mt-5 mt-md-0 order-4 order-md-3 mx-auto align-self-center">
+						<h1 className="grid_sideLine pl-4 display-4 themeText">
 							Use your data to plan production
 						</h1>
 						<h4 className="pl-4 mt-4">
@@ -34,15 +33,15 @@ const ConstructionDetails = () => {
 							type and scrambled it to make a type specimen book.
 						</h4>
 					</div>
-					<div className="col-8 col-sm-6 col-md-4 mx-auto order-3 order-md-4 text-center mt-5">
+					<div className="ESpace col-8 col-sm-6 col-md-4 mx-auto order-3 order-md-4 text-center mt-5">
 						<img style={{ width: "38%" }} src={cDetails2} alt="portal" />
 					</div>
 
-					<div className="col-8 col-sm-6 col-md-4 mx-auto text-center mt-5">
+					<div className="ESpace col-8 col-sm-6 col-md-4 mx-auto order-5 text-center mt-5">
 						<img style={{ width: "38%" }} src={cDetails3} alt="portal" />
 					</div>
-					<div className="col-11 col-sm-10 col-md-8 mt-5 mt-md-0 align-self-center mt-5">
-						<h1 className="grid_sideLine pl-4">
+					<div className="ESpace col-11 col-sm-10 col-md-8 mt-5 mt-md-0 order-6 align-self-center mt-5">
+						<h1 className="grid_sideLine pl-4 display-4 themeText">
 							Balance your supply and save revenue
 						</h1>
 						<h4 className="pl-4 mt-4">

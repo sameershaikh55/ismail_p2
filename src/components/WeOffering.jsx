@@ -11,15 +11,15 @@ const WeOffering = ({ weOfferingFunc, weOffer, education }) => {
 		<div className="UIUXSection_container">
 			<div className="container-fluid">
 				<div className="row">
-					<h1 className="font-weight-bold text-center col-11 col-sm-9 col-md-8 mx-auto">
+					<h1 className="text-center col-11 col-sm-9 col-md-8 mx-auto display-4">
 						<span className="themeText">WE</span> OFFERING
 					</h1>
-					<h5 className="col-11 col-sm-9 col-md-8 mx-auto text-center">
+					<h4 className="col-11 col-sm-9 col-md-8 mx-auto lightColor text-center mt-3">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
 						and scrambled it to make a type specimen book.
-					</h5>
+					</h4>
 					<div className="col-12 d-block d-md-none text-center my-5 my-md-0">
 						<img style={{ width: "80%" }} src={education1} alt="education1" />
 					</div>

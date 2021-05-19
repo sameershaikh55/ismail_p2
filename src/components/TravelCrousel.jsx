@@ -30,7 +30,7 @@ const TravelCrousel = () => {
 											<img style={{ width: "100%" }} src={prev} alt="travel" />
 										</div>
 										<div className="col-6 text-center text-white">
-											<h1 className="mb-4">Travel Agency</h1>
+											<h1 className="mb-4 display-4">Travel Agency</h1>
 											<h5>
 												Lorem Ipsum is simply dummy text of the printing and
 												typesetting industry. Lorem Ipsum has been the

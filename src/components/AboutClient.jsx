@@ -5,7 +5,7 @@ const AboutClient = () => {
 		<div className="aboutClient_container container-fluid text-white">
 			<div className="row">
 				<div className="col-12 col-sm-11 col-md-8 mx-auto">
-					<h1 className="text-center">ABOUT CLIENT</h1>
+					<h1 className="text-center display-4">ABOUT CLIENT</h1>
 					<h4 className="text-center mt-4">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text

@@ -22,12 +22,21 @@ const Main = () => {
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			<MainHero />
 			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 			<States />
+			<br />
 			<WhoWeAre />
+			<br />
 			<br />
 			<WhatWeOffer />
 			<br />
+			<br />
 			<Technologies />
+			<br />
 			<br />
 			<Build />
 			<br />
@@ -35,7 +44,11 @@ const Main = () => {
 			<br />
 			<TwoCards />
 			<br />
+			<br />
 			<History />
+			<br />
+			<br />
+			<br />
 			<br />
 			<ContactUs />
 			<Footer />

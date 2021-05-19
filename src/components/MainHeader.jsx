@@ -53,7 +53,7 @@ const MainHeader = ({ ClickEvent }) => {
 				</ul>
 				<div className="contactBtn">
 					<NavLink exact to="/start_A_Project">
-						Contact
+						Let's Talk
 					</NavLink>
 				</div>
 			</div>

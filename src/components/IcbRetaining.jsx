@@ -15,9 +15,14 @@ const IcbRetaining = ({ icb, ecommerce, travel }) => {
 					<div className="container-fluid">
 						<div className="row">
 							<div className="col-6 col-sm-4 col-md-3 mx-auto">
-								<img style={{ width: "100%" }} src={icbImg} alt="icb" />
+								<img
+									style={{ width: "100%" }}
+									className=""
+									src={icbImg}
+									alt="icb"
+								/>
 							</div>
-							<div className="col-11 col-sm-6 col-md-8 mt-5 mt-sm-0 mx-auto align-self-center">
+							<div className="col-11 col-sm-6 col-md-6 offset-3 mt-5 mt-sm-0 mx-auto align-self-center">
 								<h1 className="themeText"> ICB Retaining & Piling </h1>
 								<h4>
 									Lorem Ipsum is simply dummy text of the printing and
@@ -86,12 +91,12 @@ const IcbRetaining = ({ icb, ecommerce, travel }) => {
 				<div className="icbRetaining_container">
 					<div className="container-fluid">
 						<div className="row">
-							<div className="col-12 col-sm-8 col-md-5 mx-auto">
+							<div className="col-12 col-sm-8 col-md-6 mx-auto">
 								<img style={{ width: "100%" }} src={travelAgency} alt="icb" />
 							</div>
-							<div className="col-11 col-sm-10 col-md-7 mt-5 mt-sm-0 mx-auto align-self-center">
-								<h1 className="themeText"> Travel agency website </h1>
-								<h4>
+							<div className="col-11 col-sm-10 col-md-5 offset-2 mt-5 mt-sm-0 mx-auto align-self-center">
+								<h1 className="themeText display-4"> Travel agency website </h1>
+								<h4 className="lightColor">
 									Lorem Ipsum is simply dummy text of the printing and
 									typesetting industry. Lorem Ipsum has been the industry's
 									standard dummy text ever since the 1500s, when an unknown
@@ -158,12 +163,12 @@ const IcbRetaining = ({ icb, ecommerce, travel }) => {
 				<div className="icbRetaining_container">
 					<div className="container-fluid">
 						<div className="row">
-							<div className="col-12 col-sm-8 col-md-5 mx-auto align-self-center">
+							<div className="col-12 col-sm-8 col-md-6 mx-auto align-self-center">
 								<img style={{ width: "100%" }} src={ecommerce2} alt="icb" />
 							</div>
-							<div className="col-11 col-sm-10 col-md-7 mt-5 mt-sm-0 mx-auto align-self-center">
-								<h1 className="themeText"> Travel agency website </h1>
-								<h4>
+							<div className="col-11 col-sm-10 col-md-5 offset-2 mt-5 mt-sm-0 mx-auto align-self-center">
+								<h1 className="themeText display-4"> Travel agency website </h1>
+								<h4 className="mt-3">
 									Lorem Ipsum is simply dummy text of the printing and
 									typesetting industry. Lorem Ipsum has been the industry's
 									standard dummy text ever since the 1500s, when an unknown

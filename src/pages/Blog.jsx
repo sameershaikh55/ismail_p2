@@ -24,6 +24,11 @@ const Blog = () => {
 				</h4>
 			</div>
 			{/* ABOUT US HEADER IMAGE END */}
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
@@ -39,7 +44,11 @@ const Blog = () => {
 			</div>
 			{/* IDEAS PORTION END */}
 			<br />
+			<br />
 			<BlogBody />
+			<br />
+			<br />
+			<br />
 			<br />
 			<ContactUs />
 			<Footer />

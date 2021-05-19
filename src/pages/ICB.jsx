@@ -13,6 +13,7 @@ import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import { useHooks } from "../Hooks/useHooks";
 import icb from "../assets/construction.png";
+import Breadcrumb from "../components/Breadcrumb";
 
 const ICB = () => {
 	const { isOpen, OnClick } = useHooks();
@@ -28,7 +29,14 @@ const ICB = () => {
 			<br />
 			<IcbRetaining icb />
 			<br />
+			<Breadcrumb active="	ICB Retaining & Piling" activeLink="/icb" />
+			<br />
+			<br />
+			<br />
+			<br />
 			<AboutClient />
+			<br />
+			<br />
 			<br />
 			<ClientRequirement />
 			<br />

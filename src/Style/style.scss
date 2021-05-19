@@ -48,6 +48,10 @@ html {
 	}
 }
 
+.lightColor {
+	color: #a5a3a3;
+}
+
 .themeBtn {
 	background-color: $themeColor;
 	padding: 0.6rem 2.6rem;
@@ -186,9 +190,9 @@ html {
 
 	.contactBtn a {
 		color: #fff;
-		border: 3px solid $themeColor;
-		padding: 0.7rem 2.7rem;
-		border-radius: 10px;
+		background: $themeColor;
+		padding: 0.8rem 3.2rem;
+		border-radius: 8px;
 		text-decoration: none;
 		font-size: 1.3rem;
 		font-weight: 600;
@@ -504,7 +508,7 @@ html {
 		margin: auto;
 
 		img {
-			width: 14%;
+			width: 12%;
 			height: auto;
 		}
 
@@ -577,7 +581,8 @@ html {
 
 	h1 {
 		position: relative;
-		font-size: 2rem;
+		font-size: 3.5rem;
+		font-weight: 600;
 
 		&::after {
 			content: "";
@@ -585,7 +590,7 @@ html {
 			right: 0%;
 			top: 0%;
 			height: 100%;
-			width: 0.5rem;
+			width: 0.3rem;
 			background-color: $themeColor;
 			border-radius: 5px;
 		}
@@ -609,7 +614,7 @@ html {
 
 		.imgContainer {
 			img {
-				width: 100%;
+				width: 72%;
 				height: auto;
 			}
 		}
@@ -629,6 +634,8 @@ html {
 		background-color: transparent;
 		height: 25px;
 		padding: 0rem 0.8rem;
+		font-weight: bold;
+		font-size: 1.2rem;
 
 		&:focus {
 			border: none;
@@ -641,6 +648,8 @@ html {
 		border: none;
 		overflow: none;
 		padding: 0.7rem;
+		font-weight: bold;
+		font-size: 1.2rem;
 	}
 
 	.imgContainer1 {
@@ -709,7 +718,7 @@ html {
 
 .copyWriteLine {
 	background-color: $themeColor;
-	font-size: 1.9rem;
+	font-size: 1.5rem;
 }
 /* ==== FOOTER END ==== */
 
@@ -721,7 +730,7 @@ html {
 			rgba(0, 0, 0, 0.7) 100%
 		),
 		url("../assets/mainImg.png");
-	height: 95px;
+	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -844,7 +853,7 @@ html {
 /* ==== OUR STORY (ABOUT US) START ==== */
 .ourStory_container {
 	h1 {
-		font-size: 3rem;
+		font-size: 5rem;
 	}
 }
 /* ==== OUR STORY (ABOUT US) END ==== */
@@ -896,6 +905,34 @@ html {
 /* ==== OUR PORTFOLIO (ABOUT US) END ==== */
 
 /* ==================== SLICK SLIDER STYLING START ==================== */
+.slick-prev {
+	left: -160px !important;
+	top: 48% !important;
+}
+.slick-next {
+	right: -160px !important;
+	top: 48% !important;
+}
+.slick-prev:before {
+	background-image: url(../assets/leftArrow.png) !important;
+	background-size: 22px 40px !important;
+	background-repeat: no-repeat;
+	object-fit: fill;
+	display: inline-block !important;
+	width: 86px !important;
+	height: 55px !important;
+	content: "" !important;
+}
+.slick-next:before {
+	background-image: url(../assets/rightArrow.png) !important;
+	background-size: 22px 40px !important;
+	background-repeat: no-repeat;
+	object-fit: fill;
+	display: inline-block !important;
+	width: 86px !important;
+	height: 55px !important;
+	content: "" !important;
+}
 .slick-prev:before,
 .slick-next:before {
 	font-size: 28px !important;
@@ -1352,17 +1389,13 @@ html {
 			width: 100%;
 		}
 	}
-
-	h1 {
-		font-size: 2.8rem;
-	}
 }
 /* ==== CASE STUDIES END ==== */
 
 /* ==== HER0 2 HEADER START ==== */
 .hero2_container {
 	background-image: url(../assets/hero2.svg);
-	height: 350px;
+	height: 400px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1372,6 +1405,16 @@ html {
 /* ==== ICB UNDER HEADER START ==== */
 .icb_container {
 	margin-top: 18rem;
+}
+@media screen and (min-width: 1300px) {
+	.icb_container {
+		margin-top: 35rem;
+	}
+}
+@media screen and (min-width: 1220px) {
+	.icb_container {
+		margin-top: 30rem;
+	}
 }
 @media screen and (max-width: 1100px) {
 	.icb_container {
@@ -1593,3 +1636,16 @@ html {
 	background-size: cover;
 }
 /* ==== EDUCATION SECTION END ==== */
+
+/* ==== EXTRA SPACING SECTION START ==== */
+.travelPortal_container,
+.challengeAndSolution_container,
+.travelPortal_container,
+.UIUXSection_container {
+	@media screen and (min-width: 768px) {
+		.ESpace {
+			margin-bottom: 12rem;
+		}
+	}
+}
+/* ==== EXTRA SPACING SECTION END ==== */

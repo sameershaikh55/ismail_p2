@@ -6,7 +6,7 @@ const Planning = () => {
 		<div className="planning_container">
 			<div className="container-fluid">
 				<div className="row">
-					<h1 className="col-12 text-center">PLANNING</h1>
+					<h1 className="col-12 text-center display-4">PLANNING</h1>
 					<h4 className="col-12 col-sm-10 col-md-8 mx-auto mt-3 mb-2 text-center">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text

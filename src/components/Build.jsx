@@ -36,7 +36,7 @@ const Build = () => {
 							explicabo dolorum! Aut?
 						</h6>
 						<button
-							onClick={() => history.push("/appDevelopment")}
+							onClick={() => history.push("/icb")}
 							className="themeBtn2 mt-3"
 						>
 							VIEW CASE STUDY

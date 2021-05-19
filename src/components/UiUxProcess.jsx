@@ -9,7 +9,7 @@ const UiUxProcess = () => {
 	return (
 		<div className="uiUxProcess_container">
 			<div className="container-fluid">
-				<h1 className="themeText">
+				<h1 className="themeText display-4 font-weight-bold">
 					<img style={{ width: "18px" }} src={process} alt="process" /> OUR
 					PROCESS
 				</h1>
@@ -19,7 +19,7 @@ const UiUxProcess = () => {
 				<div className="row">
 					{/* 1 PROCESS START */}
 					<div className="col-3 col-sm-5">
-						<h2 className="font-weight-bolder">Discuss</h2>
+						<h2 className="font-weight-bolder display-4">Discuss</h2>
 					</div>
 					<div className="col-2 col-sm-1">
 						<img
@@ -49,7 +49,7 @@ const UiUxProcess = () => {
 
 					{/* 2 PROCESS START */}
 					<div className="col-3 col-sm-5">
-						<h2 className="font-weight-bolder">Research</h2>
+						<h2 className="font-weight-bolder display-4">Research</h2>
 					</div>
 					<div className="col-2 col-sm-1">
 						<img
@@ -80,7 +80,7 @@ const UiUxProcess = () => {
 					<div className="col-3 col-sm-5">
 						<h2
 							style={{ wordBreak: "break-word" }}
-							className="font-weight-bolder"
+							className="font-weight-bolder display-4"
 						>
 							Wireframes & Prototype
 						</h2>
@@ -114,7 +114,7 @@ const UiUxProcess = () => {
 
 					{/* 4 PROCESS START */}
 					<div className="col-3 col-sm-5">
-						<h2 className="font-weight-bolder">Design Process</h2>
+						<h2 className="font-weight-bolder display-4">Design Process</h2>
 					</div>
 					<div className="col-2 col-sm-1">
 						<img
@@ -142,7 +142,7 @@ const UiUxProcess = () => {
 
 					{/* 5 PROCESS START */}
 					<div className="col-3 col-sm-5">
-						<h2 className="font-weight-bolder">Testing</h2>
+						<h2 className="font-weight-bolder display-4">Testing</h2>
 					</div>
 					<div className="col-2 col-sm-1">
 						<img

@@ -15,7 +15,7 @@ const ClientRequirement = () => {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-12">
-						<h1 className="text-center">CLIENT REQUIREMENTS</h1>
+						<h1 className="text-center display-4">CLIENT REQUIREMENTS</h1>
 					</div>
 					<h4 className="col-12 col-sm-10 col-md-8 mx-auto mt-3 mb-2 text-center">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -25,9 +25,12 @@ const ClientRequirement = () => {
 					</h4>
 				</div>
 				<div className="row mt-3">
-					{clientReq.map((prev) => {
+					{clientReq.map((prev, i) => {
 						return (
-							<div className="col-12 col-sm-6 col-md-4 mt-5 text-center">
+							<div
+								key={i}
+								className="col-12 col-sm-6 col-md-4 mt-5 text-center"
+							>
 								<img style={{ width: "20%" }} src={diamond} alt="diamond" />
 								<h4 className="col-12 col-sm-10 mx-auto mt-4">{prev}</h4>
 							</div>

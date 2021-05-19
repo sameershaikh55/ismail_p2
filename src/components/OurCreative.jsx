@@ -2,17 +2,20 @@ import React from "react";
 import image from "../assets/ourCreative.png";
 
 const OurCreative = () => {
+	const fontSize = {
+		fontSize: "4rem",
+	};
 	return (
 		<div className="ourCreative_container">
 			{/* UPPER SECTION START */}
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-12 text-center">
-						<h1 className="themeText">Our creative heads build</h1>
-						<h1 className="text-secondary mt-n3">
-							beautiful digital products.
+						<h1 className="themeText">
+							Our creative heads build{" "}
+							<span className="lightColor">beautiful digital products.</span>
 						</h1>
-						<h5>
+						<h5 className="lightColor">
 							Software and mobile app development for businesses from across the
 							globe.
 						</h5>
@@ -31,12 +34,15 @@ const OurCreative = () => {
 			<br />
 			<br />
 			<br />
+			<br />
+			<br />
+			<br />
 
 			{/* LOWER SECTION START */}
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-12 col-sm-6 mb-2 mb-sm-0 text-center">
-						<h1>
+						<h1 style={fontSize}>
 							<span className="themeText">OUR</span> APPROCH
 						</h1>
 						<h5 className="w-75 mx-auto">
@@ -45,7 +51,7 @@ const OurCreative = () => {
 						</h5>
 					</div>
 					<div className="col-12 col-sm-6 mt-5 mt-sm-0 text-center">
-						<h1>
+						<h1 style={fontSize}>
 							<span className="themeText">OUR</span> MISSION
 						</h1>
 						<h5 className="w-75 mx-auto">

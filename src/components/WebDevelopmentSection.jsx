@@ -6,7 +6,7 @@ const WebDevelopmentSection = ({ heading, image }) => {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-12 col-sm-9 col-md-8 order-2 order-md-1 mb-5 mb-md-0 mt-5 mt-md-0 mx-auto align-self-center text-left py-3 pl-5 my-5">
-						<h1 className="font-weight-bold">
+						<h1 className="font-weight-bold display-4">
 							{(heading === "DESIGN AND BRANDING" && "DESIGN AND BRANDING") || (
 								<>
 									<span className="themeText"> {heading} </span> DEVELOPMENT
@@ -14,8 +14,8 @@ const WebDevelopmentSection = ({ heading, image }) => {
 							)}
 						</h1>
 						<h4
-							className={`text-secondary ${
-								heading === "DESIGN AND BRANDING" && "grid_sideLine pl-4"
+							className={`${
+								heading === "DESIGN AND BRANDING" && "grid_sideLine pl-4 mt-3"
 							}`}
 						>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
@@ -26,7 +26,7 @@ const WebDevelopmentSection = ({ heading, image }) => {
 						</h4>
 						<button
 							// onClick={() => history.push("/webDevelopment")}
-							className="themeBtn2 mt-3"
+							className="themeBtn mt-5"
 						>
 							LETS TALK
 						</button>

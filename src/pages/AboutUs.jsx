@@ -29,9 +29,12 @@ const AboutUs = () => {
 						Websites. Best-In-Class UX And Compelling
 					</div>
 				</h4>
-				<button className="themeBtn text-capitalize">Let's Talk</button>
 			</div>
 			{/* ABOUT US HEADER IMAGE END */}
+			<br />
+			<br />
+			<br />
+			<br />
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
@@ -49,20 +52,32 @@ const AboutUs = () => {
 				</div>
 			</div>
 			{/* IDEAS PORTION END */}
-			<AboutStates />
+			<br />
+			<br />
+			{/* <AboutStates /> */}
 			<br />
 			<OurStory />
 			<br />
 			<OurCreative />
 			<br />
+			<br />
+			<br />
 			<Technologies />
 			<br />
 			<CeoSection />
 			<br />
+			<br />
+			<br />
 			<OurTeam />
 			<br />
+			<br />
+			<br />
 			<OurPortfolio />
-			<GetConnected />
+			{/* <GetConnected /> */}
+			<br />
+			<br />
+			<br />
+			<br />
 			<br />
 			<ContactUs />
 			<Footer />

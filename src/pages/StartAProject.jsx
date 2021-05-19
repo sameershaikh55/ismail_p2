@@ -12,9 +12,10 @@ const StartAProject = () => {
 			<MainHeader ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* HEADER IMAGE START */}
-			<div className="startAProject_heroSection"></div>
+			<div className="startAProject_heroSection">
+				<StartProjectBody />
+			</div>
 			{/* HEADER IMAGE END */}
-			<StartProjectBody />
 			<Footer />
 		</>
 	);

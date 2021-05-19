@@ -5,19 +5,19 @@ const Delivered2 = ({ laptop1, laptop2, laptop3 }) => {
 		<div className="delivered2_container">
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold">WHAT WE DEILIVERED</h1>
-					<h4 className="row text-secondary">
+					<h1 className="display-4">WHAT WE DEILIVERED</h1>
+					<h5 className="row">
 						<div className="col-11 col-sm-10 col-md-8 mx-auto">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text
 							ever since the 1500s, when an unknown printer took a galley of
 							type and scrambled it to make a type specimen book.
 						</div>
-					</h4>
+					</h5>
 				</div>
 				<div className="row">
 					<div className="col-11 col-md-6 mx-auto align-self-center order-2 order-md-1">
-						<h1>Choose an individual tours</h1>
+						<h1 className="display-4">Choose an individual tours</h1>
 						<h4>
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text
@@ -33,7 +33,7 @@ const Delivered2 = ({ laptop1, laptop2, laptop3 }) => {
 						<img style={{ width: "100%" }} src={laptop2} alt="laptop" />
 					</div>
 					<div className="col-11 col-md-6 mx-auto align-self-center order-4 order-md-3">
-						<h1>Our Tours</h1>
+						<h1 className="display-4">Our Tours</h1>
 						<h4>
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text
@@ -43,7 +43,7 @@ const Delivered2 = ({ laptop1, laptop2, laptop3 }) => {
 					</div>
 
 					<div className="col-11 col-md-6 mx-auto align-self-center order-6 order-md-5">
-						<h1>News</h1>
+						<h1 className="display-4">News</h1>
 						<h4>
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text

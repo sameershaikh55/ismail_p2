@@ -7,7 +7,7 @@ import ecommerce1Header from "../assets/ecommerce1Header.png";
 import IcbRetaining from "../components/IcbRetaining";
 import CustomDesign from "../components/CustomDesign";
 import ecommerce3 from "../assets/ecommerce3.png";
-import TravelCrousel from "../components/TravelCrousel";
+// import TravelCrousel from "../components/TravelCrousel";
 import AboutClient from "../components/AboutClient";
 import ChallengeAndSol from "../components/ChallengeAndSol";
 import Delivered2 from "../components/Delivered2";
@@ -31,11 +31,18 @@ const ECommerceWeb = () => {
 				description="Innovating the world inside your pocket with mobile apps that entice and engage."
 				img={ecommerce1Header}
 			/>
+			<br />
+			<br />
+			<br />
+			<br />
 			<IcbRetaining ecommerce />
+			<br />
+			<br />
 			<br />
 			<br />
 			<Breadcrumb active="E-commerce web" activeLink="/ecommerce" />
 			<br />
+			{/* <br />
 			<br />
 			<br />
 			<br />
@@ -43,7 +50,7 @@ const ECommerceWeb = () => {
 			<br />
 			<TravelCrousel />
 			<br />
-			<br />
+			<br /> */}
 			<br />
 			<br />
 			<CustomDesign img={ecommerce3} />

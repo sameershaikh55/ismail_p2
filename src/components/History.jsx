@@ -11,7 +11,7 @@ const History = () => {
 			</h1>
 			<button
 				onClick={() => history.push("/start_A_Project")}
-				className="themeBtn mt-4"
+				className="themeBtn mt-4 h5 m-0 py-4"
 			>
 				start project
 			</button>

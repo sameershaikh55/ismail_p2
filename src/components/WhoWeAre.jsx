@@ -17,6 +17,8 @@ const WhoWeAre = () => {
 						voluptates
 					</div>
 				</h6>
+				<br />
+				<br />
 				<div className="imageContainer">
 					<div className="d-flex justify-content-between px-5 px-md-0 my-5">
 						<img src={placeholder} alt="placeholder" />
@@ -47,6 +49,8 @@ const WhoWeAre = () => {
 						/>
 					</div>
 				</div>
+				<br />
+				<br />
 				<button className="themeBtn mt-3">lets talk</button>
 			</div>
 		</div>

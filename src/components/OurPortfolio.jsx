@@ -15,6 +15,18 @@ const OurPortfolio = ({ portfolioFunc, portfolio }) => {
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		initialSlide: 0,
+		responsive: [
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true,
+					arrows: false,
+				},
+			},
+		],
 	};
 	return (
 		<div className="ourPortfolio_container">
@@ -46,8 +58,11 @@ const OurPortfolio = ({ portfolioFunc, portfolio }) => {
 				<br />
 				<br />
 				<div className="row">
-					<h2 className="col-12 text-center">CLIENT: ABC</h2>
-					<h5 className="col-12 col-sm-10 mx-auto text-center">
+					<h2 className="col-12 text-center lightColor">CLIENT: ABC</h2>
+					<br />
+					<br />
+					<br />
+					<h5 className="col-12 col-sm-10 mx-auto text-center lightColor">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum hmy text ever since the 1500s, when an unknown
 						printer took a galley of type and scrambled it to make a type

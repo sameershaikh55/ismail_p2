@@ -23,14 +23,14 @@ const Build4 = ({ build4, build4Func }) => {
 				<div className="row">
 					<div className="col-12 col-md-5 order-2 order-md-1 text-center text-md-left mt-5 mt-md-0 align-self-center">
 						<h1 className=" mt-5 mt-md-0">
-							<span className="themeText">WE Can</span> Build
+							<span className="themeText display-4">WE Can</span> Build
 						</h1>
-						<h4 className="mt-2 mx-auto">
+						<h3 className="mt-3 mx-auto">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum hmy text ever since th into electronic
 							typesetting, remaining essentially unchanged.
-						</h4>
-						<button className="themeBtn2 mt-3">LETS START</button>
+						</h3>
+						<button className="themeBtn2 mt-4 h3">LETS START</button>
 					</div>
 					<div className="col-12 col-md-7 order-1 order-md-2 mb-5 mb-md-0">
 						<Slider {...settings}>

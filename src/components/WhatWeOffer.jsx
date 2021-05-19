@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 
 function Content1({ whatWeOfferIS }) {
 	return (
-		<div className="row justify-content-center">
+		<div className="row">
 			{whatWeOfferIS[0] &&
 				whatWeOfferIS[0].first.map((prev, i) => {
 					return (
@@ -15,7 +15,7 @@ function Content1({ whatWeOfferIS }) {
 								src={prev.image}
 								alt="offers"
 							/>
-							<h6 className="mt-3 h5 w-75 m-auto"> {prev.name} </h6>
+							<h6 className="mt-3 h5 mx-auto font-weight-bold">{prev.name}</h6>
 						</div>
 					);
 				})}
@@ -24,7 +24,7 @@ function Content1({ whatWeOfferIS }) {
 }
 function Content2({ whatWeOfferIS }) {
 	return (
-		<div className="row justify-content-center">
+		<div className="row">
 			{whatWeOfferIS[0] &&
 				whatWeOfferIS[0].second.map((prev, i) => {
 					return (
@@ -34,7 +34,9 @@ function Content2({ whatWeOfferIS }) {
 								src={prev.image}
 								alt="offers"
 							/>
-							<h6 className="mt-3 h5 w-75 m-auto"> {prev.name} </h6>
+							<h6 className="mt-3 h5 w-75 m-auto font-weight-bold">
+								{prev.name}
+							</h6>
 						</div>
 					);
 				})}
@@ -57,7 +59,7 @@ const WhatWeOffer = ({ whatWeOfferIS, whatWeOfferFunc }) => {
 			<div className="d-flex justify-content-center">
 				<CoolTabs
 					tabKey={"1"}
-					style={{ width: 600, height: 270, background: "transparent" }}
+					style={{ width: 650, height: 270, background: "transparent" }}
 					activeTabStyle={{ background: "transparent", color: "#2365b1" }}
 					unActiveTabStyle={{ background: "transparent", color: "black" }}
 					activeLeftTabBorderBottomStyle={{

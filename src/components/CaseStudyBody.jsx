@@ -19,12 +19,24 @@ const CaseStudyBody = ({ caseStudyFunc, caseStudy }) => {
 							<div className="container-fluid py-5">
 								<div className="row">
 									<div className="col-11 col-sm-10 col-md-6 order-2 order-lg-1 mx-auto align-self-center grid_sideLine pl-5">
-										<h1 className="font-weight-bolder"> {title} </h1>
-										<h4>{desc}</h4>
+										<h1
+											className={`font-weight-bolder display-4 ${
+												(i === 1 && "text-white") || (i === 2 && "text-white")
+											}`}
+										>
+											{title}
+										</h1>
+										<h4
+											className={`mt-4 ${
+												(i === 1 && "text-white") || (i === 2 && "text-white")
+											}`}
+										>
+											{desc}
+										</h4>
 										<br />
 										<button
 											onClick={() => history.push(link)}
-											className="themeBtn2"
+											className="themeBtn2 mt-3"
 										>
 											VIEW CASE STUDY
 										</button>

@@ -12,7 +12,7 @@ const Hero2 = ({ heading, description, img }) => {
 						<div className="col-12 col-sm-9 mx-auto">
 							<div style={{ marginTop: "12rem" }} className="row">
 								<div className="col-11 col-sm-10 col-md-6 mx-auto align-self-center">
-									<h1 className="font-weight-bolder"> {heading} </h1>
+									<h1 className="display-3"> {heading} </h1>
 									<h4>{description}</h4>
 
 									{heading === "ICB Retaining App" && (

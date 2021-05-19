@@ -20,7 +20,7 @@ const TravelHelps = () => {
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
 			<div className="travelHelpHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
-				<h1 className="mt-5 pt-5">Travel & Leisure solution</h1>
+				<div className="mt-5 pt-5 display-4">Travel & Leisure solution</div>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
 			<br />
@@ -30,13 +30,14 @@ const TravelHelps = () => {
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold">
+					<h1 className="font-weight-bold display-4">
 						<span className="themeText">Software Development </span>
 						for Travel Helps you
 					</h1>
 				</div>
 			</div>
 			{/* IDEAS PORTION END */}
+			<br />
 			<br />
 			<br />
 			<br />

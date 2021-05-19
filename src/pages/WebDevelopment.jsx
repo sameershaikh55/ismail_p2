@@ -18,14 +18,17 @@ const WebDevelopment = () => {
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
 			<div className="webDevelopmentHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
-				<h1 className="mt-5 pt-5">Web Development</h1>
+				<div className="mt-5 pt-5 display-4">Web Development</div>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
+			<br />
+			<br />
+			<br />
 			<br />
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold">
+					<h1 className="font-weight-bold display-4">
 						<span className="themeText">Industry Leaders In</span> Web
 						Development
 					</h1>
@@ -39,6 +42,8 @@ const WebDevelopment = () => {
 				</div>
 			</div>
 			{/* IDEAS PORTION END */}
+			<br />
+			<br />
 			<br />
 			<WebDevelopmentSection heading="WEB" image={development} />
 			<OurProcess />

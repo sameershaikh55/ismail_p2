@@ -19,18 +19,21 @@ const UIUX = () => {
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* WEB DEVELOPMENT HEADER IMAGE START */}
 			<div className="uiUxDesigningHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
-				<h1 className="mt-5 pt-5">UI / UX Designing</h1>
+				<div className="mt-5 pt-5 display-4">UI / UX Designing</div>
 			</div>
 			{/* WEB DEVELOPMENT HEADER IMAGE END */}
+			<br />
+			<br />
+			<br />
 			<br />
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold">
+					<h1 className="font-weight-bold display-4">
 						<span className="themeText">Industry Leaders In</span> UI / UX
 						Designing
 					</h1>
-					<h4 className="row text-secondary">
+					<h4 className="row text-secondary mt-4">
 						<div className="col-12 col-sm-10 col-md-8 col-lg-7 m-auto">
 							When It Comes To Website Development, We Push The Limits And Set
 							New Standards By Creating Functionally Rich And Aesthetically
@@ -40,6 +43,9 @@ const UIUX = () => {
 				</div>
 			</div>
 			{/* IDEAS PORTION END */}
+			<br />
+			<br />
+			<br />
 			<br />
 			<WebDevelopmentSection
 				heading="DESIGN AND BRANDING"
@@ -54,7 +60,7 @@ const UIUX = () => {
 			{/* READY WORK PORTION START */}
 			<div className="container-fluid mt-n5">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold themeText">WE ARE READY TO WORK</h1>
+					<h1 className="themeText display-4">WE ARE READY TO WORK</h1>
 					<h4 className="row text-secondary">
 						<div className="col-12 col-sm-10 col-md-8 col-lg-7 m-auto">
 							When It Comes To Website Development, We Push The Limits And Set
@@ -68,7 +74,7 @@ const UIUX = () => {
 			<br />
 			<GetConnected />
 			<br />
-			<ContactUs />
+			<ContactUs uiux />
 			<Footer />
 		</>
 	);
