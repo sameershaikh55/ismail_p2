@@ -29,7 +29,7 @@ const Footer = () => {
 						<img src={skype} alt="skype" className="ml-3" />
 					</div>
 				</div>
-				<div className="d-flex justify-content-center mt-4 mx-auto align-items-center">
+				{/* <div className="d-flex justify-content-center mt-4 mx-auto align-items-center">
 					<div className="d-flex align-items-center mr-4">
 						<img src={message} alt="message" />
 						<a className="ml-2 mt-1 text-dark h5" href="info@gmail.com">
@@ -42,7 +42,7 @@ const Footer = () => {
 							877596621
 						</a>
 					</div>
-				</div>
+				</div> */}
 			</div>
 			<div className="copyWriteLine text-center pt-4 pb-4 px-1 text-white">
 				© 2020Lozpdata . All Rights Reserved. Terms Of Use. Privacy Policy.
