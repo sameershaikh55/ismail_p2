@@ -4,8 +4,8 @@ import insta from "../assets/insta.svg";
 import linkdin from "../assets/linkdin.svg";
 import skype from "../assets/skype.svg";
 import logoDark from "../assets/logoDark.png";
-import phone from "../assets/phone.svg";
-import message from "../assets/message.svg";
+// import phone from "../assets/phone.svg";
+// import message from "../assets/message.svg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
