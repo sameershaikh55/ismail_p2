@@ -732,14 +732,15 @@ html {
 
 /* ==== START A PROJECT START ==== */
 .startAProject_heroSection {
-	padding-top: 20rem;
+	padding-top: 18rem;
+	padding-bottom: 3rem;
 	background-image: linear-gradient(
 			-30deg,
 			rgba(0, 0, 0, 0.7) 0%,
 			rgba(0, 0, 0, 0.7) 100%
 		),
 		url(../assets/startAProject.png);
-	height: 850px;
+	// height: 650px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -747,7 +748,7 @@ html {
 
 @media screen and (max-width: 750px) {
 	.startAProject_heroSection {
-		padding-top: 12rem;
+		padding-top: 10rem;
 	}
 }
 

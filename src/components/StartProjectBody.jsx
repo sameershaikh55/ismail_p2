@@ -71,11 +71,11 @@ const StartProjectBody = () => {
 							</div>
 							<div className="d-flex justify-content-center justify-content-md-start mt-4 imgContainer2">
 								<button className="themeBtn d-flex justify-content-center align-items-center">
-									SUBMIT <img className="ml-3" src={submit} alt="submit" />
+									Send <img className="ml-3" src={submit} alt="submit" />
 								</button>
 							</div>
 						</div>
-						<div className="col-12 col-md-4 align-self-center startIconsContainer">
+						<div className="col-10 col-sm-6 mx-auto col-md-4 align-self-center startIconsContainer">
 							<div className="d-flex align-items-center">
 								<AiOutlineMail className="icon" />
 								<div className="text-white h3 mb-0 ml-3">info@Lozpdata.com</div>
