@@ -51,23 +51,20 @@ const MainHeader = ({ ClickEvent, startAProject }) => {
 						</NavLink>
 					</li>
 				</ul>
-				{startAProject &&
-					((
-						<div className="contactBtn">
-							<NavLink exact to="/start_A_Project">
-								Let's Talk
-							</NavLink>
-						</div>
-					) || (
-						<div
-							style={{ color: "#2365b1", background: "#fff" }}
-							className="contactBtn"
-						>
-							<NavLink exact to="/start_A_Project">
-								Let's Talk
-							</NavLink>
-						</div>
-					))}
+				{startAProject && (
+					<div className="contactBtn2">
+						<NavLink exact to="/start_A_Project">
+							Let's Talk
+						</NavLink>
+					</div>
+				)}
+				{!startAProject && (
+					<div className="contactBtn">
+						<NavLink exact to="/start_A_Project">
+							Let's Talk
+						</NavLink>
+					</div>
+				)}
 			</div>
 			{/* <!-- ======== NAVBAR END =========== --> */}
 		</>
