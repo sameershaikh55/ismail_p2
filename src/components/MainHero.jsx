@@ -3,8 +3,11 @@ import icon1 from "../assets/mainIcon1.svg";
 import icon2 from "../assets/mainIcon2.svg";
 import icon3 from "../assets/mainIcon3.svg";
 import icon4 from "../assets/mainIcon4.svg";
+import { useHistory } from "react-router-dom";
 
 const MainHero = () => {
+	let history = useHistory();
+
 	return (
 		<div className="mainHero_container">
 			<div className="container-fluid text-center">
@@ -15,7 +18,12 @@ const MainHero = () => {
 				<br />
 				{/* <p>Software Company</p> */}
 				<br />
-				<button className="themeBtn px-5">lets talk</button>
+				<button
+					onClick={() => history.push("/start_A_Project")}
+					className="themeBtn px-5"
+				>
+					lets talk
+				</button>
 				<div className="mainIcons_container">
 					<img src={icon1} alt="icon" />
 					<img src={icon2} alt="icon" />
