@@ -28,7 +28,7 @@ const Technologies = () => {
 							</TabList>
 
 							<TabPanel className="my-2">
-								<TechnologyBody />
+								<TechnologyBody mobile />
 							</TabPanel>
 							<TabPanel>
 								<TechnologyBody fontEnd />

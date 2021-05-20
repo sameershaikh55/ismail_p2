@@ -9,11 +9,12 @@ const StartAProject = () => {
 	const { isOpen, OnClick } = useHooks();
 	return (
 		<>
-			<MainHeader ClickEvent={OnClick} />
+			<MainHeader ClickEvent={OnClick} startAProject />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* HEADER IMAGE START */}
-			<div className="startAProject_heroSection"></div>
-			<StartProjectBody />
+			<div className="startAProject_heroSection">
+				<StartProjectBody />
+			</div>
 			{/* HEADER IMAGE END */}
 			<Footer />
 		</>

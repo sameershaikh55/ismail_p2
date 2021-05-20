@@ -51,11 +51,13 @@ const BlogBody = ({ bodyCard, blogFunc }) => {
 								<div className="blogBody_card mt-5">
 									<img src={img} alt={title} />
 									<div>
-										<h1 className="pt-4 pb-2 px-1 text-center">
+										<h1 className="pt-4 pb-2 px-1 text-center font-weight-bold">
 											<span className="themeText">{titleSplit[0]} </span>
 											{titleSplit[1]}
 										</h1>
-										<h5 className="pb-4 px-3 text-center">{desc}</h5>
+										<h5 className="pb-4 px-3 text-center text-secondary">
+											{desc}
+										</h5>
 									</div>
 								</div>
 							</div>

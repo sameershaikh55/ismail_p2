@@ -8,11 +8,14 @@ const MainHero = () => {
 	return (
 		<div className="mainHero_container">
 			<div className="container-fluid text-center">
-				<h1>Your technology partner for innovative and impactful digital solutions</h1>
+				<h1>
+					Your technology partner <br /> for innovative and impactful digital
+					solutions
+				</h1>
 				<br />
 				{/* <p>Software Company</p> */}
 				<br />
-				<button className="themeBtn">lets talk</button>
+				<button className="themeBtn px-5">lets talk</button>
 				<div className="mainIcons_container">
 					<img src={icon1} alt="icon" />
 					<img src={icon2} alt="icon" />

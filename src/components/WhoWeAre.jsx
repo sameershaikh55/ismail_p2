@@ -5,12 +5,15 @@ const WhoWeAre = () => {
 	return (
 		<div className="whoWeAre_container">
 			<div className="container-fluid text-center">
-				<h1 className="text-center mb-4">
+				<h1 className="text-center mb-4 display-4">
 					<span className="themeText">WHO WE</span> ARE
 				</h1>
 				<h6 className="row text-center text-secondary">
 					<div className="col-11 col-sm-10 col-md-8 m-auto">
-					LozpData is the Software Development company leading the world’s enterprises, startups, and technology challenges. We help businesses elevate their value through custom software development, product design, QA, and consultancy services.
+						LozpData is the Software Development company leading the world’s
+						enterprises, startups, and technology challenges. We help businesses
+						elevate their value through custom software development, product
+						design, QA, and consultancy services.
 					</div>
 				</h6>
 				<br />

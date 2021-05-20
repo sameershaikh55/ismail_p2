@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png";
 import hamburger from "../assets/hamburger.svg";
 import { useHistory } from "react-router-dom";
 
-const MainHeader = ({ ClickEvent }) => {
+const MainHeader = ({ ClickEvent, startAProject }) => {
 	let history = useHistory();
 	// FOR NAVBAR SCROLLING EFFECT START
 	window.addEventListener("scroll", function () {
@@ -51,11 +51,23 @@ const MainHeader = ({ ClickEvent }) => {
 						</NavLink>
 					</li>
 				</ul>
-				<div className="contactBtn">
-					<NavLink exact to="/start_A_Project">
-						Let's Talk
-					</NavLink>
-				</div>
+				{startAProject &&
+					((
+						<div className="contactBtn">
+							<NavLink exact to="/start_A_Project">
+								Let's Talk
+							</NavLink>
+						</div>
+					) || (
+						<div
+							style={{ color: "#2365b1", background: "#fff" }}
+							className="contactBtn"
+						>
+							<NavLink exact to="/start_A_Project">
+								Let's Talk
+							</NavLink>
+						</div>
+					))}
 			</div>
 			{/* <!-- ======== NAVBAR END =========== --> */}
 		</>

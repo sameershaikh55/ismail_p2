@@ -5,7 +5,7 @@ const History = () => {
 	let history = useHistory();
 	return (
 		<div className="history_container text-center px-1">
-			<h1>
+			<h1 className="font-weight-bold">
 				<span className="themeText">12 Years</span> Of Building Digital Product
 				And We Are Just Getting Started!
 			</h1>
