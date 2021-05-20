@@ -25,8 +25,7 @@ const TwoCards = () => {
 										Ready to get started?
 									</h2>
 									<h6 className="text-secondary h5">
-										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-										Nulla ducimus exercitationem impedit esse quia distinctio!
+									We help build and manage a team of world-class developers to bring your vision to life.
 									</h6>
 								</div>
 							</div>
@@ -49,8 +48,7 @@ const TwoCards = () => {
 										DIARIES
 									</h2>
 									<h6 className="text-secondary h5">
-										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-										Nulla ducimus exercitationem impedit esse quia distinctio!
+									Find out further information here!
 									</h6>
 								</div>
 							</div>

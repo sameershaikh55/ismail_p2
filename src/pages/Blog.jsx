@@ -13,7 +13,7 @@ const Blog = () => {
 			<MainHeader ClickEvent={OnClick} />
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			{/* ABOUT US HEADER IMAGE START */}
-			<div className="aboutUsHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
+			<div className="blogHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
 				<h1 className="mt-5 pt-5">BLOG</h1>
 				<h4 className="row text-center mt-3 mb-4">
 					<div className="col-12 col-sm-10 col-md-8 col-lg-6 m-auto">

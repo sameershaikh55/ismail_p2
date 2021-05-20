@@ -10,11 +10,7 @@ const WhoWeAre = () => {
 				</h1>
 				<h6 className="row text-center text-secondary">
 					<div className="col-11 col-sm-10 col-md-8 m-auto">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea aliquam
-						explicabo dolor fugit quaerat voluptates optio ipsum suscipit!
-						Accusantium, debitis. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Ea aliquam explicabo dolor fugit quaerat
-						voluptates
+					LozpData is the Software Development company leading the world’s enterprises, startups, and technology challenges. We help businesses elevate their value through custom software development, product design, QA, and consultancy services.
 					</div>
 				</h6>
 				<br />
