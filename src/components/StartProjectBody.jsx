@@ -1,5 +1,4 @@
 import React from "react";
-import attachment from "../assets/attachment.svg";
 import submit from "../assets/submit.svg";
 import { AiOutlineMail, AiOutlinePaperClip } from "react-icons/ai";
 import { BiPhoneCall } from "react-icons/bi";
