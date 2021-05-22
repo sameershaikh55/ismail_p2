@@ -52,14 +52,14 @@ const Construction = () => {
 						<div className="col-11 col-sm-10 col-md-8 mx-auto order-2 order-md-1 mt-5 mt-md-0">
 							<h1 className="themeText display-4">CONSTRUCTION</h1>
 							<br />
-							<h4>
+							<h4 className="text-justify">
 								Digital learning has quickly become a norm in this age of
 								technological advancement, and GoodCore has been playing its
 								part in this development since 2005. Students all over the world
 								benefit from our educational applications - an educator's dream!
 							</h4>
 							<br />
-							<h4>
+							<h4 className="text-justify">
 								From toddler-friendly mobile apps to efficient learning
 								management systems, we have done it all. Our developers
 								understand the needs of both teachers and students, and create
@@ -67,7 +67,7 @@ const Construction = () => {
 								education sector.
 							</h4>
 							<br />
-							<h4>
+							<h4 className="text-justify">
 								Work with us so you can contribute to the digitisation of the
 								old-school education system and achieve all learning outcomes in
 								the best way possible.
@@ -138,7 +138,7 @@ const Construction = () => {
 			<br />
 			<GetConnected />
 			<br />
-			<ContactUs />
+			<ContactUs uiux />
 			<Footer />
 		</>
 	);

@@ -23,7 +23,7 @@ const AboutUs = () => {
 			<div className="aboutUsHeader_container container-fluid d-flex flex-column justify-content-center align-items-center text-white">
 				<h1 className="mt-5 pt-5">ABOUT US</h1>
 				<h4 className="row text-center mt-3 mb-4">
-					<div className="col-12 col-sm-10 col-md-8 col-lg-6 m-auto">
+					<div className="col-12 col-sm-10 col-md-8 col-lg-6 m-auto headerPara">
 						When It Comes To Website Development, We Push The Limits And Set New
 						Standards By Creating Functionally Rich And Aesthetically Stunning
 						Websites. Best-In-Class UX And Compelling
@@ -38,9 +38,11 @@ const AboutUs = () => {
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="themeText font-weight-bold">Lozpdata brings ideas to life, leveragingmodern technologies.</h1>
+					<h1 className="themeText display-4 text-uppercase">
+						Lozpdata brings ideas to life, <br /> leveragingmodern technologies.
+					</h1>
 					<h4 className="row text-secondary">
-						<div className="col-12 col-sm-10 col-md-8 col-lg-7 m-auto">
+						<div className="col-12 col-sm-10 col-md-8 col-lg-7 m-auto lightColor h3">
 							When It Comes To Website Development, We Push The Limits And Set
 							New Standards By Creating Functionally Rich And Aesthetically
 							Stunning Websites. Best-In-Class UX And Compelling

@@ -64,7 +64,7 @@ const ContactUs = ({ uiux }) => {
 								<textarea
 									className="w-100"
 									cols="30"
-									rows="4"
+									rows={`${(uiux && "7") || "4"}`}
 									placeholder="Message"
 								></textarea>
 							</div>
@@ -102,7 +102,12 @@ const ContactUs = ({ uiux }) => {
 									(uiux && "justify-content-start") || "justify-content-center"
 								} align-items-center mt-5 imgContainer1`}
 							>
-								<img src={attachment} alt="attachment" />
+								<img
+									style={{ width: uiux && "4%" }}
+									className="pointer"
+									src={attachment}
+									alt="attachment"
+								/>
 								<div className="h2 ml-3">Add an Attachment</div>
 							</div>
 							<div

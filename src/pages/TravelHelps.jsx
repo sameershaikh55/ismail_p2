@@ -6,7 +6,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import TravelPortal from "../components/TravelPortal";
 import RestaurantManagement from "../components/RestaurantManagement";
 import WhyLozpdata from "../components/WhyLozpdata";
-import Build3 from "../components/Build3";
+import Build5 from "../components/Build5";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import Technologies from "../components/Technologies";
@@ -51,7 +51,7 @@ const TravelHelps = () => {
 			<WhyLozpdata />
 			<br />
 			<br />
-			<Build3 />
+			<Build5 />
 			<br />
 			<Technologies />
 			<br />

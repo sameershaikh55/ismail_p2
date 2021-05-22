@@ -16,7 +16,7 @@ const OurTeam = () => {
 							<div>
 								<button
 									onClick={() => setTeamNav(false)}
-									className="mr-4 pb-1 text-secondary"
+									className="mr-4 pb-1 lightColor"
 								>
 									LEADER
 								</button>
@@ -25,7 +25,7 @@ const OurTeam = () => {
 							<div>
 								<button
 									onClick={() => setTeamNav(true)}
-									className="ml-4 pb-1 text-secondary"
+									className="ml-4 pb-1 lightColor"
 								>
 									ADVISORS
 								</button>

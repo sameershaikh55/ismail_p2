@@ -51,7 +51,7 @@ const WebDevelopment = () => {
 			<br />
 			<GetConnected />
 			<br />
-			<ContactUs />
+			<ContactUs uiux />
 			<Footer />
 		</>
 	);

@@ -8,6 +8,7 @@ import {
 	BUILD_2,
 	BUILD_3,
 	BUILD_4,
+	BUILD_5,
 	RESTAURANT_MANAGEMENT,
 	WE_OFFER,
 } from "./types";
@@ -22,6 +23,7 @@ const initialState = {
 	build2: [],
 	build3: [],
 	build4: [],
+	build5: [],
 	restaurantManagement: [],
 	weOffer: [],
 };
@@ -72,6 +74,11 @@ const Reducer = (state = initialState, action) => {
 			return {
 				...state,
 				build4: action.payload,
+			};
+		case BUILD_5:
+			return {
+				...state,
+				build5: action.payload,
 			};
 		case RESTAURANT_MANAGEMENT:
 			return {

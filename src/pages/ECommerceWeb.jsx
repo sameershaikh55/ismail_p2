@@ -30,6 +30,7 @@ const ECommerceWeb = () => {
 				heading="E-commerce web"
 				description="Innovating the world inside your pocket with mobile apps that entice and engage."
 				img={ecommerce1Header}
+				heightEcom
 			/>
 			<br />
 			<br />

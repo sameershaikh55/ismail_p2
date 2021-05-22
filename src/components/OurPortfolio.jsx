@@ -62,12 +62,8 @@ const OurPortfolio = ({ portfolioFunc, portfolio }) => {
 					<br />
 					<br />
 					<br />
-					<h5 className="col-12 col-sm-10 mx-auto text-center lightColor">
-						Lorem Ipsum is simply dummy text of the printing and typesetting
-						industry. Lorem Ipsum hmy text ever since the 1500s, when an unknown
-						printer took a galley of type and scrambled it to make a type
-						specimen book. It has survived not only five centuries, but also the
-						leap into electronic typesetting, remaining essentially unchanged.
+					<h5 className="col-12 col-sm-10 mx-auto text-center h3 lightColor">
+						Rest Client testimonials can be taken <br /> from Upwork accounts
 					</h5>
 				</div>
 			</div>

@@ -105,7 +105,7 @@ const Healthcare = () => {
 			<br />
 			<GetConnected />
 			<br />
-			<ContactUs />
+			<ContactUs uiux />
 			<Footer />
 		</>
 	);

@@ -55,7 +55,7 @@ const Build = () => {
 							portfolio of our e-commerce site.
 						</h6>
 						<button
-							onClick={() => history.push("/webDevelopment")}
+							onClick={() => history.push("/ecommerce")}
 							className="themeBtn2 mt-3"
 						>
 							VIEW CASE STUDY

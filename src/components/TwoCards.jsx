@@ -16,20 +16,21 @@ const TwoCards = () => {
 									<img src={telegram} alt="telegram" />
 								</div>
 								<div className="w-75 text-left ml-1">
-									<h2
-										style={{
-											fontFamily: "'Playfair Display', serif",
-										}}
-										className="h3 font-weight-bold"
-									>
-										Ready to get started?
-									</h2>
+									<h2 className="h2 font-weight-bold">Ready to get started?</h2>
 									<h6 className="text-secondary h5">
-									We help build and manage a team of world-class developers to bring your vision to life.
+										We help build and manage a team of world-class developers to
+										bring your vision to life.
 									</h6>
 								</div>
 							</div>
-							<button className="themeBtn2 mt-4">lets talk</button>
+							<button className="themeBtn2 mt-4">
+								<a
+									className="text-white text-decoration-none"
+									href="https://www.linkedin.com/company/lozpdatasolutions/"
+								>
+									lets talk
+								</a>
+							</button>
 						</div>
 					</div>
 					<div className="col-12 col-sm-8 col-md-5 mt-4 mt-md-0 text-center">
@@ -39,27 +40,25 @@ const TwoCards = () => {
 									<img src={search} alt="search" />
 								</div>
 								<div className="w-75 text-left ml-1">
-									<h2
-										style={{
-											fontFamily: "'Playfair Display', serif",
-										}}
-										className="h3 font-weight-bold"
-									>
-										DIARIES
-									</h2>
+									<h2 className="h2 font-weight-bold">DIARIES</h2>
 									<h6 className="text-secondary h5">
-									Find out further information here!
+										Find out further information here!
 									</h6>
 								</div>
 							</div>
 							<button className="themeBtn2 mt-4 bg-danger">
-								lets talk{" "}
-								<img
-									style={{ width: "15%" }}
-									className="ml-3"
-									src={submit}
-									alt="submit"
-								/>
+								<a
+									className="text-white text-decoration-none"
+									href="https://www.facebook.com/LozpDataSolutions/"
+								>
+									lets talk{" "}
+									<img
+										style={{ width: "15%" }}
+										className="ml-3"
+										src={submit}
+										alt="submit"
+									/>
+								</a>
 							</button>
 						</div>
 					</div>

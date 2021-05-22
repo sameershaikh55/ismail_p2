@@ -35,15 +35,131 @@ const MainHeader = ({ ClickEvent, startAProject }) => {
 							Case Studies
 						</NavLink>
 					</li>
-					<li>
+					<li className="position-relative industryLink">
 						<NavLink activeClassName="activeNav" exact to="/notActive">
 							Services
 						</NavLink>
+						<div className="navDropdown service container-fluid position-absolute">
+							<div className="row pl-3 bg-white py-3">
+								<div className="col-12 grid_sideLine">
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/travel"
+										>
+											Mobile App Development
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/webDevelopment"
+										>
+											Web Development
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink activeClassName="activeDropdown" exact to="/UIUX">
+											UI / UX
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/education"
+										>
+											Artificial Intelligence
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/mvpDevelopment"
+										>
+											MVP Development
+										</NavLink>
+									</h6>
+								</div>
+							</div>
+						</div>
 					</li>
-					<li>
+					<li className="position-relative industryLink">
 						<NavLink activeClassName="activeNav" exact to="/notActive">
 							Industries
 						</NavLink>
+						<div className="navDropdown container-fluid position-absolute">
+							<div className="row pl-3 bg-white py-3">
+								<div className="col-6 grid_sideLine">
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/travel"
+										>
+											Travel & Leisure solutions
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink activeClassName="activeDropdown" exact to="">
+											Food & Restaurants
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink activeClassName="activeDropdown" exact to="">
+											Media & Entertainment
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/education"
+										>
+											Educations and Elearning Solutions
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/eCommerce"
+										>
+											Retails and ecommerce Solutions
+										</NavLink>
+									</h6>
+								</div>
+								<div className="col-6 grid_sideLine">
+									<h6>
+										<NavLink activeClassName="activeDropdown" exact to="">
+											Real Estate & Housing IT Solutions
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink activeClassName="activeDropdown" exact to="">
+											Employee benefits services
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink
+											activeClassName="activeDropdown"
+											exact
+											to="/healthcare"
+										>
+											EHS & Healthcare software developer
+										</NavLink>
+									</h6>
+									<h6>
+										<NavLink activeClassName="activeDropdown" exact to="">
+											Shipping and logistic solutions
+										</NavLink>
+									</h6>
+								</div>
+							</div>
+						</div>
 					</li>
 					<li>
 						<NavLink activeClassName="activeNav" exact to="/blog">

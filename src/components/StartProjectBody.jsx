@@ -61,7 +61,7 @@ const StartProjectBody = () => {
 										background: "#fff",
 									}}
 								/>
-								<div className="h2 ml-3 text-white mb-0">Add an Attachment</div>
+								<div className="h3 ml-3 text-white mb-0">Add an Attachment</div>
 							</div>
 							<div className="d-flex justify-content-center justify-content-md-start align-items-center mt-5">
 								<input type="checkbox" id="news" className="mt-n2" />
@@ -78,15 +78,15 @@ const StartProjectBody = () => {
 						<div className="col-10 col-sm-6 mx-auto col-md-4 align-self-center startIconsContainer">
 							<div className="d-flex align-items-center">
 								<AiOutlineMail className="icon" />
-								<div className="text-white h3 mb-0 ml-3">info@Lozpdata.com</div>
+								<div className="text-white h3 mb-0 ml-4">info@Lozpdata.com</div>
 							</div>
 							<div className="d-flex align-items-center mt-5">
 								<BiPhoneCall className="icon" />
-								<div className="text-white h3 mb-0 ml-3">+923104167558</div>
+								<div className="text-white h3 mb-0 ml-4">+923104167558</div>
 							</div>
 							<div className="d-flex align-items-center mt-5">
 								<IoLocationOutline className="icon" />
-								<div className="text-white h3 mb-0 ml-3">36 Johar Town</div>
+								<div className="text-white h3 mb-0 ml-4">36 Johar Town</div>
 							</div>
 						</div>
 					</div>

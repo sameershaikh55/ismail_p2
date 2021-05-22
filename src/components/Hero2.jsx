@@ -2,7 +2,7 @@ import React from "react";
 import android from "../assets/android.svg";
 import apple from "../assets/apple.svg";
 
-const Hero2 = ({ heading, description, img }) => {
+const Hero2 = ({ heading, description, img, heightEcom }) => {
 	return (
 		<>
 			{/* HEADER START */}
@@ -40,7 +40,10 @@ const Hero2 = ({ heading, description, img }) => {
 			{/* HEADER END */}
 
 			{/* UNDER HEADER START */}
-			<div className="icb_container container-fluid">
+			<div
+				style={{ marginTop: heightEcom && "11rem" }}
+				className="icb_container container-fluid"
+			>
 				<div className="row">
 					<div className="col-12 col-sm-9 mx-auto">
 						<div className="row">

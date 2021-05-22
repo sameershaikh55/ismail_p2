@@ -123,7 +123,7 @@ const Education = () => {
 			<br />
 			<GetConnected />
 			<br />
-			<ContactUs />
+			<ContactUs uiux />
 			<Footer />
 		</>
 	);
