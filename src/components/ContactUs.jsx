@@ -20,14 +20,16 @@ const ContactUs = ({ uiux }) => {
 						>
 							<h1
 								className={`${
-									(uiux && "text-left") || "text-center"
+									(uiux && "text-center text-sm-left mx-auto ml-md-0") ||
+									"text-center"
 								} mb-3 display-4`}
 							>
 								<span className="themeText">CONTACT</span> US
 							</h1>
 							<h6
 								className={`${
-									(uiux && "text-left") || "text-center m-auto"
+									(uiux && "text-center text-sm-left mx-auto ml-md-0") ||
+									"text-center m-auto"
 								} w-75 text-secondary h5`}
 							>
 								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -99,7 +101,8 @@ const ContactUs = ({ uiux }) => {
 							</div>
 							<div
 								className={`d-flex ${
-									(uiux && "justify-content-start") || "justify-content-center"
+									(uiux && "justify-content-center justify-content-md-start") ||
+									"justify-content-center"
 								} align-items-center mt-5 imgContainer1`}
 							>
 								<img
@@ -112,7 +115,8 @@ const ContactUs = ({ uiux }) => {
 							</div>
 							<div
 								className={`d-flex ${
-									(uiux && "justify-content-start") || "justify-content-center"
+									(uiux && "justify-content-center justify-content-md-start") ||
+									"justify-content-center"
 								} align-items-center mt-5`}
 							>
 								<input type="checkbox" id="news" className="mt-n2" />
@@ -122,7 +126,8 @@ const ContactUs = ({ uiux }) => {
 							</div>
 							<div
 								className={`d-flex ${
-									(uiux && "justify-content-start") || "justify-content-center"
+									(uiux && "justify-content-center justify-content-md-start") ||
+									"justify-content-center"
 								} align-items-center mt-5 imgContainer2`}
 							>
 								<button className="themeBtn d-flex justify-content-center align-items-center">

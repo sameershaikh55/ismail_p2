@@ -27,6 +27,33 @@ const ICB = () => {
 				img={icb}
 			/>
 			<br />
+			<div className="icbPageInnerHead container-fluid">
+				<div className="row">
+					<div className="col-12 col-sm-9 mx-auto">
+						<div className="row">
+							<div className="col-4 col-md-4">
+								<h3 className="themeText">Services</h3>
+								<h5 className="grid_sideLine pl-4">UI /UX Design</h5>
+								<h5 className="grid_sideLine pl-4">Laravel development</h5>
+								<h5 className="grid_sideLine pl-4">React Js</h5>
+							</div>
+							<div className="col-2 col-md-4">
+								<h3 className="themeText">Type</h3>
+								<h5 className="grid_sideLine pl-4">APP</h5>
+							</div>
+							<div className="col-auto col-md-4">
+								<h3 className="themeText">Technologies</h3>
+								<h5 className="grid_sideLine pl-4">Phython</h5>
+								<h5 className="grid_sideLine pl-4">AWS</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br />
+			<br />
+			<br />
+			<br />
 			<IcbRetaining icb />
 			<br />
 			<Breadcrumb active="	ICB Retaining & Piling" activeLink="/icb" />

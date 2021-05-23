@@ -17,8 +17,10 @@ const Delivered2 = ({ laptop1, laptop2, laptop3 }) => {
 				</div>
 				<div className="row">
 					<div className="col-11 col-md-6 mx-auto align-self-center order-2 order-md-1">
-						<h1 className="display-4">Choose an individual tours</h1>
-						<h4>
+						<h1 className="display-4 text-center text-sm-left">
+							Choose an individual tours
+						</h1>
+						<h4 className="text-center text-sm-left">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text
 							ever since the 1500s, when an unknown printer took a galley of
@@ -33,8 +35,8 @@ const Delivered2 = ({ laptop1, laptop2, laptop3 }) => {
 						<img style={{ width: "100%" }} src={laptop2} alt="laptop" />
 					</div>
 					<div className="col-11 col-md-6 mx-auto align-self-center order-4 order-md-3">
-						<h1 className="display-4">Our Tours</h1>
-						<h4>
+						<h1 className="display-4 text-center text-sm-left">Our Tours</h1>
+						<h4 className="text-center text-sm-left">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text
 							ever since the 1500s, when an unknown printer took a galley of
@@ -43,8 +45,8 @@ const Delivered2 = ({ laptop1, laptop2, laptop3 }) => {
 					</div>
 
 					<div className="col-11 col-md-6 mx-auto align-self-center order-6 order-md-5">
-						<h1 className="display-4">News</h1>
-						<h4>
+						<h1 className="display-4  text-center text-sm-left">News</h1>
+						<h4 className="text-center text-sm-left">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
 							industry. Lorem Ipsum has been the industry's standard dummy text
 							ever since the 1500s, when an unknown printer took a galley of

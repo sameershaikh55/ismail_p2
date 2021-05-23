@@ -29,22 +29,22 @@ html {
 }
 @media screen and (max-width: 575px) {
 	html {
-		font-size: 56.5%;
+		font-size: 50.5%;
 	}
 }
 @media screen and (max-width: 475px) {
 	html {
-		font-size: 52.5%;
+		font-size: 46.5%;
 	}
 }
 @media screen and (max-width: 380px) {
 	html {
-		font-size: 48.5%;
+		font-size: 38.5%;
 	}
 }
 @media screen and (max-width: 280px) {
 	html {
-		font-size: 42.5%;
+		font-size: 32.5%;
 	}
 }
 
@@ -513,6 +513,17 @@ html {
 }
 // SAME STYLING END
 
+.icbRetaining_container {
+	.forIcb {
+		margin-top: 5rem;
+	}
+	@media screen and (max-width: 475px) {
+		.forIcb {
+			margin-top: 10rem;
+		}
+	}
+}
+
 /* ==== STATES START ==== */
 .states_container {
 	.states_card {
@@ -909,6 +920,12 @@ html {
 
 	h1 {
 		font-size: 2.8rem;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	.aboutUsHeader_container {
+		height: 100vh;
 	}
 }
 /* ==== ABOUT US END ==== */
@@ -1519,6 +1536,24 @@ html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	.innerHead {
+		margin-top: 12rem;
+	}
+
+	.subHead {
+		margin-bottom: 5rem;
+	}
+
+	@media screen and (max-width: 475px) {
+		.head,
+		.subHead {
+			color: #fff;
+		}
+		.innerHead {
+			margin-top: 28rem;
+		}
+	}
 }
 /* ==== HER0 2 HEADER END ==== */
 
@@ -1596,6 +1631,15 @@ html {
 		margin-top: 4rem;
 	}
 }
+
+.icbPageInnerHead {
+	margin-top: 15rem;
+}
+@media screen and (max-width: 475px) {
+	.icbPageInnerHead {
+		margin-top: 25rem;
+	}
+}
 /* ==== ICB UNDER HEADER END ==== */
 
 /* ==== ABOUT CLIENT START ==== */
@@ -1636,6 +1680,9 @@ html {
 		max-height: 500px;
 		padding-top: 4rem;
 		padding-bottom: 4rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
 

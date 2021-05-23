@@ -22,21 +22,24 @@ const TravelCrousel = () => {
 						<Slider {...settings}>
 							{data.map((prev, i) => {
 								return (
-									<div
-										key={i}
-										className="travelCBody d-flex justify-content-between align-items-center"
-									>
-										<div>
-											<img style={{ width: "100%" }} src={prev} alt="travel" />
-										</div>
-										<div className="col-6 text-center text-white">
-											<h1 className="mb-4 display-4">Travel Agency</h1>
-											<h5>
-												Lorem Ipsum is simply dummy text of the printing and
-												typesetting industry. Lorem Ipsum has been the
-												typesetting industry. Lorem Ipsum has been the
-												typesetting industry. Lorem Ipsum has been the
-											</h5>
+									<div key={i} className="travelCBody">
+										<div className="d-flex flex-column flex-md-row justify-content-sm-between align-items-center">
+											<div>
+												<img
+													style={{ width: "100%" }}
+													src={prev}
+													alt="travel"
+												/>
+											</div>
+											<div className="col-6 text-center text-white">
+												<h1 className="mb-4 display-4">Travel Agency</h1>
+												<h5>
+													Lorem Ipsum is simply dummy text of the printing and
+													typesetting industry. Lorem Ipsum has been the
+													typesetting industry. Lorem Ipsum has been the
+													typesetting industry. Lorem Ipsum has been the
+												</h5>
+											</div>
 										</div>
 									</div>
 								);
