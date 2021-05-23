@@ -119,8 +119,13 @@ html {
 }
 
 .headerPara {
-	line-height: 21px;
+	line-height: 25px;
 	font-size: 1.5rem;
+}
+@media screen and (max-width: 475px) {
+	.headerPara {
+		line-height: 15px;
+	}
 }
 
 // MIXIN START
