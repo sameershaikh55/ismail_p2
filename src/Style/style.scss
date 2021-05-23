@@ -911,12 +911,7 @@ textarea {
 
 /* ==== ABOUT US START ==== */
 .aboutUsHeader_container {
-	background-image: linear-gradient(
-			-30deg,
-			rgba(0, 0, 0, 0.7) 0%,
-			rgba(0, 0, 0, 0.7) 100%
-		),
-		url("../assets/aboutUsHeader.png");
+	background-image: url("../assets/aboutUsHeader.png");
 	height: 350px;
 	background-position: center;
 	background-repeat: no-repeat;
