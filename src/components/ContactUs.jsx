@@ -30,11 +30,14 @@ const ContactUs = ({ uiux }) => {
 								className={`${
 									(uiux && "text-center text-sm-left mx-auto ml-md-0") ||
 									"text-center m-auto"
-								} w-75 text-secondary h5`}
+								} text-secondary h5`}
 							>
 								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 								Maiores repellendus saepe perferendis? Officia dignissimos non,
-								iure obcaecati enim architecto sunt? enim architecto sunt?
+								iure obcaecati enim architecto sunt? enim architecto sunt? Lorem
+								ipsum dolor, sit amet consectetur adipisicing elit. Molestiae
+								neque quaerat odit voluptate alias reiciendis consectetur
+								debitis soluta earum voluptatum.
 							</h6>
 							<div className="mt-5">
 								<div className="d-flex justify-content-between">
@@ -130,8 +133,9 @@ const ContactUs = ({ uiux }) => {
 									"justify-content-center"
 								} align-items-center mt-5 imgContainer2`}
 							>
-								<button className="themeBtn d-flex justify-content-center align-items-center">
-									SUBMIT <img className="ml-3" src={submit} alt="submit" />
+								<button className="themeBtn px-5 d-flex justify-content-center align-items-center">
+									SUBMIT &nbsp;{" "}
+									<img className="ml-3" src={submit} alt="submit" />
 								</button>
 							</div>
 						</div>

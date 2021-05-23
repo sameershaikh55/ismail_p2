@@ -54,7 +54,7 @@ const TechnologyBody = ({ mobile, fontEnd, database, backEnd, cms, infra }) => {
 					</div>
 					<div className="col-3 col-sm-2 text-center mt-5">
 						<img style={fullWidth} src={reactNative} alt="reactNative" />
-						<h4>React Native</h4>
+						<h4 style={{ width: "max-content" }}>React Native</h4>
 					</div>
 					<div className="col-3 col-sm-2 text-center mt-5">
 						<img style={fullWidth} src={flutter} alt="flutter" />
@@ -199,7 +199,7 @@ const TechnologyBody = ({ mobile, fontEnd, database, backEnd, cms, infra }) => {
 					</div>
 					<div className="col-3 col-sm-2 text-center mt-5">
 						<img style={fullWidth} src={infra3} alt="apple" />
-						<h4>React Native</h4>
+						<h4 style={{ width: "max-content" }}>React Native</h4>
 					</div>
 					<div className="col-3 col-sm-2 text-center mt-5">
 						<img style={fullWidth} src={infra4} alt="apple" />
@@ -219,7 +219,7 @@ const TechnologyBody = ({ mobile, fontEnd, database, backEnd, cms, infra }) => {
 					</div>
 					<div className="col-3 col-sm-2 text-center mt-5">
 						<img style={fullWidth} src={infra8} alt="apple" />
-						<h4>Degital Ocean</h4>
+						<h4 style={{ width: "max-content" }}>Degital Ocean</h4>
 					</div>
 					<div className="col-3 col-sm-2 text-center mt-5">
 						<img style={fullWidth} src={infra9} alt="apple" />

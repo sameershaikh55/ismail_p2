@@ -13,7 +13,7 @@ const UIUXSection = ({ uiux, uiUxFunc }) => {
 					<h1 className="font-weight-bold display-4 themeText col-11 col-sm-9 col-md-8 mx-auto mx-md-0">
 						UI / UX
 					</h1>
-					<h5 className="col-11 col-sm-9 col-md-7 mx-auto mx-md-0">
+					<h5 className="col-11 col-sm-9 col-md-6 mx-auto mx-md-0 font-weight-bold">
 						Lorem Ipsum is simply dummy text of the printing and typesetting
 						industry. Lorem Ipsum has been the industry's standard dummy text
 						ever since the 1500s, when an unknown printer took a galley of type
@@ -28,7 +28,7 @@ const UIUXSection = ({ uiux, uiUxFunc }) => {
 								className="col-11 col-sm-9 col-md-6 col-lg-4 mx-auto my-4"
 							>
 								<h3 className="grid_sideLine pl-4 themeText">{prev.title}</h3>
-								<h5 className="pl-4">{prev.desc}</h5>
+								<h5 className="pl-4 w-75">{prev.desc}</h5>
 							</div>
 						);
 					})}

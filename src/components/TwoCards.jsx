@@ -2,7 +2,7 @@ import React from "react";
 // import { FaGreaterThan } from "react-icons/fa";
 import telegram from "../assets/telegram.svg";
 import search from "../assets/search.svg";
-import submit from "../assets/submit.svg";
+import { IoIosArrowForward } from "react-icons/io";
 
 const TwoCards = () => {
 	return (
@@ -46,18 +46,13 @@ const TwoCards = () => {
 									</h6>
 								</div>
 							</div>
-							<button className="themeBtn2 mt-4 bg-danger">
+							<button className="themeBtn2 pr-3 mt-4 bg-danger">
 								<a
-									className="text-white text-decoration-none"
+									className="text-white text-decoration-none d-flex justify-content-between align-items-center"
 									href="https://www.facebook.com/LozpDataSolutions/"
 								>
-									lets talk{" "}
-									<img
-										style={{ width: "15%" }}
-										className="ml-3"
-										src={submit}
-										alt="submit"
-									/>
+									<div>What's New</div>
+									<IoIosArrowForward className="ml-4" />
 								</a>
 							</button>
 						</div>

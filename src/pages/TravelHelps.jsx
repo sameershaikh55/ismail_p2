@@ -30,7 +30,7 @@ const TravelHelps = () => {
 			{/* IDEAS PORTION START */}
 			<div className="container-fluid">
 				<div className="text-center mt-5 px-2">
-					<h1 className="font-weight-bold display-4">
+					<h1 className="display-4">
 						<span className="themeText">Software Development </span>
 						for Travel Helps you
 					</h1>

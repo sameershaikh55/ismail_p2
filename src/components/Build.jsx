@@ -1,5 +1,5 @@
 import React from "react";
-import build1 from "../assets/build1.svg";
+import build from "../assets/build.svg";
 import build2 from "../assets/build2.png";
 import { useHistory } from "react-router-dom";
 
@@ -24,7 +24,7 @@ const Build = () => {
 				</h6>
 				<div className="build_body row">
 					<div className="imgContainer1 col-12 col-sm-10 col-md-6 mx-auto mb-5 mb-md-0">
-						<img src={build1} alt="build" />
+						<img src={build} alt="build" />
 					</div>
 					<div className="grid_sideLine col-12 col-sm-8 col-md-6 mb-5 mx-auto mb-md-0 align-self-center text-left py-3 pl-5">
 						<h1>CONSTRUCTION PO</h1>
@@ -45,7 +45,7 @@ const Build = () => {
 						</button>
 					</div>
 					<div className="grid_sideLine col-12 col-sm-8 col-md-6 order-2 order-md-1 mb-5 mb-md-0 mt-5 mt-md-0 mx-auto align-self-center text-left py-3 pl-5 my-5">
-						<h1 className="themeText">E-COMMERCE </h1>
+						<h1 className="themeText">E-COMMERCE</h1>
 						<h6 className="text-secondary">
 							We help you build Web Applications like e-commerce using
 							industry-leading technologies. Our web application development
