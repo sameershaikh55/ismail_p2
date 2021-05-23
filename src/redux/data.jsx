@@ -12,12 +12,12 @@ import portfolio from "../assets/portfolio.png";
 import blogImage from "../assets/blogWeb.png";
 import blogImage1 from "../assets/blogApp.png";
 import caseStudy1 from "../assets/travelAgency.png";
-import caseStudy2 from "../assets/construction.png";
+import caseStudy2 from "../assets/construction.svg";
 import caseStudy3 from "../assets/foodDelivery.svg";
 import caseStudy4 from "../assets/medicoApp.svg";
 import caseStudy5 from "../assets/eStore.png";
-import build1 from "../assets/build1.png";
-import build2 from "../assets/construction.png";
+import build1 from "../assets/build1.svg";
+import build2 from "../assets/construction.svg";
 import build3Img from "../assets/ecommerce1Header.png";
 import build4Img from "../assets/medicoApp.svg";
 

@@ -12,7 +12,7 @@ import Sidebar from "../components/Sidebar";
 import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import { useHooks } from "../Hooks/useHooks";
-import icb from "../assets/construction.png";
+import icb from "../assets/construction.svg";
 import Breadcrumb from "../components/Breadcrumb";
 
 const ICB = () => {
