@@ -33,7 +33,7 @@ const WebDevelopment = () => {
 						Development
 					</h1>
 					<h4 className="row text-secondary">
-						<div className="col-12 col-sm-10 col-md-6 col-lg-6 mx-auto">
+						<div className="extraPadding mx-auto">
 							When It Comes To Website Development, We Push The Limits And Set
 							New Standards By Creating Functionally Rich And Aesthetically
 							Stunning Websites. Best-In-Class UX And Compelling{" "}

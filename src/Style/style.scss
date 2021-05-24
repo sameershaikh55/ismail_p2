@@ -132,6 +132,16 @@ textarea {
 	}
 }
 
+.extraPadding {
+	max-width: 570px;
+}
+
+@media screen and (max-width: 750px) {
+	.extraPadding {
+		padding: 0rem 2rem;
+	}
+}
+
 // MIXIN START
 @mixin sectionDiv {
 	max-width: 1100px;

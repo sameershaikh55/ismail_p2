@@ -34,7 +34,7 @@ const UIUX = () => {
 						Designing
 					</h1>
 					<h4 className="row text-secondary mt-4">
-						<div className="col-12 col-sm-10 col-md-8 col-lg-6 m-auto">
+						<div className="extraPadding m-auto">
 							When It Comes To Website Development, We Push The Limits And Set
 							New Standards By Creating Functionally Rich And Aesthetically
 							Stunning Websites. Best-In-Class UX And Compelling{" "}
